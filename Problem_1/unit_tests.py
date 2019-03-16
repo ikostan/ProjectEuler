@@ -1,3 +1,6 @@
+#!/usr/bin/python
+
+
 import unittest
 from problem_1 import get_multiplies_of_3_and_5
 
