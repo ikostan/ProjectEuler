@@ -9,9 +9,11 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(result, get_multiplies_of_3_and_5(number))
 
     def test_1000(self):
-        result = 23
-        number = 10
+        result = 233168
+        number = 1000
         self.assertEqual(result, get_multiplies_of_3_and_5(number))
+
 
 if __name__ == '__main__':
     unittest.main()
+
