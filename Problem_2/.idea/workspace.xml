@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/problem_2.py" line="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a70ac8cd-f786-4205-9e81-232a1ed4fb8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/problem_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_2.py" afterDir="false" />
-    </list>
+    <list default="true" id="a70ac8cd-f786-4205-9e81-232a1ed4fb8e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
+            <state relative-caret-position="329">
+              <caret line="23" column="15" lean-forward="true" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -161,7 +159,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4208633" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2535971" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -198,8 +196,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problem_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
+        <state relative-caret-position="329">
+          <caret line="23" column="15" lean-forward="true" selection-end-line="25" />
         </state>
       </provider>
     </entry>
