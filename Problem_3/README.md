@@ -7,8 +7,14 @@ What is the largest prime factor of the number 600851475143 ?
 ### Video tutorial: 
 https://www.youtube.com/watch?v=QNMrJ3An8eE&list=PLNEKkZrJ3NV-wNjCMxPS86sgqOgwBZmPu&index=28
 
-### More about prime numbers and prime factorization: 
+### Finding factors of a number:
 https://www.youtube.com/watch?v=vcn2ruTOwFo
+
+### Prime factorization:
 https://www.youtube.com/watch?v=ZKKDTfHcsG0
+
+### Python and Prime Numbers:
 https://www.youtube.com/watch?v=2p3kwF04xcA
+
+### Fool-Proof Test for Primes - Numberphile:
 https://www.youtube.com/watch?v=HvMSRWTE2mI
