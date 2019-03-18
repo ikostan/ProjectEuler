@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14489d68-e7a6-4443-90f1-fc33a8d1f31a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="158">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -38,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="18">
+              <caret line="13" column="24" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -69,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -110,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in unit_tests.py">
+  <component name="RunManager" selected="Python tests.Unittests for unit_tests.MyTestCase.test_large_palindrome_generator_3_digits">
     <configuration name="Unittests for unit_tests.MyTestCase.test_is_palindrome_6_digits" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Problem_4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,24 +178,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_unit_tests_py - 2019.03.17 at 18h 28m 53s.xml">
-      <configuration name="Unittests in unit_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_unit_tests_py - 2019.03.17 at 18h 33m 46s.xml">
-      <configuration name="Unittests in unit_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_is_palindrome_6_digits - 2019.03.17 at 18h 33m 52s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_is_palindrome_6_digits" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_large_palindrome_generator_3_digits - 2019.03.17 at 18h 34m 12s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_large_palindrome_generator_3_digits" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_large_palindrome_generator_3_digits - 2019.03.17 at 18h 37m 50s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_large_palindrome_generator_3_digits" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_large_palindrome_generator_3_digits - 2019.03.17 at 18h 40m 01s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_large_palindrome_generator_3_digits" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_unit_tests_py - 2019.03.17 at 18h 40m 30s.xml">
       <configuration name="Unittests in unit_tests.py" configurationId="tests" />
     </history-entry>
@@ -210,16 +190,35 @@
     <history-entry file="Unittests_in_unit_tests_py - 2019.03.17 at 18h 46m 34s.xml">
       <configuration name="Unittests in unit_tests.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_large_palindrome_generator_3_digits - 2019.03.17 at 18h 53m 11s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_large_palindrome_generator_3_digits" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_large_palindrome_generator_3_digits - 2019.03.17 at 18h 54m 11s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_large_palindrome_generator_3_digits" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_large_palindrome_generator_3_digits - 2019.03.17 at 18h 54m 55s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_large_palindrome_generator_3_digits" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_large_palindrome_generator_3_digits - 2019.03.17 at 18h 55m 35s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_large_palindrome_generator_3_digits" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_large_palindrome_generator_3_digits - 2019.03.17 at 18h 56m 30s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_large_palindrome_generator_3_digits" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_large_palindrome_generator_3_digits - 2019.03.17 at 18h 57m 08s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_large_palindrome_generator_3_digits" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17576665" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17576665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24981302" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291367" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.57194245" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36690646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -234,16 +233,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/unit_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -254,10 +243,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="13" column="24" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problem_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="158">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
     </entry>
