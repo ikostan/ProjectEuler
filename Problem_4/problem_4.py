@@ -35,7 +35,7 @@ def large_palindrome_generator(start: int, end: int):
                     break
             b -= 1
         i -= 1
-        
+
     print("The answer {0} returned in {1} seconds".format(max_palindrome, time.time() - start_time))
     return max_palindrome
 
