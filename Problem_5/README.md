@@ -5,4 +5,4 @@
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
 ### Video tutorial: 
-
+https://www.youtube.com/watch?v=BourmbQGQak&list=PLNEKkZrJ3NV-wNjCMxPS86sgqOgwBZmPu&index=27
