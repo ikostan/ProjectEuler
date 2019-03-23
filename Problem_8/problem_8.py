@@ -25,8 +25,13 @@ def find_greatest_product(number: str, adjacent_digits: int):
 
 def multiply_members(digits: list):
     n = 1
+
+    if 0 in digits:
+        return 0
+
     for i in digits:
         n *= i
+
     return n
 
 
