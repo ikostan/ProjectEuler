@@ -6,3 +6,4 @@ What is the 10 001st prime number?
 
 ### Video tutorial: 
 https://www.youtube.com/watch?v=BourmbQGQak&list=PLNEKkZrJ3NV-wNjCMxPS86sgqOgwBZmPu&index=27
+https://www.youtube.com/watch?v=guPD-wKxQho&list=PLNEKkZrJ3NV-wNjCMxPS86sgqOgwBZmPu&index=26
