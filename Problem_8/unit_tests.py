@@ -23,6 +23,8 @@ class MyTestCase(unittest.TestCase):
         84580156166097919133875499200524063689912560717606\
         05886116467109405077541002256983155200055935729725\
         71636269561882670428252483600823257530420752963450"
+        # Removing Spaces from Strings in Python 3.x
+        number = number.replace(' ', '')
         adjacent_digits = 4
         expected = 5832
         self.assertEqual(expected, find_greatest_product(number, adjacent_digits))
@@ -47,9 +49,12 @@ class MyTestCase(unittest.TestCase):
             84580156166097919133875499200524063689912560717606\
             05886116467109405077541002256983155200055935729725\
             71636269561882670428252483600823257530420752963450"
+        # Removing Spaces from Strings in Python 3.x
+        number = number.replace(' ', '')
         adjacent_digits = 13
-        expected = 5832
+        expected = 23514624000
         self.assertEqual(expected, find_greatest_product(number, adjacent_digits))
+
 
 if __name__ == '__main__':
     unittest.main()
