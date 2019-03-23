@@ -24,6 +24,12 @@ class MyTestCase(unittest.TestCase):
         expected = 2640
         self.assertEqual(expected, square_diff(start, end))
 
+    def test_100(self):
+        start = 1
+        end = 100
+        expected = 25164150
+        self.assertEqual(expected, square_diff(start, end))
+
 
 if __name__ == '__main__':
     unittest.main()
