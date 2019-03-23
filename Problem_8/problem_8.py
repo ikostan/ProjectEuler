@@ -4,6 +4,14 @@
 import time
 
 
+def find_greatest_product(number: str, adjacent_digits: int):
+    start_time = time.time()
+    result = 0
+    end_time = time.time() - start_time
+    print_log(end_time, result)
+    return result
+
+
 def print_log(end_time, result):
     if end_time < 60:
         print("The answer {0} returned in {1} seconds".format(result, end_time))
