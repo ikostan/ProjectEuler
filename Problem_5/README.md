@@ -1,4 +1,4 @@
-# Problem 5: Largest prime factor
+# Problem 5: Smallest multiple
 
 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 
