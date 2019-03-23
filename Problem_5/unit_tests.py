@@ -9,6 +9,12 @@ class MyTestCase(unittest.TestCase):
         expected = 2520
         self.assertEqual(expected, smallest_multiple(start, end))
 
+    def test_from_1_to_20(self):
+        start = 1
+        end = 20
+        expected = 232792560
+        self.assertEqual(expected, smallest_multiple(start, end))
+
 
 if __name__ == '__main__':
     unittest.main()
