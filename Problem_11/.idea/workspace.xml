@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c9387c4-d42f-4de9-b7c3-ac9e02508384" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/problem_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem_11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="168">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="39" />
+            <state relative-caret-position="30">
+              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -55,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -96,21 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down_left">
-    <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Problem_11" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unit_tests.MyTestCase.test_process_diagonal&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in unit_tests.py">
     <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_down" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Problem_11" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,6 +154,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_up_right" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Problem_11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unit_tests.MyTestCase.test_process_diagonal_up_right&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in unit_tests.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="Problem_11" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,19 +185,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in unit_tests.py" />
-      <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal" />
       <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down" />
       <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_up" />
       <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down_right" />
       <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down_left" />
+      <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_up_right" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_up_right" />
+        <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_up" />
         <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down_left" />
         <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down_right" />
-        <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_up" />
         <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down" />
-        <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal" />
       </list>
     </recent_temporary>
   </component>
@@ -214,15 +215,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.23 at 20h 43m 04s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.23 at 20h 44m 19s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_something - 2019.03.23 at 20h 45m 53s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.24 at 13h 49m 55s.xml">
       <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
     </history-entry>
@@ -244,6 +236,15 @@
     <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_down_left - 2019.03.24 at 14h 05m 08s.xml">
       <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_down_left" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_up - 2019.03.24 at 14h 09m 28s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_up" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_up_right - 2019.03.24 at 14h 13m 34s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_up_right" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_up_right - 2019.03.24 at 14h 14m 03s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_up_right" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -254,7 +255,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33453238" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32733813" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,8 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/unit_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="39" />
+        <state relative-caret-position="30">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -291,8 +292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problem_11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="168">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>

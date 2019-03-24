@@ -2,7 +2,8 @@ import unittest
 from problem_11 import get_max_product
 from problem_11 import process_columns
 from problem_11 import process_rows
-from problem_11 import process_diagonal_up
+from problem_11 import process_diagonal_up_left
+from problem_11 import process_diagonal_up_right
 from problem_11 import process_diagonal_down_right
 from problem_11 import process_diagonal_down_left
 
@@ -29,7 +30,17 @@ class MyTestCase(unittest.TestCase):
         expected = (6 * 8 * 9 * 10)
         self.assertEqual(expected, process_rows(data, counter))
 
-    def test_process_diagonal_up(self):
+    def test_process_diagonal_up_left(self):
+        data = [[1, 2, 3, 4, 5],
+                [1, 2, 3, 4, 5],
+                [2, 3, 4, 5, 6],
+                [5, 6, 8, 9, 10],
+                [1, 2, 3, 4, 5]]
+        counter = 4
+        expected = (5 * 9 * 4 * 2)
+        self.assertEqual(expected, process_diagonal_up_left(data, counter))
+
+    def test_process_diagonal_up_right(self):
         data = [[1, 2, 3, 4, 5],
                 [1, 2, 3, 4, 5],
                 [2, 3, 4, 5, 6],
@@ -37,7 +48,7 @@ class MyTestCase(unittest.TestCase):
                 [1, 2, 3, 4, 5]]
         counter = 4
         expected = (6 * 4 * 4 * 5)
-        self.assertEqual(expected, process_diagonal_up(data, counter))
+        self.assertEqual(expected, process_diagonal_up_right(data, counter))
 
     def test_process_diagonal_down_right(self):
         data = [[1, 2, 3, 4, 5],

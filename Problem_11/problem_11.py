@@ -17,6 +17,14 @@ def get_max_product(numbers: list, counter: int):
     if result < temp:
         result = temp
 
+    temp = process_diagonal_up_left(numbers, counter)
+    if result < temp:
+        result = temp
+
+    temp = process_diagonal_up_right(numbers, counter)
+    if result < temp:
+        result = temp
+
     temp = process_columns(numbers, counter)
     if result < temp:
         result = temp
@@ -39,7 +47,7 @@ def process_diagonal_down_right(numbers: list, counter: int):
             temp_arr = [numbers[row][col], numbers[row + 1][col + 1],
                         numbers[row + 2][col + 2], numbers[row + 3][col + 3]]
             temp = multiply_members(temp_arr)
-            print("{0} > {1}".format(temp_arr, temp))
+            #print("{0} > {1}".format(temp_arr, temp))
             if temp > result:
                 result = temp
             col += 1
@@ -57,7 +65,7 @@ def process_diagonal_down_left(numbers: list, counter: int):
             temp_arr = [numbers[row][col], numbers[row + 1][col - 1],
                         numbers[row + 2][col - 2], numbers[row + 3][col - 3]]
             temp = multiply_members(temp_arr)
-            print("{0} > {1}".format(temp_arr, temp))
+            #print("{0} > {1}".format(temp_arr, temp))
             if temp > result:
                 result = temp
             col -= 1
@@ -65,7 +73,7 @@ def process_diagonal_down_left(numbers: list, counter: int):
     return result
 
 
-def process_diagonal_up(numbers: list, counter: int):
+def process_diagonal_up_left(numbers: list, counter: int):
     result = 0
     row = len(numbers) - 1
 
@@ -75,10 +83,28 @@ def process_diagonal_up(numbers: list, counter: int):
             temp_arr = [numbers[row][col], numbers[row - 1][col - 1],
                         numbers[row - 2][col - 2], numbers[row - 3][col - 3]]
             temp = multiply_members(temp_arr)
-            print("{0} > {1}".format(temp_arr, temp))
+            #print("{0} > {1}".format(temp_arr, temp))
             if temp > result:
                 result = temp
             col -= 1
+        row -= 1
+    return result
+
+
+def process_diagonal_up_right(numbers: list, counter: int):
+    result = 0
+    row = len(numbers) - 1
+
+    while row - 3 >= 0:
+        col = 0
+        while col + 3 <= len(numbers[row]) - 1:
+            temp_arr = [numbers[row][col], numbers[row - 1][col + 1],
+                        numbers[row - 2][col + 2], numbers[row - 3][col + 3]]
+            temp = multiply_members(temp_arr)
+            #print("{0} > {1}".format(temp_arr, temp))
+            if temp > result:
+                result = temp
+            col += 1
         row -= 1
     return result
 
