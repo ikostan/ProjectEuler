@@ -2,7 +2,9 @@ import unittest
 from problem_11 import get_max_product
 from problem_11 import process_columns
 from problem_11 import process_rows
-from problem_11 import process_diagonal
+from problem_11 import process_diagonal_up
+from problem_11 import process_diagonal_down_right
+from problem_11 import process_diagonal_down_left
 
 
 class MyTestCase(unittest.TestCase):
@@ -27,7 +29,7 @@ class MyTestCase(unittest.TestCase):
         expected = (6 * 8 * 9 * 10)
         self.assertEqual(expected, process_rows(data, counter))
 
-    def test_process_diagonal(self):
+    def test_process_diagonal_up(self):
         data = [[1, 2, 3, 4, 5],
                 [1, 2, 3, 4, 5],
                 [2, 3, 4, 5, 6],
@@ -35,7 +37,27 @@ class MyTestCase(unittest.TestCase):
                 [1, 2, 3, 4, 5]]
         counter = 4
         expected = (6 * 4 * 4 * 5)
-        self.assertEqual(expected, process_diagonal(data, counter))
+        self.assertEqual(expected, process_diagonal_up(data, counter))
+
+    def test_process_diagonal_down_right(self):
+        data = [[1, 2, 3, 4, 5],
+                [1, 2, 3, 4, 5],
+                [2, 3, 4, 5, 6],
+                [5, 6, 8, 9, 10],
+                [1, 2, 3, 4, 5]]
+        counter = 4
+        expected = (2 * 4 * 9 * 5)
+        self.assertEqual(expected, process_diagonal_down_right(data, counter))
+
+    def test_process_diagonal_down_left(self):
+        data = [[1, 2, 3, 4, 5],
+                [1, 2, 3, 4, 5],
+                [2, 3, 4, 5, 6],
+                [5, 6, 8, 9, 10],
+                [1, 2, 3, 4, 5]]
+        counter = 4
+        expected = (6 * 4 * 4 * 5)
+        self.assertEqual(expected, process_diagonal_down_left(data, counter))
 
     def test_something(self):
         grid = [[8, 2, 22, 97, 38, 15, 0, 40, 0, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 8],

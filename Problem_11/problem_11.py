@@ -25,27 +25,57 @@ def get_max_product(numbers: list, counter: int):
     return result
 
 
-def process_diagonal(numbers: list, counter: int):
+def process_diagonal_down_right(numbers: list, counter: int):
     result = 0
-    row, col = 0, 0
+    row = 0
 
-    while row + (counter - 1) <= (len(numbers) - 1) and col + (counter - 1) <= (len(numbers[0]) - 1):
-        tem_arr = [numbers[row][col], numbers[row + 1][col + 1], numbers[row + 2][col + 2], numbers[row + 3][col + 3]]
-        temp = multiply_members(tem_arr)
-        if temp > result:
-            result = temp
+    while row + 3 < len(numbers):
+        col = 0
+        while col + 3 < len(numbers[row]):
+            temp_arr = [numbers[row][col], numbers[row + 1][col + 1],
+                        numbers[row + 2][col + 2], numbers[row + 3][col + 3]]
+            temp = multiply_members(temp_arr)
+            print("{0} > {1}".format(temp_arr, temp))
+            if temp > result:
+                result = temp
+            col += 1
         row += 1
-        col += 1
+    return result
 
-    row, col = 0, (len(numbers[0]) - 1)
-    while row + (counter - 1) <= (len(numbers) - 1) and col >= (counter - 1):
-        tem_arr = [numbers[row][col], numbers[row + 1][col - 1], numbers[row + 2][col - 2], numbers[row + 3][col - 3]]
-        temp = multiply_members(tem_arr)
-        if temp > result:
-            result = temp
+
+def process_diagonal_down_left(numbers: list, counter: int):
+    result = 0
+    row = 0
+
+    while row + 3 < len(numbers):
+        col = len(numbers[row]) - 1
+        while col - 3 >= 0:
+            temp_arr = [numbers[row][col], numbers[row + 1][col - 1],
+                        numbers[row + 2][col - 2], numbers[row + 3][col - 3]]
+            temp = multiply_members(temp_arr)
+            print("{0} > {1}".format(temp_arr, temp))
+            if temp > result:
+                result = temp
+            col -= 1
         row += 1
-        col -= 1
+    return result
 
+
+def process_diagonal_up(numbers: list, counter: int):
+    result = 0
+    row = len(numbers) - 1
+
+    while row - 3 >= 0:
+        col = len(numbers[row]) - 1
+        while col - 3 >= 0:
+            temp_arr = [numbers[row][col], numbers[row - 1][col - 1],
+                        numbers[row - 2][col - 2], numbers[row - 3][col - 3]]
+            temp = multiply_members(temp_arr)
+            print("{0} > {1}".format(temp_arr, temp))
+            if temp > result:
+                result = temp
+            col -= 1
+        row -= 1
     return result
 
 

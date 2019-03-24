@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c9387c4-d42f-4de9-b7c3-ac9e02508384" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_tests.py" afterDir="false" />
     </list>
@@ -16,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem_11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="208">
+              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="126">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -56,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -97,21 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for unit_tests.MyTestCase.test_something">
-    <configuration name="Unittests for unit_tests.MyTestCase.test_process_columns" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Problem_11" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unit_tests.MyTestCase.test_process_columns&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down_left">
     <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Problem_11" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +113,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for unit_tests.MyTestCase.test_process_rows" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_down" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Problem_11" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +123,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unit_tests.MyTestCase.test_process_rows&quot;" />
+      <option name="_new_target" value="&quot;unit_tests.MyTestCase.test_process_diagonal_down&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for unit_tests.MyTestCase.test_something" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_down_left" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Problem_11" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +137,35 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unit_tests.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;unit_tests.MyTestCase.test_process_diagonal_down_left&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_down_right" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Problem_11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unit_tests.MyTestCase.test_process_diagonal_down_right&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_up" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Problem_11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unit_tests.MyTestCase.test_process_diagonal_up&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -171,17 +186,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in unit_tests.py" />
-      <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_columns" />
-      <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_rows" />
       <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal" />
-      <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_something" />
+      <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down" />
+      <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_up" />
+      <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down_right" />
+      <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down_left" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_something" />
+        <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down_left" />
+        <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down_right" />
+        <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_up" />
+        <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal_down" />
         <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_diagonal" />
-        <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_rows" />
-        <item itemvalue="Python tests.Unittests for unit_tests.MyTestCase.test_process_columns" />
       </list>
     </recent_temporary>
   </component>
@@ -199,24 +216,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.23 at 20h 32m 14s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.23 at 20h 32m 46s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_unit_tests_py - 2019.03.23 at 20h 33m 15s.xml">
-      <configuration name="Unittests in unit_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.23 at 20h 34m 55s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_something - 2019.03.23 at 20h 36m 21s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_unit_tests_py - 2019.03.23 at 20h 36m 37s.xml">
-      <configuration name="Unittests in unit_tests.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.23 at 20h 41m 25s.xml">
       <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
     </history-entry>
@@ -229,17 +228,35 @@
     <history-entry file="Unittests_for_unit_tests_MyTestCase_test_something - 2019.03.23 at 20h 45m 53s.xml">
       <configuration name="Unittests for unit_tests.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.24 at 13h 49m 55s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.24 at 13h 50m 44s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_down - 2019.03.24 at 13h 55m 27s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_down" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_up - 2019.03.24 at 13h 58m 16s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_up" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_down_right - 2019.03.24 at 14h 00m 34s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_down_right" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_down_right - 2019.03.24 at 14h 00m 51s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_down_right" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1802543" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15856394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37230214" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33453238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/unit_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state relative-caret-position="126">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -276,8 +293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problem_11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="208">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
         </state>
       </provider>
     </entry>
