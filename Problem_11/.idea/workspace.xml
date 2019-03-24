@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c9387c4-d42f-4de9-b7c3-ac9e02508384" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/problem_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_tests.py" afterDir="false" />
-    </list>
+    <list default="true" id="2c9387c4-d42f-4de9-b7c3-ac9e02508384" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem_11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="2016">
+              <caret line="105" column="29" lean-forward="true" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -215,15 +212,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.24 at 13h 49m 55s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.24 at 13h 50m 44s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_down - 2019.03.24 at 13h 55m 27s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_down" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_up - 2019.03.24 at 13h 58m 16s.xml">
       <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_up" configurationId="tests" />
     </history-entry>
@@ -245,17 +233,25 @@
     <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_up_right - 2019.03.24 at 14h 14m 03s.xml">
       <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_up_right" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_unit_tests_py - 2019.03.24 at 14h 14m 57s.xml">
+      <configuration name="Unittests in unit_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests_py - 2019.03.24 at 14h 15m 38s.xml">
+      <configuration name="Unittests in unit_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests_py - 2019.03.24 at 14h 19m 00s.xml">
+      <configuration name="Unittests in unit_tests.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15856394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32733813" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4856115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -292,8 +288,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problem_11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="2016">
+          <caret line="105" column="29" lean-forward="true" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
         </state>
       </provider>
     </entry>
