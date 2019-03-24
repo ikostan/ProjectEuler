@@ -9,7 +9,11 @@ def get_max_product(numbers: list, counter: int):
     result = 0
     end_time = time.time() - start_time
 
-    temp = process_diagonal(numbers, counter)
+    temp = process_diagonal_down_left(numbers, counter)
+    if result < temp:
+        result = temp
+
+    temp = process_diagonal_down_right(numbers, counter)
     if result < temp:
         result = temp
 

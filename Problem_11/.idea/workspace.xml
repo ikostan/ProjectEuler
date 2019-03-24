@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c9387c4-d42f-4de9-b7c3-ac9e02508384" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem_11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+            <state relative-caret-position="126">
+              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="1071">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="39" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -57,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -216,9 +214,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.23 at 20h 41m 25s.xml">
-      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal - 2019.03.23 at 20h 43m 04s.xml">
       <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal" configurationId="tests" />
     </history-entry>
@@ -245,6 +240,9 @@
     </history-entry>
     <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_down_right - 2019.03.24 at 14h 00m 51s.xml">
       <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_down_right" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_tests_MyTestCase_test_process_diagonal_down_left - 2019.03.24 at 14h 05m 08s.xml">
+      <configuration name="Unittests for unit_tests.MyTestCase.test_process_diagonal_down_left" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -283,8 +281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/unit_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="1071">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="39" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -293,8 +291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problem_11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        <state relative-caret-position="126">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>
