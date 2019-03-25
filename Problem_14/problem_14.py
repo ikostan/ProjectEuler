@@ -2,7 +2,6 @@
 
 
 import time
-import math
 
 
 def get_max_counter(starting_number: int):
@@ -46,7 +45,7 @@ def collatz_sequence(starting_number: int, is_first_run=True, counter=1):
     if starting_number == 1:
         print(str(1))
         print("Counter: {0}".format(counter))
-        return
+        return counter
 
     # Collatz sequence
     if starting_number % 2 == 0:
@@ -59,7 +58,7 @@ def collatz_sequence(starting_number: int, is_first_run=True, counter=1):
         print(str(starting_number) + " -> ", end='')
 
     counter += 1
-    collatz_sequence(starting_number, False, counter)
+    return collatz_sequence(starting_number, False, counter)
 
 
 # This function is used for logging processing time only
