@@ -16,6 +16,11 @@ class MyTestCase(unittest.TestCase):
         expected = 20  # expected sequence size
         self.assertEqual(expected, get_collatz_counter(starting_number))
 
+    def test_get_collatz_counter_7(self):
+        starting_number = 7
+        expected = 17  # expected sequence size
+        self.assertEqual(expected, get_collatz_counter(starting_number))
+
     def test_collatz_sequence_13(self):
         starting_number = 13
         expected = 10  # expected sequence size
