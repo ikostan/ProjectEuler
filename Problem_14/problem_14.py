@@ -4,6 +4,8 @@
 import time
 
 
+# This function is used for logging processing time only
+# Shows how long it took in order to get the answer
 def print_time_log(end_time: time, result):
     if end_time < 60:
         print("The answer {0} returned in {1} seconds".format(
