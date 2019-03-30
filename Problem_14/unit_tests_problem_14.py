@@ -1,10 +1,16 @@
+#!/usr/bin/python
+
+
 import unittest
-from problem_14 import collatz_sequence
-from problem_14 import get_max_counter
-from problem_14 import get_collatz_counter
+import os
+from Problem_14.problem_14 import collatz_sequence
+from Problem_14.problem_14 import get_max_counter
+from Problem_14.problem_14 import get_collatz_counter
 
 
 class MyTestCase(unittest.TestCase):
+
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_get_collatz_counter_13(self):
         starting_number = 13
