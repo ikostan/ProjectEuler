@@ -1,8 +1,15 @@
+#!/usr/bin/python
+
+
 import unittest
+import os
 from Problem_5.problem_5 import smallest_multiple
 
 
 class MyTestCase(unittest.TestCase):
+
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
+
     def test_basic(self):
         start = 1
         end = 10
