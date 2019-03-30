@@ -1,9 +1,15 @@
+#!/usr/bin/python
+
+
 import unittest
+import os
 from Problem_4.problem_4 import is_palindrome
 from Problem_4.problem_4 import large_palindrome_generator
 
 
 class MyTestCase(unittest.TestCase):
+
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_large_palindrome_generator_basic(self):
         start = 10

@@ -2875,20 +2875,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problem_3/unit_tests_problem_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <dirStrings>
@@ -2912,6 +2899,7 @@
         <option value="$PROJECT_DIR$/Problem_1/unit_tests_problem_1.py" />
         <option value="$PROJECT_DIR$/Problem_2/unit_tests_problem_2.py" />
         <option value="$PROJECT_DIR$/Problem_3/unit_tests_problem_3.py" />
+        <option value="$PROJECT_DIR$/Problem_4/unit_tests_problem_4.py" />
       </list>
     </option>
   </component>
@@ -2937,7 +2925,22 @@
             <path>
               <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
               <item name="Problem_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem_4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2947,7 +2950,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Problem_3/unit_tests_problem_3.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Problem_4/unit_tests_problem_4.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2961,7 +2964,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in unit_tests_problem_3.py">
+  <component name="RunManager" selected="Python tests.Unittests in unit_tests_problem_4.py">
     <configuration name="Unittests in unit_tests_problem_1.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="ProjectEuler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -3007,6 +3010,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in unit_tests_problem_4.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="ProjectEuler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\superadmin\Desktop\Python\ProjectEuler\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Problem_4/unit_tests_problem_4.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="ProjectEuler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -3026,6 +3044,7 @@
       <item itemvalue="Python tests.Unittests in unit_tests_problem_1.py" />
       <item itemvalue="Python tests.Unittests in unit_tests_problem_2.py" />
       <item itemvalue="Python tests.Unittests in unit_tests_problem_3.py" />
+      <item itemvalue="Python tests.Unittests in unit_tests_problem_4.py" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -3042,24 +3061,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_unit_tests_py - 2019.03.30 at 11h 25m 56s.xml">
-      <configuration name="Unittests in unit_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_unit_tests_py - 2019.03.30 at 11h 26m 14s.xml">
-      <configuration name="Unittests in unit_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_unit_tests_py - 2019.03.30 at 11h 27m 14s.xml">
-      <configuration name="Unittests in unit_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_unit_tests_py - 2019.03.30 at 11h 29m 31s.xml">
-      <configuration name="Unittests in unit_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Desktop - 2019.03.30 at 11h 33m 44s.xml">
-      <configuration name="Unittests in Desktop" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_unit_tests_for_problem_1_py - 2019.03.30 at 11h 40m 46s.xml">
-      <configuration name="Unittests in unit_tests_for_problem_1.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_unit_tests_problem_1_py - 2019.03.30 at 11h 42m 46s.xml">
       <configuration name="Unittests in unit_tests_problem_1.py" configurationId="tests" />
     </history-entry>
@@ -3072,13 +3073,30 @@
     <history-entry file="Unittests_in_unit_tests_problem_2_py - 2019.03.30 at 11h 44m 40s.xml">
       <configuration name="Unittests in unit_tests_problem_2.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_unit_tests_problem_3_py - 2019.03.30 at 11h 46m 26s.xml">
+      <configuration name="Unittests in unit_tests_problem_3.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests_problem_4_py - 2019.03.30 at 12h 10m 25s.xml">
+      <configuration name="Unittests in unit_tests_problem_4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests_problem_1_py - 2019.03.30 at 12h 13m 48s.xml">
+      <configuration name="Unittests in unit_tests_problem_1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests_problem_2_py - 2019.03.30 at 12h 13m 56s.xml">
+      <configuration name="Unittests in unit_tests_problem_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests_problem_3_py - 2019.03.30 at 12h 14m 06s.xml">
+      <configuration name="Unittests in unit_tests_problem_3.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests_problem_4_py - 2019.03.30 at 12h 14m 14s.xml">
+      <configuration name="Unittests in unit_tests_problem_4.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.24962631" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.24962631" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.24962631" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -3086,7 +3104,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4236984" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.51526034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -3109,16 +3127,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_1/problem_1.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem_4/unit_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_5/unit_tests.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -3157,20 +3165,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem_1/unit_tests_problem_1.py">
+    <entry file="file://$PROJECT_DIR$/Problem_4/unit_tests_problem_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="9" column="18" selection-start-line="9" selection-end-line="10" />
-          <folding>
-            <element signature="e#20#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem_2/unit_tests_problem_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -3179,10 +3177,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_3/unit_tests_problem_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem_2/unit_tests_problem_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem_1/unit_tests_problem_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-end-line="1" />
+          <folding>
+            <element signature="e#20#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

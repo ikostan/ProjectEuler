@@ -2,12 +2,12 @@
 
 
 import unittest
+import os
 from Problem_1.problem_1 import get_multiplies_of_3_and_5
 
 
 class MyTestCase(unittest.TestCase):
-
-    print("Running unit tests for problem #1:\n")
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_10(self):
         result = 23

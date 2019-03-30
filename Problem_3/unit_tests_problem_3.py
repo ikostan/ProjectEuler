@@ -1,10 +1,14 @@
+#!/usr/bin/python
+
+
 import unittest
+import os
 from Problem_3.problem_3 import get_largest_factor
 
 
 class MyTestCase(unittest.TestCase):
 
-    print("Running unit tests for problem #3:\n")
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_find_max_prime_factor(self):
         number = 13195
