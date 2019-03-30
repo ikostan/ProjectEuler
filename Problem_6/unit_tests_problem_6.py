@@ -1,10 +1,16 @@
+#!/usr/bin/python
+
+
 import unittest
+import os
 from Problem_6.problem_6 import sum_squares_of_numbers
 from Problem_6.problem_6 import square_of_sums
 from Problem_6.problem_6 import square_diff
 
 
 class MyTestCase(unittest.TestCase):
+
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_sum_of_squares(self):
         expected = 385
