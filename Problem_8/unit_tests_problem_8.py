@@ -1,8 +1,15 @@
+#!/usr/bin/python
+
+
 import unittest
+import os
 from Problem_8.problem_8 import find_greatest_product
 
 
 class MyTestCase(unittest.TestCase):
+
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
+
     def test_basic(self):
         number = "73167176531330624919225119674426574742355349194934\
         96983520312774506326239578318016984801869478851843\
