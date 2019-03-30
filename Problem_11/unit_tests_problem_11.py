@@ -1,14 +1,20 @@
+#!/usr/bin/python
+
+
 import unittest
-from problem_11 import get_max_product
-from problem_11 import process_columns
-from problem_11 import process_rows
-from problem_11 import process_diagonal_up_left
-from problem_11 import process_diagonal_up_right
-from problem_11 import process_diagonal_down_right
-from problem_11 import process_diagonal_down_left
+import os
+from Problem_11.problem_11 import get_max_product
+from Problem_11.problem_11 import process_columns
+from Problem_11.problem_11 import process_rows
+from Problem_11.problem_11 import process_diagonal_up_left
+from Problem_11.problem_11 import process_diagonal_up_right
+from Problem_11.problem_11 import process_diagonal_down_right
+from Problem_11.problem_11 import process_diagonal_down_left
 
 
 class MyTestCase(unittest.TestCase):
+
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_process_columns(self):
         data = [[1, 2, 3, 4, 5],
@@ -70,7 +76,7 @@ class MyTestCase(unittest.TestCase):
         expected = (6 * 4 * 4 * 5)
         self.assertEqual(expected, process_diagonal_down_left(data, counter))
 
-    def test_something(self):
+    def test_main(self):
         grid = [[8, 2, 22, 97, 38, 15, 0, 40, 0, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 8],
                 [49, 49, 99, 40, 17, 81, 18, 57, 60, 87, 17, 40, 98, 43, 69, 48, 4, 56, 62, 0],
                 [81, 49, 31, 73, 55, 79, 14, 29, 93, 71, 40, 67, 53, 88, 30, 3, 49, 13, 36, 65],
