@@ -1,8 +1,15 @@
+#!/usr/bin/python
+
+
+import os
 import unittest
-from problem_9 import  find_triplet
+from Problem_9.problem_9 import find_triplet
 
 
 class MyTestCase(unittest.TestCase):
+
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
+
     def test_basic(self):
         a = 3
         b = 4
