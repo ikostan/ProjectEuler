@@ -1,8 +1,15 @@
+#!/usr/bin/python
+
+
 import unittest
-from problem_12 import triangle_number_generator
+import os
+from Problem_12.problem_12 import triangle_number_generator
 
 
 class MyTestCase(unittest.TestCase):
+
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
+
     def test_triangle_number_generator(self):
         dividers = 5
         expected = 28
