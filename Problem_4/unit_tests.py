@@ -1,6 +1,6 @@
 import unittest
-from problem_4 import is_palindrome
-from problem_4 import large_palindrome_generator
+from Problem_4.problem_4 import is_palindrome
+from Problem_4.problem_4 import large_palindrome_generator
 
 
 class MyTestCase(unittest.TestCase):

@@ -1,5 +1,5 @@
 import unittest
-from problem_8 import find_greatest_product
+from Problem_8.problem_8 import find_greatest_product
 
 
 class MyTestCase(unittest.TestCase):

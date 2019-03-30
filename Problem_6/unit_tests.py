@@ -1,7 +1,7 @@
 import unittest
-from problem_6 import sum_squares_of_numbers
-from problem_6 import square_of_sums
-from problem_6 import  square_diff
+from Problem_6.problem_6 import sum_squares_of_numbers
+from Problem_6.problem_6 import square_of_sums
+from Problem_6.problem_6 import square_diff
 
 
 class MyTestCase(unittest.TestCase):

@@ -1,5 +1,5 @@
 import unittest
-from problem_5 import smallest_multiple
+from Problem_5.problem_5 import smallest_multiple
 
 
 class MyTestCase(unittest.TestCase):
