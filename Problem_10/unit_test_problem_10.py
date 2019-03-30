@@ -1,10 +1,16 @@
+#!/usr/bin/python
+
+
 import unittest
-from problem_10 import is_prime
-from problem_10 import primes_generator
-from problem_10 import get_sum
+import os
+from Problem_10.problem_10 import is_prime
+from Problem_10.problem_10 import primes_generator
+from Problem_10.problem_10 import get_sum
 
 
 class MyTestCase(unittest.TestCase):
+
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_2000000(self):
         limit = 2000000

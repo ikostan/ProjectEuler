@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9964ecc1-8338-4e59-884f-f73fbcde1700" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Problem_9/unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem_9/unit_tests_problem_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem_10/unit_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem_10/unit_test_problem_10.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problem_9/unit_tests_problem_9.py">
+        <entry file="file://$PROJECT_DIR$/Problem_10/unit_test_problem_10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="84">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -50,6 +51,8 @@
         <option value="$PROJECT_DIR$/Problem_7/unit_tests.py" />
         <option value="$PROJECT_DIR$/Problem_8/unit_tests_problem_8.py" />
         <option value="$PROJECT_DIR$/Problem_9/unit_tests_problem_9.py" />
+        <option value="$PROJECT_DIR$/Problem_10/unit_test.py" />
+        <option value="$PROJECT_DIR$/Problem_10/unit_test_problem_10.py" />
       </list>
     </option>
   </component>
@@ -71,11 +74,6 @@
             <path>
               <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
-              <item name="Problem_9" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
@@ -110,7 +108,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Problem_9/unit_tests_problem_9.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Problem_10/unit_test_problem_12.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,7 +122,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in unit_tests_problem_9.py">
+  <component name="RunManager" selected="Python tests.Unittests in unit_test_problem_10.py">
+    <configuration name="Unittests in unit_test_problem_10.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="ProjectEuler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\superadmin\Desktop\Python\ProjectEuler\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Problem_10/unit_test_problem_10.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in unit_tests_problem_1.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="ProjectEuler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,6 +298,7 @@
       <item itemvalue="Python tests.Unittests in unit_tests_problem_7.py" />
       <item itemvalue="Python tests.Unittests in unit_tests_problem_8.py" />
       <item itemvalue="Python tests.Unittests in unit_tests_problem_9.py" />
+      <item itemvalue="Python tests.Unittests in unit_test_problem_10.py" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -301,9 +315,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_unit_tests_problem_3_py - 2019.03.30 at 11h 46m 26s.xml">
-      <configuration name="Unittests in unit_tests_problem_3.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_unit_tests_problem_4_py - 2019.03.30 at 12h 10m 25s.xml">
       <configuration name="Unittests in unit_tests_problem_4.py" configurationId="tests" />
     </history-entry>
@@ -330,6 +341,9 @@
     </history-entry>
     <history-entry file="Unittests_in_unit_tests_problem_8_py - 2019.03.30 at 12h 57m 51s.xml">
       <configuration name="Unittests in unit_tests_problem_8.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_test_problem_10_py - 2019.03.30 at 13h 04m 37s.xml">
+      <configuration name="Unittests in unit_test_problem_10.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -451,8 +465,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_9/unit_tests_problem_9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="84">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+          <folding>
+            <element signature="e#1#7#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem_10/unit_test_problem_10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
