@@ -1,8 +1,15 @@
+#!/usr/bin/python
+
+
 import unittest
-from problem_13 import get_first_ten_digit
+import os
+from Problem_13.problem_13 import get_first_ten_digit
 
 
 class MyTestCase(unittest.TestCase):
+
+    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
+
     def test_get_first_ten_digit(self):
         numbers = [37107287533902102798797998220837590246510135740250,
                    46376937677490009712648124896970078050417018260538,
