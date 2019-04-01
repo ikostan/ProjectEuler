@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9964ecc1-8338-4e59-884f-f73fbcde1700" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Problem_17/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Problem_17/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problem_17/problem_17.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem_17/problem_17.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problem_17/unit_tests_problem_17.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem_17/unit_tests_problem_17.py" afterDir="false" />
     </list>
@@ -17,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem_17/problem_17.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="43">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Problem_17/unit_tests_problem_17.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="769">
+              <caret line="38" column="68" lean-forward="true" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
               <folding>
                 <element signature="e#20#35#0" expanded="true" />
               </folding>
@@ -173,66 +172,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for unit_tests_problem_15.MyTestCase.test_20_x_20" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="ProjectEuler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\superadmin\Desktop\Python\ProjectEuler\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem_15" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unit_tests_problem_15.MyTestCase.test_20_x_20&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for unit_tests_problem_15.MyTestCase.test_4_x_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="ProjectEuler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\superadmin\Desktop\Python\ProjectEuler\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem_15" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unit_tests_problem_15.MyTestCase.test_4_x_3&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for unit_tests_problem_15.MyTestCase.test_4_x_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="ProjectEuler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\superadmin\Desktop\Python\ProjectEuler\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem_15" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unit_tests_problem_15.MyTestCase.test_4_x_4&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for unit_tests_problem_16.MyTestCase.test_basic" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="ProjectEuler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\superadmin\Desktop\Python\ProjectEuler\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem_16" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unit_tests_problem_16.MyTestCase.test_basic&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for unit_tests_problem_16.MyTestCase.test_big" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ProjectEuler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,6 +184,66 @@
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;unit_tests_problem_16.MyTestCase.test_big&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unit_tests_problem_17.MyTestCase.test_basic" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ProjectEuler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\superadmin\Desktop\Python\ProjectEuler\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem_17" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unit_tests_problem_17.MyTestCase.test_basic&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unit_tests_problem_17.MyTestCase.test_big" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ProjectEuler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\superadmin\Desktop\Python\ProjectEuler\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem_17" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unit_tests_problem_17.MyTestCase.test_big&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unit_tests_problem_17.MyTestCase.test_large" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ProjectEuler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\superadmin\Desktop\Python\ProjectEuler\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem_17" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unit_tests_problem_17.MyTestCase.test_large&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unit_tests_problem_17.MyTestCase.test_medium" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ProjectEuler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\superadmin\Desktop\Python\ProjectEuler\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem_17" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unit_tests_problem_17.MyTestCase.test_medium&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -537,19 +536,19 @@
       <item itemvalue="Python tests.Unittests in unit_tests_problem_15.py" />
       <item itemvalue="Python tests.Unittests in unit_tests_problem_16.py" />
       <item itemvalue="Python tests.Unittests in unit_tests_problem_17.py" />
-      <item itemvalue="Python tests.Unittests for unit_tests_problem_15.MyTestCase.test_4_x_4" />
-      <item itemvalue="Python tests.Unittests for unit_tests_problem_15.MyTestCase.test_20_x_20" />
-      <item itemvalue="Python tests.Unittests for unit_tests_problem_15.MyTestCase.test_4_x_3" />
-      <item itemvalue="Python tests.Unittests for unit_tests_problem_16.MyTestCase.test_basic" />
       <item itemvalue="Python tests.Unittests for unit_tests_problem_16.MyTestCase.test_big" />
+      <item itemvalue="Python tests.Unittests for unit_tests_problem_17.MyTestCase.test_medium" />
+      <item itemvalue="Python tests.Unittests for unit_tests_problem_17.MyTestCase.test_basic" />
+      <item itemvalue="Python tests.Unittests for unit_tests_problem_17.MyTestCase.test_big" />
+      <item itemvalue="Python tests.Unittests for unit_tests_problem_17.MyTestCase.test_large" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for unit_tests_problem_17.MyTestCase.test_large" />
+        <item itemvalue="Python tests.Unittests for unit_tests_problem_17.MyTestCase.test_big" />
+        <item itemvalue="Python tests.Unittests for unit_tests_problem_17.MyTestCase.test_basic" />
+        <item itemvalue="Python tests.Unittests for unit_tests_problem_17.MyTestCase.test_medium" />
         <item itemvalue="Python tests.Unittests for unit_tests_problem_16.MyTestCase.test_big" />
-        <item itemvalue="Python tests.Unittests for unit_tests_problem_16.MyTestCase.test_basic" />
-        <item itemvalue="Python tests.Unittests for unit_tests_problem_15.MyTestCase.test_4_x_3" />
-        <item itemvalue="Python tests.Unittests for unit_tests_problem_15.MyTestCase.test_20_x_20" />
-        <item itemvalue="Python tests.Unittests for unit_tests_problem_15.MyTestCase.test_4_x_4" />
       </list>
     </recent_temporary>
   </component>
@@ -567,34 +566,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_unit_tests_problem_15_py - 2019.03.31 at 17h 37m 27s.xml">
-      <configuration name="Unittests in unit_tests_problem_15.py" configurationId="tests" />
+    <history-entry file="Unittests_in_unit_tests_problem_17_py - 2019.03.31 at 19h 36m 38s.xml">
+      <configuration name="Unittests in unit_tests_problem_17.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unit_tests_problem_16_py - 2019.03.31 at 17h 58m 38s.xml">
-      <configuration name="Unittests in unit_tests_problem_16.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unit_tests_problem_17_MyTestCase_test_big - 2019.03.31 at 19h 37m 38s.xml">
+      <configuration name="Unittests for unit_tests_problem_17.MyTestCase.test_big" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unit_tests_problem_16_py - 2019.03.31 at 17h 59m 42s.xml">
-      <configuration name="Unittests in unit_tests_problem_16.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unit_tests_problem_17_MyTestCase_test_big - 2019.03.31 at 19h 39m 37s.xml">
+      <configuration name="Unittests for unit_tests_problem_17.MyTestCase.test_big" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unit_tests_problem_16_py - 2019.03.31 at 18h 01m 03s.xml">
-      <configuration name="Unittests in unit_tests_problem_16.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unit_tests_problem_17_MyTestCase_test_big - 2019.03.31 at 19h 40m 15s.xml">
+      <configuration name="Unittests for unit_tests_problem_17.MyTestCase.test_big" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unit_tests_problem_16_MyTestCase_test_basic - 2019.03.31 at 18h 03m 38s.xml">
-      <configuration name="Unittests for unit_tests_problem_16.MyTestCase.test_basic" configurationId="tests" />
+    <history-entry file="Unittests_for_unit_tests_problem_17_MyTestCase_test_big - 2019.03.31 at 19h 42m 01s.xml">
+      <configuration name="Unittests for unit_tests_problem_17.MyTestCase.test_big" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unit_tests_problem_16_MyTestCase_test_big - 2019.03.31 at 18h 03m 54s.xml">
-      <configuration name="Unittests for unit_tests_problem_16.MyTestCase.test_big" configurationId="tests" />
+    <history-entry file="Unittests_for_unit_tests_problem_17_MyTestCase_test_large - 2019.03.31 at 19h 42m 47s.xml">
+      <configuration name="Unittests for unit_tests_problem_17.MyTestCase.test_large" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unit_tests_problem_16_MyTestCase_test_big - 2019.03.31 at 18h 04m 44s.xml">
-      <configuration name="Unittests for unit_tests_problem_16.MyTestCase.test_big" configurationId="tests" />
+    <history-entry file="Unittests_in_unit_tests_problem_17_py - 2019.03.31 at 19h 43m 45s.xml">
+      <configuration name="Unittests in unit_tests_problem_17.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unit_tests_problem_16_py - 2019.03.31 at 18h 06m 46s.xml">
-      <configuration name="Unittests in unit_tests_problem_16.py" configurationId="tests" />
+    <history-entry file="Unittests_in_unit_tests_problem_17_py - 2019.03.31 at 19h 44m 08s.xml">
+      <configuration name="Unittests in unit_tests_problem_17.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unit_tests_problem_16_py - 2019.03.31 at 18h 54m 45s.xml">
-      <configuration name="Unittests in unit_tests_problem_16.py" configurationId="tests" />
+    <history-entry file="Unittests_in_unit_tests_problem_17_py - 2019.03.31 at 19h 44m 24s.xml">
+      <configuration name="Unittests in unit_tests_problem_17.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unit_tests_problem_17_py - 2019.03.31 at 18h 55m 09s.xml">
+    <history-entry file="Unittests_in_unit_tests_problem_17_py - 2019.03.31 at 19h 46m 15s.xml">
       <configuration name="Unittests in unit_tests_problem_17.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -610,8 +609,8 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45062837" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32854578" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48114902" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -903,15 +902,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_17/problem_17.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="43">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_17/unit_tests_problem_17.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="769">
+          <caret line="38" column="68" lean-forward="true" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
           <folding>
             <element signature="e#20#35#0" expanded="true" />
           </folding>
