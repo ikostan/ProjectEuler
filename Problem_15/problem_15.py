@@ -7,20 +7,16 @@ import math
 
 def calc_lattice_path(width: int, height: int):
     start_time = time.time()
-    steps = width + height
-    primes = list()
-
-    for n in range(2, steps):
-        if is_prime(n):
-            primes.append(n)
-
+    head = multiply_members(list(range(max(width, height) + 1, width + height + 1)))
+    tail = multiply_members(list(range(1, max(width, height) + 1)))
+    result = head / tail
     end_time = time.time() - start_time
-    result = multiply_members(primes)
     print_time_log(end_time, result)
     return result
 
 
 def multiply_members(primes: list):
+    print(primes)
     result = 1
     for n in primes:
         result *= n
@@ -29,7 +25,6 @@ def multiply_members(primes: list):
 
 
 def is_prime(n: int):
-
     if n == 1:
         return False
 
@@ -57,4 +52,3 @@ def print_time_log(end_time: time, result):
         seconds = end_time - (minutes * 60)
         print("The answer {0} returned in {1} minutes and {2} seconds".format(
             result, minutes, seconds))
-
