@@ -20,30 +20,13 @@ def calc_lattice_path(width: int, height: int):
     return result
 
 
-def multiply_members(primes: list):
-    print(primes)
+def multiply_members(numbers: list):
+    print(numbers)
     result = 1
-    for n in primes:
+    for n in numbers:
         result *= n
 
     return result
-
-
-def is_prime(n: int):
-    if n == 1:
-        return False
-
-    if n == 2:
-        return True
-
-    if n % 2 == 0 and n > 2:
-        return False
-
-    for i in range(3, int(math.sqrt(n)) + 1, 2):
-        if n % i == 0:
-            return False
-
-    return True
 
 
 # This function is used for logging processing time only
