@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9964ecc1-8338-4e59-884f-f73fbcde1700" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem_18/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem_18/problem_18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem_18/unit_tests_problem_18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem_18/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Problem_18/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/Problem_18/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="172">
-                <caret line="33" column="92" selection-start-line="33" selection-start-column="92" selection-end-line="33" selection-end-column="92" />
+              <first_editor relative-caret-position="127">
+                <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -112,11 +110,6 @@
             <path>
               <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
-              <item name="Problem_18" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -601,7 +594,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.24962631" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.1890882" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.24962631" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -922,8 +915,8 @@
     <entry file="file://$PROJECT_DIR$/Problem_18/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="172">
-            <caret line="33" column="92" selection-start-line="33" selection-start-column="92" selection-end-line="33" selection-end-column="92" />
+          <first_editor relative-caret-position="127">
+            <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           </first_editor>
           <second_editor />
         </state>
