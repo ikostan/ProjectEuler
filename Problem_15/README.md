@@ -8,10 +8,10 @@ How many such routes are there through a 20×20 grid?
 
 ### Video tutorial: 
 https://www.youtube.com/watch?v=Fg1dgrkdt04&list=PLsYctZrw5bWv0rbcOFhW57ZLuxWCmGx6o&index=19
-<<<<<<< HEAD
+
+### Counting Paths on a Grid
 https://www.youtube.com/watch?v=M8BYckxI8_U
 
 ### Lattice Path calculator:
 https://www.dcode.fr/lattice-path
-=======
->>>>>>> 81f042f9b6864ac3f19d644013e5c0809f6b8ebe
+
