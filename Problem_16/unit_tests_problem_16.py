@@ -3,7 +3,7 @@
 
 import unittest
 import os
-import math
+from Problem_16.problem_16 import find_the_sum
 
 
 class MyTestCase(unittest.TestCase):
@@ -13,16 +13,14 @@ class MyTestCase(unittest.TestCase):
     def test_basic(self):
         number = 2
         power = 15
-        n = math.pow(number, power)
-        numbers = (3, 2, 7, 6, 8)
         expected = 26
-        self.assertEqual(expected, False)
+        self.assertEqual(expected, find_the_sum(number, power))
 
     def test_big(self):
         number = 2
-        power = 15
-        expected = 26
-        self.assertEqual(expected, False)
+        power = 1000
+        expected = 1366
+        self.assertEqual(expected, find_the_sum(number, power))
 
 
 if __name__ == '__main__':
