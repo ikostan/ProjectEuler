@@ -4,6 +4,25 @@
 import time
 
 
+def find_maximum_total(triangle: list):
+    start_time = time.time()
+    numbers = list()
+    i = 0
+    for row in triangle:
+        if i + 1 < len(row):
+            number = max(row[i], row[i + 1])
+            numbers.append(number)
+            i = row.index(number)
+        else:
+            numbers.append(row[i])
+
+    print(numbers)  # for debug purposes only
+    result = sum(numbers)
+    end_time = time.time() - start_time
+    print_time_log(end_time, result)
+    return result
+
+
 # This function is used for logging processing time only
 # Shows how long it took in order to get the answer
 def print_time_log(end_time: time, result):
