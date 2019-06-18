@@ -10,7 +10,7 @@ class MyTestCase(unittest.TestCase):
     print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_10(self):
-        result = 2
+        result = 23
         max_num = 10
         nums = [3, 5]
         self.assertEqual(result, get_multiplies_of_3_and_5(max_num, nums))
