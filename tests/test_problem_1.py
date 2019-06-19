@@ -31,13 +31,25 @@ class MyTestCase(unittest.TestCase):
     def test_div_by_nums_false(self):
         result = False
         num = 4
-        nums = [3, 5]
+        nums = [3, 5, 7, 9, 10]
         self.assertEqual(result, div_by_nums(num, nums))
 
     def test_div_by_nums_true(self):
         result = True
         num = 16
         nums = [4, 3, 5]
+        self.assertEqual(result, div_by_nums(num, nums))
+
+    def test_div_by_nums_true2(self):
+        result = True
+        num = 16
+        nums = [3, 5, 7, 4]
+        self.assertEqual(result, div_by_nums(num, nums))
+
+    def test_div_by_nums_true3(self):
+        result = True
+        num = 16
+        nums = [3, 5, 10, 4, 7]
         self.assertEqual(result, div_by_nums(num, nums))
 
 
