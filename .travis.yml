@@ -16,4 +16,10 @@ script:
   # Problem 2
   - python -m pytest Problem_2/tests/ # run unit tests with pytest
   - pytest --cov-report term-missing --cov=Problem_2 Problem_2/tests/ # check test coverage with pytest-cov
+  # Problem 3
+  - python -m pytest Problem_3/tests/ # run unit tests with pytest
+  - pytest --cov-report term-missing --cov=Problem_3 Problem_3/tests/ # check test coverage with pytest-cov
+  # Problem 4
+  - python -m pytest Problem_4/tests/ # run unit tests with pytest
+  - pytest --cov-report term-missing --cov=Problem_4 Problem_4/tests/ # check test coverage with pytest-cov
 

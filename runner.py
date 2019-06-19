@@ -7,8 +7,8 @@ import unittest
 #  ----------------  Individual test suites
 from Problem_1.tests import test_problem_1 as test1
 import Problem_2.tests.test_problem_2 as test2
-import Problem_3.test_problem_3 as test3
-import Problem_4.test_problem_4 as test4
+import Problem_3.tests.test_problem_3 as test3
+import Problem_4.tests.test_problem_4 as test4
 import Problem_5.test_problem_5 as test5
 import Problem_6.test_problem_6 as test6
 import Problem_7.test_problem_7 as test7
