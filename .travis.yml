@@ -2,7 +2,7 @@ language: python
 python:
   #- "3.0.1"
   #- "3.1"
-  - "3.4.10"
+  #- "3.4.10"
   - "3.5.6"
   - "3.6"
 install:
@@ -23,4 +23,7 @@ script:
   # Problem 4
   #- python -m pytest Problem_4/tests/ # run unit tests with pytest
   - pytest --cov-report term-missing --cov=Problem_4 Problem_4/tests/ # check test coverage with pytest-cov
+  # Problem 5
+  - pytest --cov-report term-missing --cov=Problem_5 Problem_5/tests/ # check test coverage with pytest-cov
+
 
