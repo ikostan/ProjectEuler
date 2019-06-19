@@ -22,7 +22,7 @@ def find_maximum_total(triangle: list):
                     new_triangle[n + 1][i] += temp
                 else:
                     new_triangle[n + 1][i] += new_triangle[n][i - 1]
-                print(new_triangle)
+                #print(new_triangle)
 
     result = max(new_triangle[-1])
     end_time = time.time() - start_time
