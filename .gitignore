@@ -55,3 +55,7 @@ tests/__pycache__/
 Problem_67/__pycache__/
 tests/__pycache__/
 .coverage
+Problem_2/tests/__init__.py
+Problem_2/__init__.py
+Problem_2/tests/__pycache__/__init__.cpython-37.pyc
+Problem_2/tests/__pycache__/test_problem_2.cpython-37-PYTEST.pyc
