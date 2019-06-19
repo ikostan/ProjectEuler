@@ -14,6 +14,7 @@ class MyTestCase(unittest.TestCase):
                     [7, 4],
                     [2, 4, 6],
                     [8, 5, 9, 3]]
+
         expected = sum([3, 7, 4, 9])
         self.assertEqual(expected, find_maximum_total(triangle))
 
@@ -22,6 +23,7 @@ class MyTestCase(unittest.TestCase):
                     [9, 6],
                     [4, 6, 8],
                     [0, 7, 1, 5]]
+
         expected = sum([5, 9, 6, 7])
         self.assertEqual(expected, find_maximum_total(triangle))
 
