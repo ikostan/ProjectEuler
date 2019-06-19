@@ -14,9 +14,9 @@ import Problem_6.tests.test_problem_6 as test6
 import Problem_7.tests.test_problem_7 as test7
 import Problem_8.tests.test_problem_8 as test8
 import Problem_9.tests.test_problem_9 as test9
-import Problem_10.test_problem_10 as test10
-import Problem_11.test_problem_11 as test11
-import Problem_12.test_problem_12 as test12
+import Problem_10.tests.test_problem_10 as test10
+import Problem_11.tests.test_problem_11 as test11
+import Problem_12.tests.test_problem_12 as test12
 import Problem_13.test_problem_13 as test13
 import Problem_14.test_problem_14 as test14
 import Problem_15.test_problem_15 as test15
