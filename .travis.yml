@@ -1,5 +1,8 @@
 language: python
 python:
   - "3.6"
+install:
+    - "pip install pytest"
 script:
-  - python runner.py
+  - python -m pytest tests/
+#  - python runner.py
