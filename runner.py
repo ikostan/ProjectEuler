@@ -17,11 +17,11 @@ import Problem_9.tests.test_problem_9 as test9
 import Problem_10.tests.test_problem_10 as test10
 import Problem_11.tests.test_problem_11 as test11
 import Problem_12.tests.test_problem_12 as test12
-import Problem_13.test_problem_13 as test13
-import Problem_14.test_problem_14 as test14
-import Problem_15.test_problem_15 as test15
-import Problem_16.test_problem_16 as test16
-import Problem_17.test_problem_17 as test17
+import Problem_13.tests.test_problem_13 as test13
+import Problem_14.tests.test_problem_14 as test14
+import Problem_15.tests.test_problem_15 as test15
+import Problem_16.tests.test_problem_16 as test16
+import Problem_17.tests.test_problem_17 as test17
 #import Problem_18.test_problem_8 as test18
 #import Problem_67.test_problem_9 as test67
 
