@@ -10,7 +10,7 @@ import Problem_2.tests.test_problem_2 as test2
 import Problem_3.tests.test_problem_3 as test3
 import Problem_4.tests.test_problem_4 as test4
 import Problem_5.tests.test_problem_5 as test5
-import Problem_6.test_problem_6 as test6
+import Problem_6.tests.test_problem_6 as test6
 import Problem_7.test_problem_7 as test7
 import Problem_8.test_problem_8 as test8
 import Problem_9.test_problem_9 as test9
