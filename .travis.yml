@@ -3,6 +3,8 @@ python:
   - "3.6"
 install:
     - "pip install pytest"
+    - "pip uninstall pytest-cov" #This plugin produces coverage reports
+ #   - "pip install pytest-xdist" #For distributed testing support install pytest-xdist
 script:
-  - python -m pytest tests/
+  - python -m pytest Problem_1/tests/
 #  - python runner.py
