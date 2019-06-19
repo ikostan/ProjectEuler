@@ -4,6 +4,7 @@
 import unittest
 import os
 from Problem_1.problem_1 import get_multiplies_of_3_and_5
+from Problem_1.problem_1 import div_by_nums
 
 
 class MyTestCase(unittest.TestCase):
@@ -26,6 +27,12 @@ class MyTestCase(unittest.TestCase):
         max_num = 1000
         nums = [3, 5]
         self.assertEqual(result, get_multiplies_of_3_and_5(max_num, nums))
+
+    def test_div_by_nums(self):
+        result = False
+        num = 4
+        nums = [3, 5]
+        self.assertEqual(result, div_by_nums(num, nums))
 
 
 if __name__ == '__main__':
