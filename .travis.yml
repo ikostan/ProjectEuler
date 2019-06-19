@@ -1,10 +1,13 @@
 language: python
 python:
+  - "3.0"
   - "3.6"
 install:
     - "pip install pytest"
     - "pip install pytest-cov" #This plugin produces coverage reports
- #   - "pip install pytest-xdist" #For distributed testing support install pytest-xdist
+    #- "pip install pytest-xdist" #For distributed testing support install pytest-xdist
 script:
+  #- python runner.py
   - python -m pytest Problem_1/tests/
-#  - python runner.py
+  - pytest --cov-report term-missing --cov=Problem_1 Problem_1/tests/
+
