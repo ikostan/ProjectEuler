@@ -1,6 +1,7 @@
 language: python
 python:
-  - "3.0"
+  - "3.0.1"
+  - "3.1"
   - "3.6"
 install:
     - "pip install pytest"
@@ -8,6 +9,6 @@ install:
     #- "pip install pytest-xdist" #For distributed testing support install pytest-xdist
 script:
   #- python runner.py
-  - python -m pytest Problem_1/tests/
-  - pytest --cov-report term-missing --cov=Problem_1 Problem_1/tests/
+  - python -m pytest Problem_1/tests/ # run unit tests with pytest
+  - pytest --cov-report term-missing --cov=Problem_1 Problem_1/tests/ # check test coverage with pytest-cov
 
