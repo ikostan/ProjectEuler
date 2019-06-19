@@ -28,10 +28,16 @@ class MyTestCase(unittest.TestCase):
         nums = [3, 5]
         self.assertEqual(result, get_multiplies_of_3_and_5(max_num, nums))
 
-    def test_div_by_nums(self):
+    def test_div_by_nums_false(self):
         result = False
         num = 4
         nums = [3, 5]
+        self.assertEqual(result, div_by_nums(num, nums))
+
+    def test_div_by_nums_true(self):
+        result = True
+        num = 16
+        nums = [4, 3, 5]
         self.assertEqual(result, div_by_nums(num, nums))
 
 
