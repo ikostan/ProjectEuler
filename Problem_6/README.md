@@ -12,3 +12,6 @@ Find the difference between the sum of the squares of the first one hundred natu
 
 ### Video tutorial: 
 https://www.youtube.com/watch?v=BourmbQGQak&list=PLNEKkZrJ3NV-wNjCMxPS86sgqOgwBZmPu&index=27
+
+### Source:
+https://projecteuler.net/problem=6
