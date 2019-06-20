@@ -18,8 +18,8 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |4    |[Largest palindrome product](https://projecteuler.net/problem=4)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_4)|
 |5    |[Smallest multiple](https://projecteuler.net/problem=5)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_5)|
 |6    |[Sum square difference](https://projecteuler.net/problem=6)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_6)|
-|7    |[10001st prime]()|[Solution]()|
-|8    |[Largest product in a series]()|[Solution]()|
+|7    |[10001st prime](https://projecteuler.net/problem=7)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_7)|
+|8    |[Largest product in a series](https://projecteuler.net/problem=8)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_8)|
 |9    |[Special Pythagorean triplet]()|[Solution]()|
 |10   |[Summation of primes]()|[Solution]()|
 |11   |[Largest product in a grid]()|[Solution]()|
