@@ -20,8 +20,8 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |6    |[Sum square difference](https://projecteuler.net/problem=6)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_6)|
 |7    |[10001st prime](https://projecteuler.net/problem=7)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_7)|
 |8    |[Largest product in a series](https://projecteuler.net/problem=8)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_8)|
-|9    |[Special Pythagorean triplet]()|[Solution]()|
-|10   |[Summation of primes]()|[Solution]()|
+|9    |[Special Pythagorean triplet](https://projecteuler.net/problem=9)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_9)|
+|10   |[Summation of primes](https://projecteuler.net/problem=10)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_10)|
 |11   |[Largest product in a grid]()|[Solution]()|
 |12   |[Highly divisible triangular number]()|[Solution]()|
 |13   |[Large sum]()|[Solution]()|
