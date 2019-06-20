@@ -16,8 +16,8 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |2    |[Even Fibonacci numbers](https://projecteuler.net/problem=2)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_2)|
 |3    |[Largest prime factor](https://projecteuler.net/problem=3)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_3)|
 |4    |[Largest palindrome product](https://projecteuler.net/problem=4)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_4)|
-|5    |[Smallest multiple]()|[Solution]()|
-|6    |[Sum square difference]()|[Solution]()|
+|5    |[Smallest multiple](https://projecteuler.net/problem=5)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_5)|
+|6    |[Sum square difference](https://projecteuler.net/problem=6)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_6)|
 |7    |[10001st prime]()|[Solution]()|
 |8    |[Largest product in a series]()|[Solution]()|
 |9    |[Special Pythagorean triplet]()|[Solution]()|
@@ -31,5 +31,5 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |17   |[]()|[Solution]()|
 |18   |[]()|[Solution]()|
 |19   |[]()|[Solution]()|
+|20   |[]()|[Solution]()|
 |67   |[Maximum path sum II](https://projecteuler.net/problem=67)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_67)|
-|16   |[]()|[Solution]()|
