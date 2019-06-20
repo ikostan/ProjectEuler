@@ -46,11 +46,11 @@ def file_reader():
     result = []
     file_path = ''
     if platform.system() == 'Linux':
-        file_path = os.getcwd() + '/p067_triangle.txt'  # linux
+        file_path = os.getcwd() + '/Problem_67/tests/p067_triangle.txt'  # linux
     elif platform.system() == 'Windows':
         file_path = os.getcwd() + '\p067_triangle.txt' # windows
     elif platform.system() == 'Darwin':
-        file_path = os.getcwd() + '/p067_triangle.txt'  # MacOS
+        file_path = os.getcwd() + '/Problem_67/tests/p067_triangle.txt'  # MacOS
 
     #print(file_path)
 
