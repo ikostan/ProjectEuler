@@ -29,3 +29,6 @@ What is the greatest product of four adjacent numbers in the same direction (up,
 
 ### Video tutorial: 
 https://www.youtube.com/watch?v=guPD-wKxQho&index=26&list=PLNEKkZrJ3NV-wNjCMxPS86sgqOgwBZmPu
+
+### Source:
+https://projecteuler.net/problem=11
