@@ -17,3 +17,6 @@ NOTE: Once the chain starts the terms are allowed to go above one million.
 
 ### Video tutorial: 
 https://www.youtube.com/watch?v=qpOF6HQSAyI&list=PLNEKkZrJ3NV-wNjCMxPS86sgqOgwBZmPu&index=25
+
+### Source:
+https://projecteuler.net/problem=14
