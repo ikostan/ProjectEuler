@@ -27,3 +27,6 @@ Find the thirteen adjacent digits in the 1000-digit number that have the greates
 
 ### Video tutorial: 
 https://www.youtube.com/watch?v=guPD-wKxQho&index=26&list=PLNEKkZrJ3NV-wNjCMxPS86sgqOgwBZmPu
+
+### Source:
+https://projecteuler.net/problem=8
