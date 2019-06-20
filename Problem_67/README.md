@@ -16,3 +16,6 @@ This is a much more difficult version of Problem 18. It is not possible to try e
 
 ### Video tutorial: 
 https://www.youtube.com/watch?v=UhIlzpWlUY0&list=PLNEKkZrJ3NV-wNjCMxPS86sgqOgwBZmPu&index=24
+
+### Source:
+https://projecteuler.net/problem=67
