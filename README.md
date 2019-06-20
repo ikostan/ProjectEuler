@@ -22,14 +22,14 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |8    |[Largest product in a series](https://projecteuler.net/problem=8)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_8)|
 |9    |[Special Pythagorean triplet](https://projecteuler.net/problem=9)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_9)|
 |10   |[Summation of primes](https://projecteuler.net/problem=10)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_10)|
-|11   |[Largest product in a grid]()|[Solution]()|
-|12   |[Highly divisible triangular number]()|[Solution]()|
-|13   |[Large sum]()|[Solution]()|
-|14   |[Longest Collatz sequence]()|[Solution]()|
-|15   |[Lattice paths]()|[Solution]()|
-|16   |[]()|[Solution]()|
-|17   |[]()|[Solution]()|
-|18   |[]()|[Solution]()|
-|19   |[]()|[Solution]()|
+|11   |[Largest product in a grid](https://projecteuler.net/problem=11)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_11)|
+|12   |[Highly divisible triangular number](https://projecteuler.net/problem=12)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_12)|
+|13   |[Large sum](https://projecteuler.net/problem=13)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_13)|
+|14   |[Longest Collatz sequence](https://projecteuler.net/problem=14)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_14)|
+|15   |[Lattice paths](https://projecteuler.net/problem=15)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_15)|
+|16   |[Power digit sum](https://projecteuler.net/problem=16)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_16)|
+|17   |[Number letter counts](https://projecteuler.net/problem=17)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_17)|
+|18   |[Maximum path sum I](https://projecteuler.net/problem=18)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_18)|
+|19   |[Counting Sundays](https://projecteuler.net/problem=19)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_19)|
 |20   |[]()|[Solution]()|
 |67   |[Maximum path sum II](https://projecteuler.net/problem=67)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_67)|
