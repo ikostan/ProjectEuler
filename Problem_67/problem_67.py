@@ -3,6 +3,7 @@
 
 import time
 import os
+import platform
 
 
 def find_maximum_total(triangle: list):
@@ -43,7 +44,14 @@ def file_reader():
     '''
 
     result = []
-    file_path = os.getcwd() + '\p067_triangle.txt'
+    file_path = ''
+    if platform.system() == 'Linux':
+        file_path = os.getcwd() + '/p067_triangle.txt'  # linux
+    elif platform.system() == 'Windows':
+        file_path = os.getcwd() + '\p067_triangle.txt' # windows
+    elif platform.system() == 'Darwin':
+        file_path = os.getcwd() + '/p067_triangle.txt'  # MacOS
+
     #print(file_path)
 
     with open(file_path) as source:
