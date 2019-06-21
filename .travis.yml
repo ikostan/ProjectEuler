@@ -11,6 +11,8 @@ install:
     #- "pip install pytest-xdist" #For distributed testing support install pytest-xdist
 script:
   #- python runner.py
+  # Testing utils
+  - pytest --cov-report term-missing --cov=utils utils/tests/ # check test coverage with pytest-cov
   # Problem 1
   #- python -m pytest Problem_1/tests/ # run unit tests with pytest
   - pytest --cov-report term-missing --cov=Problem_1 Problem_1/tests/ # check test coverage with pytest-cov
