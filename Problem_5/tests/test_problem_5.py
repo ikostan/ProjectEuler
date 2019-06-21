@@ -1,10 +1,9 @@
 #!/usr/bin/python
 
 
-import unittest
+import unittest.mock
 import os
 import io
-import unittest.mock
 import time
 from Problem_5.problem_5 import smallest_multiple
 from Problem_5.problem_5 import print_time_log
