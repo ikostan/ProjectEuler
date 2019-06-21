@@ -27,16 +27,19 @@ def smallest_multiple(start: int, end: int):
             tested += end
 
     end_time = time.time() - start_time
-    print_log(end_time, tested)
+    print_time_log(end_time, tested)
 
     return tested
 
 
-def print_log(end_time, result):
+# This function is used for logging processing time only
+# Shows how long it took in order to get the answer
+def print_time_log(end_time: time, result=''):
     if end_time < 60:
-        print("The answer {0} returned in {1} seconds".format(result, end_time))
+        print("The answer {0} returned in {1} seconds".format(
+            result, end_time))
     else:
         minutes = int(end_time / 60)
         seconds = end_time - (minutes * 60)
-        print("The answer {0} returned in {1} minutes and {2} seconds".format(result, minutes, seconds))
-
+        print("The answer {0} returned in {1} minutes and {2} seconds".format(
+            result, minutes, seconds))
