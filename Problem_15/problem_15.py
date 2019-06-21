@@ -2,7 +2,7 @@
 
 
 import time
-from Template.problem_ import print_time_log
+from utils.utils import print_time_log
 
 
 def calc_lattice_path(width: int, height: int):
