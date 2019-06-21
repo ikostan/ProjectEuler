@@ -2,7 +2,7 @@
 
 
 import time
-from Template.problem_ import print_time_log
+from utils.utils import print_time_log
 
 
 def smallest_multiple(start: int, end: int):
