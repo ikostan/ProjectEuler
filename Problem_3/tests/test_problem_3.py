@@ -4,6 +4,7 @@
 import unittest
 import os
 from Problem_3.problem_3 import get_largest_factor
+from Problem_3.problem_3 import is_prime
 
 
 class MyTestCase(unittest.TestCase):
@@ -16,11 +17,14 @@ class MyTestCase(unittest.TestCase):
         max_factor = max(prime_factors)
         self.assertEqual(max_factor, get_largest_factor(number))
 
-    def test_find_max_prime_factor_2(self):
+    def test_find_max_prime_factor_large(self):
         number = 600851475143 
         prime_factors = [71, 839, 1471, 6857]
         max_factor = max(prime_factors)
         self.assertEqual(max_factor, get_largest_factor(number))
+
+    def test_is_prime(self):
+        self.assertEqual(True, is_prime(2))
 
 
 if __name__ == '__main__':
