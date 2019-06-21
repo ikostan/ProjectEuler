@@ -5,11 +5,6 @@ venv/Scripts/
 Tester/tester.py
 .idea
 .idea/
-Template/unit_tests_problem_15.py
-Template/README.md
-Template/problem_15.py
-Template/problem_.py
-Template/unit_tests_problem_.py
 .idea/misc.xml
 .idea/ProjectEuler.iml
 .idea/workspace.xml
@@ -57,8 +52,3 @@ tests/__pycache__/
 .coverage
 Problem_2/tests/__pycache__/
 Problem_2/tests/__pycache__/
-Template/tests/__init__.py
-Template/tests/__init__.py
-Template/__init__.py
-Template/tests/__init__.py
-Template/tests/test_problem_.py
