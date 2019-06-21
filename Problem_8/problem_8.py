@@ -2,7 +2,7 @@
 
 
 import time
-from Template.problem_ import print_time_log
+from utils.utils import print_time_log
 
 
 def find_greatest_product(number: str, adjacent_digits: int):
