@@ -2,6 +2,7 @@
 
 
 import time
+from Template.problem_ import print_time_log
 
 
 def get_max_product(numbers: list, counter: int):
@@ -13,7 +14,7 @@ def get_max_product(numbers: list, counter: int):
     if result < temp:
         result = temp
 
-    temp = process_diagonal_down_right(numbers, counter)
+    temp = process_diagonal_down_right(numbers)
     if result < temp:
         result = temp
 
@@ -33,11 +34,11 @@ def get_max_product(numbers: list, counter: int):
     if result < temp:
         result = temp
 
-    print_log(end_time, result)
+    print_time_log(end_time, result)
     return result
 
 
-def process_diagonal_down_right(numbers: list, counter: int):
+def process_diagonal_down_right(numbers: list):
     result = 0
     row = 0
 
@@ -47,7 +48,6 @@ def process_diagonal_down_right(numbers: list, counter: int):
             temp_arr = [numbers[row][col], numbers[row + 1][col + 1],
                         numbers[row + 2][col + 2], numbers[row + 3][col + 3]]
             temp = multiply_members(temp_arr)
-            #print("{0} > {1}".format(temp_arr, temp))
             if temp > result:
                 result = temp
             col += 1
@@ -65,7 +65,6 @@ def process_diagonal_down_left(numbers: list, counter: int):
             temp_arr = [numbers[row][col], numbers[row + 1][col - 1],
                         numbers[row + 2][col - 2], numbers[row + 3][col - 3]]
             temp = multiply_members(temp_arr)
-            #print("{0} > {1}".format(temp_arr, temp))
             if temp > result:
                 result = temp
             col -= 1
@@ -83,7 +82,6 @@ def process_diagonal_up_left(numbers: list, counter: int):
             temp_arr = [numbers[row][col], numbers[row - 1][col - 1],
                         numbers[row - 2][col - 2], numbers[row - 3][col - 3]]
             temp = multiply_members(temp_arr)
-            #print("{0} > {1}".format(temp_arr, temp))
             if temp > result:
                 result = temp
             col -= 1
@@ -101,7 +99,6 @@ def process_diagonal_up_right(numbers: list, counter: int):
             temp_arr = [numbers[row][col], numbers[row - 1][col + 1],
                         numbers[row - 2][col + 2], numbers[row - 3][col + 3]]
             temp = multiply_members(temp_arr)
-            #print("{0} > {1}".format(temp_arr, temp))
             if temp > result:
                 result = temp
             col += 1
@@ -151,12 +148,3 @@ def multiply_members(numbers: list):
         result *= i
 
     return result
-
-
-def print_log(end_time, result):
-    if end_time < 60:
-        print("The answer {0} returned in {1} seconds".format(result, end_time))
-    else:
-        minutes = int(end_time / 60)
-        seconds = end_time - (minutes * 60)
-        print("The answer {0} returned in {1} minutes and {2} seconds".format(result, minutes, seconds))

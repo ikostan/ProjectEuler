@@ -62,9 +62,8 @@ class MyTestCase(unittest.TestCase):
                 [2, 3, 4, 5, 6],
                 [5, 6, 8, 9, 10],
                 [1, 2, 3, 4, 5]]
-        counter = 4
         expected = (2 * 4 * 9 * 5)
-        self.assertEqual(expected, process_diagonal_down_right(data, counter))
+        self.assertEqual(expected, process_diagonal_down_right(data))
 
     def test_process_diagonal_down_left(self):
         data = [[1, 2, 3, 4, 5],
