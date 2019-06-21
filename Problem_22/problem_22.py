@@ -20,7 +20,7 @@ def file_reader():
     result = []
     file_path = ''
     if platform.system() == 'Linux':
-        file_path = os.getcwd() + '/Problem_67/tests/p022_names.txt'  # linux
+        file_path = os.getcwd() + '/Problem_22/tests/p022_names.txt'  # linux
     elif platform.system() == 'Windows':
         file_path = os.getcwd() + '\p022_names.txt' # windows
     # elif platform.system() == 'Darwin':
