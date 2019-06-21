@@ -3,7 +3,7 @@
 
 import time
 import math
-from Template.problem_ import print_time_log
+from utils.utils import print_time_log
 
 
 def triangle_number_generator(limit: int):
