@@ -3,6 +3,7 @@
 
 import time
 import math
+from Template.problem_ import print_time_log
 
 
 def triangle_number_generator(limit: int):
@@ -31,15 +32,3 @@ def find_possible_dividers(triangle: dict):
                 triangle['dividers'] += 2
         n -= 1
     return triangle
-
-
-def print_time_log(end_time: time, result):
-    if end_time < 60:
-        print("The answer {0} has {1} dividers, returned in {2} seconds".format(
-            result['triangle'], result['dividers'], end_time))
-    else:
-        minutes = int(end_time / 60)
-        seconds = end_time - (minutes * 60)
-        print("The answer {0} has {1} dividers, returned in {2} minutes and {3} seconds".format(
-            result['triangle'], result['dividers'], minutes, seconds))
-
