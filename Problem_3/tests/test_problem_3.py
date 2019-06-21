@@ -23,8 +23,11 @@ class MyTestCase(unittest.TestCase):
         max_factor = max(prime_factors)
         self.assertEqual(max_factor, get_largest_factor(number))
 
-    def test_is_prime(self):
+    def test_is_prime_2(self):
         self.assertEqual(True, is_prime(2))
+
+    def test_is_prime_4(self):
+        self.assertEqual(False, is_prime(4))
 
 
 if __name__ == '__main__':
