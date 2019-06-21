@@ -48,16 +48,16 @@ def file_reader():
     if platform.system() == 'Linux':
         file_path = os.getcwd() + '/Problem_67/tests/p067_triangle.txt'  # linux
     elif platform.system() == 'Windows':
-        file_path = os.getcwd() + '\p067_triangle.txt' # windows
+        file_path = os.getcwd() + '\\p067_triangle.txt'  # windows
     elif platform.system() == 'Darwin':
         file_path = os.getcwd() + '/Problem_67/tests/p067_triangle.txt'  # MacOS
 
-    #print(file_path)
+    # print(file_path)  # debug only
 
     with open(file_path) as source:
         for line in source:
             temp = [int(t) for t in line.split(' ')]
-            #print(temp)
+            # print(temp)  # debug only
             result.append(temp)
 
     return result
