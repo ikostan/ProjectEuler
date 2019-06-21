@@ -32,5 +32,14 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |18   |[Maximum path sum I](https://projecteuler.net/problem=18)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_18)|
 |19   |[Counting Sundays](https://projecteuler.net/problem=19)|[N/A]()|
 |20   |[Factorial digit sum](https://projecteuler.net/problem=20)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_20)|
-|21   |[Amicable numbers](https://projecteuler.net/problem=21)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_18)|
+|21   |[Amicable numbers](https://projecteuler.net/problem=21)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_21)|
+|22   |[Names scores](https://projecteuler.net/problem=22)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_22)|
+|23   |[]()|[N/A]()|
+|24   |[]()|[N/A]()|
+|25   |[]()|[N/A]()|
+|26   |[]()|[N/A]()|
+|27   |[]()|[N/A]()|
+|28   |[]()|[N/A]()|
+|29   |[]()|[N/A]()|
+|30   |[]()|[N/A]()|
 |67   |[Maximum path sum II](https://projecteuler.net/problem=67)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_67)|
