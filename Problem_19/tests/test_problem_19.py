@@ -4,6 +4,7 @@
 import unittest
 import os
 import platform
+from utils.utils import get_full_path
 from Problem_19.date import Date
 from Problem_19.problem_19 import is_leap
 from Problem_19.problem_19 import main
@@ -23,13 +24,7 @@ class MyTestCase(unittest.TestCase):
 
         cls.leap_years = []
 
-        file_path = ''
-        if platform.system() == 'Linux':
-            file_path = os.getcwd() + '/Problem_19/tests/leap_years.txt'  # linux
-        elif platform.system() == 'Windows':
-            file_path = os.getcwd() + '\\leap_years.txt'  # windows
-        # elif platform.system() == 'Darwin':
-        # file_path = os.getcwd() + '/Problem_19/tests/leap_years.txt'  # MacOS
+        file_path = get_full_path('/Problem_19', 'leap_years.txt')
 
         with open(file_path) as source:
             for line in source:
