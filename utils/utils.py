@@ -20,7 +20,7 @@ def print_time_log(end_time: time, result=''):
 
 
 # Returns full path based on differences between Linux and Windows
-def get_full_path(file_folder: str, file_name: str, target_os='', test_mode=True):
+def get_full_path(file_folder: str, file_name: str, target_os=''):
     file_path = ''
 
     if target_os == '':
