@@ -30,8 +30,8 @@ def main():
 
     start_time = time.time()
 
-    stop_date = Date(31, '', Date.month_name[11], 2000)
-    current_date = Date(1, Date.week_days[0], Date.month_name[0], 1900)
+    stop_date = Date(31, '', Date.get_months()[11], 2000)
+    current_date = Date(1, Date.week_days[0], Date.get_months()[0], 1900)
     sundays = []
 
     while (current_date.get_year() <= stop_date.get_year()) and \
