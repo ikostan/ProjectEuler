@@ -44,14 +44,14 @@ class MyTestCase(unittest.TestCase):
 
         self.assertEqual(expected, get_full_path(folder_name, file_name, target_os))
 
-    @unittest.skip("Automation test runs on Linux machine")
+    #@unittest.skip("Automation test runs on Linux machine")
     def test_get_full_path_windows(self):
         folder_name = '/utils/tests'
         file_name = 'test.txt'
         expected = os.getcwd() + '\\test.txt'
 
         if platform.system() == 'Linux':
-            expected = '/home/travis/build/ikostan/ProjectEuler\\test.txt'
+            expected = '/home/travis/build/ikostan/ProjectEuler/utils/tests/test.txt'
 
         self.assertEqual(expected, get_full_path(folder_name, file_name))
 
