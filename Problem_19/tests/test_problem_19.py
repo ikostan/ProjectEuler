@@ -3,7 +3,6 @@
 
 import unittest
 import os
-import platform
 from utils.utils import get_full_path
 from Problem_19.date import Date
 from Problem_19.problem_19 import is_leap
