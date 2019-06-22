@@ -45,7 +45,7 @@ def file_reader():
     '''
 
     result = []
-    file_path = get_full_path('Problem_67/tests', 'p067_triangle.txt')
+    file_path = get_full_path('/Problem_67/tests', 'p067_triangle.txt')
 
     '''
     if platform.system() == 'Linux':
