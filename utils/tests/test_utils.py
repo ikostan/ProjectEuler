@@ -2,6 +2,7 @@
 
 
 import unittest.mock
+import platform
 import os
 import io
 import time
@@ -38,13 +39,18 @@ class MyTestCase(unittest.TestCase):
         file_name = 'test.txt'
         expected = os.getcwd() + '\\test.txt'
 
+        if platform.system() == 'Linux':
+            expected = '/home/travis/build/ikostan/ProjectEuler/utils/tests/test.txt'
+
         self.assertEqual(expected, get_full_path(folder_name, file_name, target_os))
 
-    @unittest.skip("Automation test is running on linux machine")
     def test_get_full_path_windows(self):
         folder_name = '/utils/tests'
         file_name = 'test.txt'
         expected = os.getcwd() + '\\test.txt'
+
+        if platform.system() == 'Linux':
+            expected = '/home/travis/build/ikostan/ProjectEuler/utils/tests/test.txt'
 
         self.assertEqual(expected, get_full_path(folder_name, file_name))
 
@@ -52,7 +58,10 @@ class MyTestCase(unittest.TestCase):
         target_os = 'Linux'
         folder_name = '/utils/tests'
         file_name = 'test.txt'
-        expected = '/home/travis/build/ikostan/ProjectEuler' + '/utils/tests/test.txt'
+        expected = '/home/travis/build/ikostan/ProjectEuler/utils/tests/test.txt'
+
+        if platform.system() == 'Windows':
+            expected = os.getcwd() + '/utils/tests' + '/test.txt'
 
         self.assertEqual(expected, get_full_path(folder_name, file_name, target_os))
 
