@@ -20,14 +20,14 @@ def print_time_log(end_time: time, result=''):
 
 
 # Returns full path based on differences between Linux and Windows
-def get_full_path(file_folder: str, file_name: str, target_os=''):
+def get_full_path(file_folder: str, file_name: str, target_os='', test_mode=True):
     file_path = ''
 
     if target_os == '':
         target_os = platform.system()
 
     if target_os == 'Linux':
-        file_path = os.getcwd() + file_folder + file_path  # linux
+        file_path = os.getcwd() + file_folder + file_name  # linux
     elif target_os == 'Windows':
         file_path = os.getcwd() + '\\' + file_name  # windows
     # elif target_os == 'Darwin':
