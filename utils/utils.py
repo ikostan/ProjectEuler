@@ -19,12 +19,17 @@ def print_time_log(end_time: time, result=''):
             result, minutes, seconds))
 
 
-def get_full_path(file_folder: str, file_name: str):
+# Returns full path based on differences between Linux and Windows
+def get_full_path(file_folder: str, file_name: str, target_os=''):
     file_path = ''
-    if platform.system() == 'Linux':
+
+    if target_os == '':
+        target_os = platform.system()
+
+    if target_os == 'Linux':
         file_path = os.getcwd() + '/' + file_folder + file_path  # linux
-    elif platform.system() == 'Windows':
+    elif target_os == 'Windows':
         file_path = os.getcwd() + '\\' + file_name  # windows
-    # elif platform.system() == 'Darwin':
+    # elif target_os == 'Darwin':
         # file_path = os.getcwd() + '/Problem_19/tests/leap_years.txt'  # MacOS
     return file_path

@@ -6,6 +6,7 @@ import os
 import io
 import time
 from utils.utils import print_time_log
+from utils.utils import get_full_path
 
 
 class MyTestCase(unittest.TestCase):
@@ -30,6 +31,30 @@ class MyTestCase(unittest.TestCase):
         expected = "The answer {0} returned in {1} minutes and {2} seconds".format(
             answer, 1, 5.0)
         self.assertEqual(expected, captured)
+
+    def test_get_full_path_windows_target_os(self):
+        target_os = 'Windows'
+        folder_name = '/utils/tests'
+        file_name = 'test.txt'
+        expected = os.getcwd() + '\\test.txt'
+
+        self.assertEqual(expected, get_full_path(folder_name, file_name, target_os))
+
+    @unittest.skip("Automation test is running on linux machine")
+    def test_get_full_path_windows(self):
+        folder_name = '/utils/tests'
+        file_name = 'test.txt'
+        expected = os.getcwd() + '\\test.txt'
+
+        self.assertEqual(expected, get_full_path(folder_name, file_name))
+
+    def test_get_full_path_linux(self):
+        target_os = 'Linux'
+        folder_name = '/utils/tests'
+        file_name = 'test.txt'
+        expected = '/home/travis/build/ikostan/ProjectEuler' + '/utils/tests/test.txt'
+
+        self.assertEqual(expected, get_full_path(folder_name, file_name, target_os))
 
 
 if __name__ == '__main__':
