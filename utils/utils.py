@@ -27,7 +27,7 @@ def get_full_path(file_folder: str, file_name: str, target_os='', test_mode=True
         target_os = platform.system()
 
     if target_os == 'Linux':
-        file_path = os.getcwd() + file_folder + file_name  # linux
+        file_path = os.getcwd() + file_folder + '/' + file_name  # linux
     elif target_os == 'Windows':
         file_path = os.getcwd() + '\\' + file_name  # windows
     # elif target_os == 'Darwin':
