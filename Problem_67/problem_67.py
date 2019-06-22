@@ -2,10 +2,9 @@
 
 
 import time
-import os
-import platform
 from utils.utils import print_time_log
 from utils.utils import get_full_path
+
 
 def find_maximum_total(triangle: list):
     start_time = time.time()
