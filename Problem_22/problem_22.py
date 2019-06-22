@@ -25,7 +25,7 @@ def file_reader():
     elif platform.system() == 'Windows':
         file_path = os.getcwd() + '\\p022_names.txt' # windows
     # elif platform.system() == 'Darwin':
-        # file_path = os.getcwd() + '/Problem_67/tests/p022_names.txt'  # MacOS
+        # file_path = os.getcwd() + '/Problem_22/tests/p022_names.txt'  # MacOS
 
     with open(file_path) as source:
         for line in source:
