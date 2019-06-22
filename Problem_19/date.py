@@ -2,29 +2,30 @@
 
 
 class Date:
+    
+    month_name = ['January', 'February', 'March', 'April',
+                  'May', 'June', 'July', 'August',
+                  'September', 'October', 'November', 'December']
+
+    months = {'September': 30,
+              'April': 30,
+              'June': 30,
+              'November': 30,
+              'February': 28,
+              'January': 31,
+              'March': 31,
+              'May': 31,
+              'July': 31,
+              'August': 31,
+              'October': 31,
+              'December': 31}
+
+    week_days = ['Monday', 'Tuesday', 'Wednesday',
+                 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
     def __init__(self, day: int, week: str, month: str, year: int):
 
-        self.months = {'September': 30,
-                       'April': 30,
-                       'June': 30,
-                       'November': 30,
-                       'February': 28,
-                       'January': 31,
-                       'March': 31,
-                       'May': 31,
-                       'July': 31,
-                       'August': 31,
-                       'October': 31,
-                       'December': 31}
-
-        self.month_name = ['January', 'February', 'March', 'April',
-                           'May', 'June', 'July', 'August',
-                           'September', 'October', 'November', 'December']
-
-        self.week_days = ['Monday', 'Tuesday', 'Wednesday',
-                          'Thursday', 'Friday', 'Saturday', 'Sunday']
-
+        self.date = dict()
         self.date['day'] = self.__set_day__(day, month)
         self.date['week'] = self.__set_week__(week)
         self.date['month'] = self.__set_month__(month)
@@ -60,6 +61,10 @@ class Date:
             raise Exception(
                 "Invalid Month: {0}. Valid year must be between 1900 and 2000".format(year))
         return year
+
+    @classmethod
+    def get_months(cls):
+        return cls.month_name
 
     def get_day(self):
         return self.date['day']
