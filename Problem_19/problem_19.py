@@ -4,20 +4,10 @@
 import time
 from utils.utils import print_time_log
 from Problem_19.date import Date
+from Problem_19.calendar import Calendar
 
 
-def is_leap(year: int):
-    if year % 4 == 0:
-        if str(year)[2:] == '00':
-            if year % 400 == 0:
-                return True
-            return False
-        else:
-            return True
-    return False
-
-
-def main():
+def main(stop_date: Date, current_date: Date):
 
     '''
     Start date: 1 Jan 1900 was a Monday.
@@ -29,17 +19,39 @@ def main():
     '''
 
     start_time = time.time()
+    sundays = 0
 
-    stop_date = Date(31, '', Date.get_months()[11], 2000)
-    current_date = Date(1, Date.week_days[0], Date.get_months()[0], 1900)
-    sundays = []
+    while current_date.get_year() <= stop_date.get_year():
 
-    while (current_date.get_year() <= stop_date.get_year()) and \
-            (current_date.get_day() <= stop_date.get_day()) and \
-            (stop_date.get_month() == current_date.get_month()):
-        pass
+        for day in range(2, 33, 1):
+            '''
+            print("{0}, {1}, {2}, {3}".format(current_date.get_day(),
+                                              current_date.get_month(),
+                                              current_date.get_year(),
+                                              current_date.get_week()))
+            '''
+            try:
+                if current_date.get_day() == 1 and \
+                        current_date.get_week() == Calendar.week_days[6] and \
+                        current_date.get_year() >= 1901:
+                    sundays += 1
+                    '''
+                    print("\nSunday fell on the first of the month:")
+                    print("{0}, {1}, {2}, {3}\n".format(current_date.get_day(),
+                                                        current_date.get_month(),
+                                                        current_date.get_year(),
+                                                        current_date.get_week()))
+                    '''
 
-    result = len(sundays)
-    print_time_log(time.time() - start_time, result)
+                if current_date.get_day() == day:
+                    continue
 
-    return result
+                current_date.set_day(day)
+
+            except ValueError as err:
+                # print(err.args)
+                break
+
+    print_time_log(time.time() - start_time, sundays)
+
+    return sundays

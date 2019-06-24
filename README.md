@@ -30,7 +30,7 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |16   |[Power digit sum](https://projecteuler.net/problem=16)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_16)|
 |17   |[Number letter counts](https://projecteuler.net/problem=17)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_17)|
 |18   |[Maximum path sum I](https://projecteuler.net/problem=18)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_18)|
-|19   |[Counting Sundays](https://projecteuler.net/problem=19)|[N/A]()|
+|19   |[Counting Sundays](https://projecteuler.net/problem=19)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_19)|
 |20   |[Factorial digit sum](https://projecteuler.net/problem=20)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_20)|
 |21   |[Amicable numbers](https://projecteuler.net/problem=21)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_21)|
 |22   |[Names scores](https://projecteuler.net/problem=22)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_22)|
