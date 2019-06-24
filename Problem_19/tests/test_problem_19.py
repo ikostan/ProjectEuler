@@ -3,20 +3,9 @@
 
 import unittest
 import os
-import sys
 from Problem_19.date import Date
 from Problem_19.calendar import Calendar
 from Problem_19.problem_19 import main
-
-#'/home/user/example/parent/child'
-current_path = os.path.abspath('.')
-
-#'/home/user/example/parent'
-parent_path = os.path.dirname(current_path)
-
-sys.path.append(parent_path)
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'child.settings')
-
 import utils.utils as utils
 
 
@@ -24,21 +13,21 @@ class MyTestCase(unittest.TestCase):
 
     print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
-    #@classmethod
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
         '''
         Get all leap years from the text file
         and organize them as an array
         :return:
         '''
 
-        self.leap_years = []
+        cls.leap_years = []
 
         file_path = utils.get_full_path('/Problem_19', 'leap_years.txt')
 
         with open(file_path) as source:
             for line in source:
-                self.leap_years.append(int(line.strip()))
+                cls.leap_years.append(int(line.strip()))
 
     def test_main_year_1904(self):
         expected = 1
