@@ -3,7 +3,7 @@
 
 import unittest
 import os
-from utils.utils import get_full_path
+import utils.utils as utils
 from Problem_19.date import Date
 from Problem_19.calendar import Calendar
 from Problem_19.problem_19 import main
@@ -23,7 +23,7 @@ class MyTestCase(unittest.TestCase):
 
         self.leap_years = []
 
-        file_path = get_full_path('/Problem_19', 'leap_years.txt')
+        file_path = utils.get_full_path('/Problem_19', 'leap_years.txt')
 
         with open(file_path) as source:
             for line in source:
