@@ -3,17 +3,28 @@
 
 import unittest
 import os
-import utils.utils as utils
+import sys
 from Problem_19.date import Date
 from Problem_19.calendar import Calendar
 from Problem_19.problem_19 import main
+
+#'/home/user/example/parent/child'
+current_path = os.path.abspath('.')
+
+#'/home/user/example/parent'
+parent_path = os.path.dirname(current_path)
+
+sys.path.append(parent_path)
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'child.settings')
+
+import utils.utils as utils
 
 
 class MyTestCase(unittest.TestCase):
 
     print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
-    @classmethod
+    #@classmethod
     def setUp(self):
         '''
         Get all leap years from the text file
