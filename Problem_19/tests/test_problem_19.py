@@ -14,20 +14,20 @@ class MyTestCase(unittest.TestCase):
     print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     @classmethod
-    def setUpClass(cls):
+    def setUp(self):
         '''
         Get all leap years from the text file
         and organize them as an array
         :return:
         '''
 
-        cls.leap_years = []
+        self.leap_years = []
 
         file_path = get_full_path('/Problem_19', 'leap_years.txt')
 
         with open(file_path) as source:
             for line in source:
-                cls.leap_years.append(int(line.strip()))
+                self.leap_years.append(int(line.strip()))
 
     def test_main_year_1904(self):
         expected = 1
