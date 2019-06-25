@@ -63,6 +63,8 @@ script:
   - pytest --cov-report term-missing --cov=Problem_22 Problem_22/tests/ # check test coverage with pytest-cov
   # Problem 23
   - pytest --cov-report term-missing --cov=Problem_23 Problem_23/tests/ # check test coverage with pytest-cov
+  # Problem 23
+  #- pytest --cov-report term-missing --cov=Problem_24 Problem_24/tests/ # check test coverage with pytest-cov
   # Problem 67
   - pytest --cov-report term-missing --cov=Problem_67 Problem_67/tests/ # check test coverage with pytest-cov
 
