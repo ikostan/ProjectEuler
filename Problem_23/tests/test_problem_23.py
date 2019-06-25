@@ -114,6 +114,7 @@ class MyTestCase(unittest.TestCase):
 
         self.assertSetEqual(result_1, result_2)
 
+    @unittest.skip('This test takes too long')
     def test_main(self):
         upper_limit = 28123
         result = 4179871
