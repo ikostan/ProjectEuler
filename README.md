@@ -36,7 +36,7 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |22   |[Names scores](https://projecteuler.net/problem=22)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_22)|
 |23   |[Non-abundant sums](https://projecteuler.net/problem=23)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_23)|
 |24   |[Lexicographic permutations](https://projecteuler.net/problem=24)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_24)|
-|25   |[]()|[N/A]()|
+|25   |[1000-digit Fibonacci number](https://projecteuler.net/problem=25)|[N/A]()|
 |26   |[]()|[N/A]()|
 |27   |[]()|[N/A]()|
 |28   |[]()|[N/A]()|
