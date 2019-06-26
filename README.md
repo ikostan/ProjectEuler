@@ -44,4 +44,4 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |30   |[]()|[N/A]()| 0% |
 |67   |[Maximum path sum II](https://projecteuler.net/problem=67)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_67)| 5% |
 
-![](https://projecteuler.net/profile/iKostan.png)
+<img align="right" width="" height="" src="https://projecteuler.net/profile/iKostan.png">
