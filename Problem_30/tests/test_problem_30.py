@@ -28,15 +28,13 @@ class MyTestCase(unittest.TestCase):
 
     def test_main_basic(self):
         power = 4
-        limit = 10000
         expected = 1634 + 8208 + 9474  # -> 19316
-        self.assertEqual(expected, main(power, limit))
+        self.assertEqual(expected, main(power))
 
     def test_main(self):
         power = 5
-        limit = 1000000
         expected = 443839
-        self.assertEqual(expected, main(power, limit))
+        self.assertEqual(expected, main(power))
 
 
 if __name__ == '__main__':
