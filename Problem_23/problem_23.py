@@ -38,15 +38,17 @@ def is_abundant(num: int):
 
 
 def main(upper_limit: int):
-    start_time = time.time()
-    result = 0
+    start_time = time.time()  # time log
 
-    # 1
+    # 1 - calculate all abundant numbers less than upper_limit
     all_abundant = set()
     for n in range(1, upper_limit):
         if is_abundant(n):
             all_abundant.add(n)
 
+    # 2 - Find the sum of all the positive integers which
+    # cannot be written as the sum of two abundant numbers.
+    result = 0
     for a in range(1, upper_limit):
         result += a
         for b in all_abundant:
@@ -59,5 +61,5 @@ def main(upper_limit: int):
                 result -= a
                 break
 
-    print_time_log(time.time() - start_time, result)
+    print_time_log(time.time() - start_time, result)  # time log
     return result
