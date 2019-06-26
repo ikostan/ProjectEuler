@@ -41,7 +41,10 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |27   |[]()|[N/A]()| 0% |
 |28   |[]()|[N/A]()| 0% |
 |29   |[]()|[N/A]()| 0% |
-|30   |[]()|[N/A]()| 0% |
+|30   |[Digit fifth powers](https://projecteuler.net/problem=30)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_30)| 0% |
+|31   |[]()|[N/A]()| 0% |
+|32   |[]()|[N/A]()| 0% |
+|33   |[]()|[N/A]()| 0% |
 |67   |[Maximum path sum II](https://projecteuler.net/problem=67)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_67)| 5% |
 
 <img align="right" width="" height="" src="https://projecteuler.net/profile/iKostan.png">
