@@ -34,7 +34,7 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |20   |[Factorial digit sum](https://projecteuler.net/problem=20)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_20)|
 |21   |[Amicable numbers](https://projecteuler.net/problem=21)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_21)|
 |22   |[Names scores](https://projecteuler.net/problem=22)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_22)|
-|23   |[Non-abundant sums](https://projecteuler.net/problem=23)|[N/A]()|
+|23   |[Non-abundant sums](https://projecteuler.net/problem=23)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_23)|
 |24   |[Lexicographic permutations](https://projecteuler.net/problem=24)|[N/A]()|
 |25   |[]()|[N/A]()|
 |26   |[]()|[N/A]()|
