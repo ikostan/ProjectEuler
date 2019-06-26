@@ -8,7 +8,8 @@ What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 
 
 ### Video tutorial: 
 https://www.youtube.com/watch?v=JskHmMMD9MM&list=PLNEKkZrJ3NV-wNjCMxPS86sgqOgwBZmPu&index=22<br/>
-https://www.youtube.com/watch?v=zvYLOkzFwaw&list=PLsYctZrw5bWv0rbcOFhW57ZLuxWCmGx6o&index=28
+https://www.youtube.com/watch?v=zvYLOkzFwaw&list=PLsYctZrw5bWv0rbcOFhW57ZLuxWCmGx6o&index=28<br/>
+https://www.youtube.com/watch?v=x3GEQIDt8CU
 
 ### Source:
 https://projecteuler.net/problem=24
