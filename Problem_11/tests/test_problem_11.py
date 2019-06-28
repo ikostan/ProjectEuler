@@ -44,7 +44,7 @@ class MyTestCase(unittest.TestCase):
                 [1, 2, 3, 4, 5]]
         counter = 4
         expected = (5 * 9 * 4 * 2)
-        self.assertEqual(expected, process_diagonal_up_left(data, counter))
+        self.assertEqual(expected, process_diagonal_up_left(data))
 
     def test_process_diagonal_up_right(self):
         data = [[1, 2, 3, 4, 5],
@@ -54,7 +54,7 @@ class MyTestCase(unittest.TestCase):
                 [1, 2, 3, 4, 5]]
         counter = 4
         expected = (6 * 4 * 4 * 5)
-        self.assertEqual(expected, process_diagonal_up_right(data, counter))
+        self.assertEqual(expected, process_diagonal_up_right(data))
 
     def test_process_diagonal_down_right(self):
         data = [[1, 2, 3, 4, 5],
@@ -73,7 +73,7 @@ class MyTestCase(unittest.TestCase):
                 [1, 2, 3, 4, 5]]
         counter = 4
         expected = (6 * 4 * 4 * 5)
-        self.assertEqual(expected, process_diagonal_down_left(data, counter))
+        self.assertEqual(expected, process_diagonal_down_left(data))
 
     def test_main(self):
         grid = [[8, 2, 22, 97, 38, 15, 0, 40, 0, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 8],

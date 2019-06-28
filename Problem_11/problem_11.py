@@ -10,7 +10,7 @@ def get_max_product(numbers: list, counter: int):
     result = 0
     end_time = time.time() - start_time
 
-    temp = process_diagonal_down_left(numbers, counter)
+    temp = process_diagonal_down_left(numbers)
     if result < temp:
         result = temp
 
@@ -18,11 +18,11 @@ def get_max_product(numbers: list, counter: int):
     if result < temp:
         result = temp
 
-    temp = process_diagonal_up_left(numbers, counter)
+    temp = process_diagonal_up_left(numbers)
     if result < temp:
         result = temp
 
-    temp = process_diagonal_up_right(numbers, counter)
+    temp = process_diagonal_up_right(numbers)
     if result < temp:
         result = temp
 
@@ -55,7 +55,7 @@ def process_diagonal_down_right(numbers: list):
     return result
 
 
-def process_diagonal_down_left(numbers: list, counter: int):
+def process_diagonal_down_left(numbers: list):
     result = 0
     row = 0
 
@@ -72,7 +72,7 @@ def process_diagonal_down_left(numbers: list, counter: int):
     return result
 
 
-def process_diagonal_up_left(numbers: list, counter: int):
+def process_diagonal_up_left(numbers: list):
     result = 0
     row = len(numbers) - 1
 
@@ -89,7 +89,7 @@ def process_diagonal_up_left(numbers: list, counter: int):
     return result
 
 
-def process_diagonal_up_right(numbers: list, counter: int):
+def process_diagonal_up_right(numbers: list):
     result = 0
     row = len(numbers) - 1
 
