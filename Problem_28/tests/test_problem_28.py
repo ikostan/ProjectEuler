@@ -31,6 +31,12 @@ class MyTestCase(unittest.TestCase):
         expected = 101
         self.assertEqual(expected, calc_sum(data))
 
+    def test_calc_sum_large(self):
+
+        size = 1001
+        expected = 0
+        self.assertEqual(expected, calc_sum(data_generator(size)))
+
 
 if __name__ == '__main__':
     unittest.main()
