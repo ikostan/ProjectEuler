@@ -19,7 +19,7 @@ class MyTestCase(unittest.TestCase):
                 [18, 5, 4, 3, 12],
                 [17, 16, 15, 14, 13]]
         size = 5
-        self.assertListEqual(data, data_generator(size))
+        self.assertListEqual(data, data_generator(size, True))
 
     def test_calc_total_basic(self):
 
