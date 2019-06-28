@@ -39,7 +39,7 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |25   |[1000-digit Fibonacci number](https://projecteuler.net/problem=25)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_25)| 5% |
 |26   |[Reciprocal cycles](https://projecteuler.net/problem=26)|[N/A]()| 5% |
 |27   |[]()|[N/A]()| 0% |
-|28   |[]()|[N/A]()| 0% |
+|28   |[Number spiral diagonals](https://projecteuler.net/problem=28)|[N/A]()| 0% |
 |29   |[]()|[N/A]()| 0% |
 |30   |[Digit fifth powers](https://projecteuler.net/problem=30)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_30)| 0% |
 |31   |[]()|[N/A]()| 0% |
