@@ -3,7 +3,7 @@
 
 import unittest
 import os
-from Problem_28.problem_28 import calc_sum
+from Problem_28.problem_28 import calc_total
 from Problem_28.problem_28 import data_generator
 
 
@@ -21,7 +21,7 @@ class MyTestCase(unittest.TestCase):
         size = 5
         self.assertListEqual(data, data_generator(size))
 
-    def test_calc_sum_basic(self):
+    def test_calc_total_basic(self):
 
         data = [[21, 22, 23, 24, 25],
                 [20, 7, 8, 9, 10],
@@ -29,13 +29,14 @@ class MyTestCase(unittest.TestCase):
                 [18, 5, 4, 3, 12],
                 [17, 16, 15, 14, 13]]
         expected = 101
-        self.assertEqual(expected, calc_sum(data))
+        self.assertEqual(expected, calc_total(data))
 
-    def test_calc_sum_large(self):
+    def test_calc_total_large(self):
 
         size = 1001
-        expected = 0
-        self.assertEqual(expected, calc_sum(data_generator(size)))
+        expected = 669171001
+        data = data_generator(size)
+        self.assertEqual(expected, calc_total(data))
 
 
 if __name__ == '__main__':
