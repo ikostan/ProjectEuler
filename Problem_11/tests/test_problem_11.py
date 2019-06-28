@@ -17,6 +17,7 @@ class MyTestCase(unittest.TestCase):
     print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_process_columns(self):
+        
         data = [[1, 2, 3, 4, 5],
                 [1, 2, 3, 4, 5],
                 [2, 3, 4, 5, 6],
@@ -27,6 +28,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(expected, process_columns(data, counter))
 
     def test_process_rows(self):
+
         data = [[1, 2, 3, 4, 5],
                 [1, 2, 3, 4, 5],
                 [2, 3, 4, 5, 6],
@@ -37,26 +39,27 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(expected, process_rows(data, counter))
 
     def test_process_diagonal_up_left(self):
+
         data = [[1, 2, 3, 4, 5],
                 [1, 2, 3, 4, 5],
                 [2, 3, 4, 5, 6],
                 [5, 6, 8, 9, 10],
                 [1, 2, 3, 4, 5]]
-        counter = 4
         expected = (5 * 9 * 4 * 2)
         self.assertEqual(expected, process_diagonal_up_left(data))
 
     def test_process_diagonal_up_right(self):
+
         data = [[1, 2, 3, 4, 5],
                 [1, 2, 3, 4, 5],
                 [2, 3, 4, 5, 6],
                 [5, 6, 8, 9, 10],
                 [1, 2, 3, 4, 5]]
-        counter = 4
         expected = (6 * 4 * 4 * 5)
         self.assertEqual(expected, process_diagonal_up_right(data))
 
     def test_process_diagonal_down_right(self):
+
         data = [[1, 2, 3, 4, 5],
                 [1, 2, 3, 4, 5],
                 [2, 3, 4, 5, 6],
@@ -66,16 +69,17 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(expected, process_diagonal_down_right(data))
 
     def test_process_diagonal_down_left(self):
+
         data = [[1, 2, 3, 4, 5],
                 [1, 2, 3, 4, 5],
                 [2, 3, 4, 5, 6],
                 [5, 6, 8, 9, 10],
                 [1, 2, 3, 4, 5]]
-        counter = 4
         expected = (6 * 4 * 4 * 5)
         self.assertEqual(expected, process_diagonal_down_left(data))
 
     def test_main(self):
+
         grid = [[8, 2, 22, 97, 38, 15, 0, 40, 0, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 8],
                 [49, 49, 99, 40, 17, 81, 18, 57, 60, 87, 17, 40, 98, 43, 69, 48, 4, 56, 62, 0],
                 [81, 49, 31, 73, 55, 79, 14, 29, 93, 71, 40, 67, 53, 88, 30, 3, 49, 13, 36, 65],
