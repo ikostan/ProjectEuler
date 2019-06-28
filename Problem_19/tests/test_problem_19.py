@@ -74,6 +74,18 @@ class MyTestCase(unittest.TestCase):
 
         self.assertEqual(False, all(results))
 
+    def test_date_set_week_error(self):
+        with self.assertRaises(ValueError):
+            Date.__set_week__('blabla')
+
+    def test_date_set_month_error(self):
+        with self.assertRaises(ValueError):
+            Date.__set_month__('blabla')
+
+    def test_date_set_year_error(self):
+        with self.assertRaises(ValueError):
+            Date.__set_year__(3000)
+
 
 if __name__ == '__main__':
     unittest.main()
