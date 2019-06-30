@@ -16,7 +16,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(expected, find_last_ten_digits(1, 10))
 
     def test_large(self):
-        expected = 9110846700
+        expected = '9110846700'
         self.assertEqual(expected, find_last_ten_digits(1, 1000))
 
 
