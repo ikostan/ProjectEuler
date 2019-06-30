@@ -2,10 +2,11 @@
 
 
 import time
+from utils.utils import print_time_log
 
 
 def get_multiplies_of_3_and_5(max_num, nums):
-    start = time.time()
+    start_time = time.time()
     result = 0
     i = 0
 
@@ -14,8 +15,7 @@ def get_multiplies_of_3_and_5(max_num, nums):
             result += i
         i += 1
 
-    elapsed = time.time() - start
-    print("result {0} returned in {1} seconds".format(result, elapsed))
+    print_time_log(start_time, result)
     return result
 
 
