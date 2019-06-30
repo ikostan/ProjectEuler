@@ -45,5 +45,5 @@ def main(power: int):
         if is_sum_of_powers_of_their_digits(digit, power):
             result += digit
 
-    print_time_log(time.time() - start_time, result)
+    print_time_log(start_time, result)
     return result
