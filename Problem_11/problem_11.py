@@ -6,9 +6,9 @@ from utils.utils import print_time_log
 
 
 def get_max_product(numbers: list, counter: int):
+    
     start_time = time.time()
     result = 0
-    end_time = time.time() - start_time
 
     temp = process_diagonal_down_left(numbers)
     if result < temp:
@@ -34,7 +34,7 @@ def get_max_product(numbers: list, counter: int):
     if result < temp:
         result = temp
 
-    print_time_log(end_time, result)
+    print_time_log(start_time, result)
     return result
 
 
@@ -113,7 +113,10 @@ def process_columns(numbers: list, counter: int):
     while col < len(numbers[0]):
         row = 0
         while row < (len(numbers) - counter):
-            temp_arr = [numbers[row][col], numbers[row + 1][col], numbers[row + 2][col], numbers[row + 3][col]]
+            temp_arr = [numbers[row][col],
+                        numbers[row + 1][col],
+                        numbers[row + 2][col],
+                        numbers[row + 3][col]]
             temp = multiply_members(temp_arr)
             if result < temp:
                 result = temp
