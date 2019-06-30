@@ -43,12 +43,12 @@ def main(stop_date: Date, current_date: Date):
                                                         current_date.get_week()))
                     '''
 
-                if current_date.get_day() == day:
-                    continue
+                # if current_date.get_day() == day:
+                    # continue
 
                 current_date.set_day(day)
 
-            except ValueError as err:
+            except ValueError:
                 # print(err.args)
                 break
 
