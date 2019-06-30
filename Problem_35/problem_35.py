@@ -8,6 +8,7 @@ import time
 def get_rotations(digit: int):
     '''
     The number, 197 has following rotations of the digits: 197, 971, and 719
+
     :param digit:
     :return rotations:
     '''
@@ -36,6 +37,7 @@ def is_circular(digit: int, debug=False):
     The number, 197, is called a circular prime
     because all rotations of the digits: 197, 971, and 719,
     are themselves prime.
+    
     :param digit:
     :param debug:
     :return:
@@ -55,7 +57,12 @@ def is_circular(digit: int, debug=False):
 
 def is_circular_pattern(digit: int):
     '''
-    
+    Circular primes:
+
+    2, 3, 5, 7, 13, 17, 37, 79,
+    113, 197, 199, 337, 1193, 3779,
+    11939, 19937, 193939, 199933
+
     :param digit:
     :return:
     '''
