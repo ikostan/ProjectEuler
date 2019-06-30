@@ -6,6 +6,7 @@ from utils.utils import print_time_log
 
 
 def calc_lattice_path(width: int, height: int):
+
     start_time = time.time()
     head = multiply_members(list(range(max(width, height) + 1, width + height + 1)))
 
@@ -15,8 +16,7 @@ def calc_lattice_path(width: int, height: int):
         tail = multiply_members(list(range(1, min(width, height) + 1)))
 
     result = head / tail
-    end_time = time.time() - start_time
-    print_time_log(end_time, result)
+    print_time_log(start_time, result)
     return result
 
 
