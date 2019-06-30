@@ -26,6 +26,5 @@ def find_maximum_total(triangle: list):
                 # print(new_triangle)
 
     result = max(new_triangle[-1])
-    end_time = time.time() - start_time
-    print_time_log(end_time, result)
+    print_time_log(start_time, result)
     return result
