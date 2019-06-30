@@ -2,15 +2,16 @@
 
 import time
 import math
+from utils.utils import print_time_log
 
 
 def get_largest_factor(number):
-    start_time = time.time()
 
+    start_time = time.time()
     results = factor(number)
     result = results[-1]
 
-    print("result {0} returned in {1} seconds".format(result, time.time() - start_time))
+    print_time_log(start_time, result)
     return result
 
 
