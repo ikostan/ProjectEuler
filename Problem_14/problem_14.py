@@ -6,6 +6,7 @@ from utils.utils import print_time_log
 
 
 def get_max_counter(starting_number: int):
+
     start_time = time.time()
     result = {'number': 1, 'counter': 1}
 
@@ -16,9 +17,8 @@ def get_max_counter(starting_number: int):
             result['number'] = starting_number
         starting_number -= 1
 
-    end_time = time.time() - start_time
-    print("number: {0} has {1} members chain".format(result['number'], result['counter']))
-    print_time_log(end_time, result['number'])
+    # print("number: {0} has {1} members chain".format(result['number'], result['counter']))
+    print_time_log(start_time, result['number'])
     return result
 
 
