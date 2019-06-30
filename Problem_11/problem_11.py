@@ -6,7 +6,7 @@ from utils.utils import print_time_log
 
 
 def get_max_product(numbers: list, counter: int):
-    
+
     start_time = time.time()
     result = 0
 
