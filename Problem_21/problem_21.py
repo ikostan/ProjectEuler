@@ -41,5 +41,5 @@ def sum_of_amicable_numbers(number: int):
 
     result = sum(amicable)
     # print('amicable: {0}, result: {1}'.format(amicable, result)) #  debug only
-    print_time_log(time.time() - start_time, result)
+    print_time_log(start_time, result)
     return result
