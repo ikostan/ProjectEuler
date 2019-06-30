@@ -2,6 +2,7 @@
 
 
 import time
+from utils.utils import print_time_log
 
 
 def is_palindrome(number: int):
@@ -36,6 +37,6 @@ def large_palindrome_generator(start: int, end: int):
             b -= 1
         i -= 1
 
-    print("The answer {0} returned in {1} seconds".format(max_palindrome, time.time() - start_time))
+    print_time_log(start_time, max_palindrome)
     return max_palindrome
 
