@@ -32,6 +32,7 @@ def get_largest_result_line_num(data: list):
 
     a^c > b^f ==> c * log(a) > f * log(b)
 
+    Another way to compare a^x and b^y is to compare a and b^(y/x) instead.
     :param data:
     :return:
     '''
