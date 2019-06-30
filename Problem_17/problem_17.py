@@ -46,6 +46,5 @@ def number_to_words_counter(numbers: list):
             # print("Error on number: " + str(n))
 
     result = len(result)
-    end_time = time.time() - start_time
-    print_time_log(end_time, result)
+    print_time_log(start_time, result)
     return result
