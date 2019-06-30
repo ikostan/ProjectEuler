@@ -3,6 +3,7 @@
 
 from utils.utils import *
 import time
+import math
 
 
 def file_reader():
@@ -13,29 +14,37 @@ def file_reader():
     file_name = 'p099_base_exp.txt'
     file_path = get_full_path(folder_name, file_name)
 
+    line_num = 1
     with open(file_path) as source:
         for line in source:
             temp = [int(t) for t in line.split(',')]
+            temp.append(line_num)
             result.append(temp)
+            line_num += 1
 
     return result
 
 
-def get_max_number():
+def get_largest_result_line_num(data: list):
+    '''
+    The best approach is using logarithms.
+    One of the rules of logarithms is the power rule which states:
 
-    data = file_reader()
+    a^c > b^f ==> c * log(a) > f * log(b)
+
+    :param data:
+    :return:
+    '''
 
     start_time = time.time()
-    max_number = 0
-    line_number = 0
+    max_line_num = 0
+    max_log = 0
 
-    for i, pair in enumerate(data):
+    for segment in data:
+        log = segment[1] * math.log(segment[0])
+        if log > max_log:
+            max_log = log
+            max_line_num = segment[-1]
 
-        if len(str(pair[0])) > 5 and len(str(pair[1])) > 5:
-            number = pair[0] ** pair[1]
-            if number > max_number:
-                max_number = number
-                line_number = i
-
-    print_time_log(start_time, line_number)
-    return max_number
+    print_time_log(start_time, max_line_num)
+    return max_line_num
