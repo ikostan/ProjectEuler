@@ -53,11 +53,28 @@ def is_circular(digit: int, debug=False):
     return all(results)
 
 
+def is_circular_pattern(digit: int):
+    '''
+    
+    :param digit:
+    :return:
+    '''
+
+    pattern = '1379'
+
+    if len(str(digit)) > 1:
+        for d in str(digit):
+            if d not in pattern:
+                return False
+
+    return True
+
+
 def main(max_limit: int):
 
     start_time = time.time()
     circulars = set()
-    primes = [n for n in range(1, max_limit, 2) if is_prime(n)]
+    primes = [n for n in range(1, max_limit, 2) if is_prime(n) and is_circular_pattern(n)]
     # print('Finished with calculating prime numbers: {}'.format(time.time() - start_time))
 
     for n in primes:
@@ -65,7 +82,7 @@ def main(max_limit: int):
             for p in get_rotations(n):
                 circulars.add(p)
 
-    # print(sorted(circulars))
+    print(sorted(circulars))
     result = len(circulars)
     print_time_log(start_time, result)
     return result
