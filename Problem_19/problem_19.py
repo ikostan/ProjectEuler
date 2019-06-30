@@ -52,6 +52,5 @@ def main(stop_date: Date, current_date: Date):
                 # print(err.args)
                 break
 
-    print_time_log(time.time() - start_time, sundays)
-
+    print_time_log(start_time, sundays)
     return sundays
