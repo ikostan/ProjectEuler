@@ -7,6 +7,7 @@ from utils.utils import print_time_log
 from utils.utils import get_full_path
 
 
+# TODO: move this method into utils library
 def file_reader():
 
     '''

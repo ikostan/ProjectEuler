@@ -15,6 +15,7 @@ def get_sum(limit: int):
     return result
 
 
+# TODO: move this method into utils library
 def primes_generator(limit: int):
     primes = list()
     for i in range(2, limit):
@@ -23,6 +24,7 @@ def primes_generator(limit: int):
     return primes
 
 
+# TODO: move this method into utils library
 def is_prime(n: int):
 
     if n == 1:

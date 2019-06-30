@@ -141,6 +141,7 @@ def process_rows(numbers: list, counter: int):
     return result
 
 
+# TODO: move this method into utils library
 def multiply_members(numbers: list):
     result = 1
 

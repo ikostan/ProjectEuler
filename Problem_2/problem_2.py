@@ -13,6 +13,7 @@ def find_even_fibonacci(max_num):
     return result
 
 
+# TODO: move this method into utils library
 def generate_fibonacci(max_num):
 
     nums = [1, 2]

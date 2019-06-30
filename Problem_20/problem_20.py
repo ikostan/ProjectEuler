@@ -20,6 +20,7 @@ def calc_sum_of_digits(n: int):
     return sum_of_digits
 
 
+# TODO: move this method into utils library
 def calc_factorial(n: int):
     '''
     Calculate factorial for the number: n!

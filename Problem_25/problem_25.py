@@ -16,6 +16,7 @@ def find_term(number: list, counter: int, length: int):
 
     start_time = time.time()
     while len(str(number[1])) < length:
+        # TODO: use generic Fibonacci generator
         temp = number[1]
         number[1] += number[0]
         number[0] = temp

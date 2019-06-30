@@ -5,6 +5,7 @@ import time
 from utils.utils import print_time_log
 
 
+# TODO: move this method into utils library
 def is_palindrome(number: int):
     # convert a number to string
     word = str(number)

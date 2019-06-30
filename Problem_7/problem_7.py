@@ -6,6 +6,7 @@ import math
 from utils.utils import print_time_log
 
 
+# TODO: move this method into utils library
 def prime_generator(limit: int):
     start_time = time.time()
     primes = list()
@@ -20,6 +21,7 @@ def prime_generator(limit: int):
     return primes[limit - 1]
 
 
+# TODO: move this method into utils library
 def is_prime(n: int):
 
     if n == 1:

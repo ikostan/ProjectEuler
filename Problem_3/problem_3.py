@@ -25,6 +25,7 @@ def factor(number):
     return result
 
 
+# TODO: move this method into utils library
 def is_prime(i):
     # Return TRUE if i is prime number. False otherwise
     if i == 2:

@@ -23,6 +23,7 @@ def find_greatest_product(number: str, adjacent_digits: int):
     return result
 
 
+# TODO: move this method into utils library
 def multiply_members(digits: list):
     n = 1
 

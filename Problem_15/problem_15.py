@@ -20,6 +20,7 @@ def calc_lattice_path(width: int, height: int):
     return result
 
 
+# TODO: move this method into utils library
 def multiply_members(numbers: list):
     print(numbers)
     result = 1
