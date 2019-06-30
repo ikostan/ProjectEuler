@@ -6,8 +6,7 @@ import platform
 import os
 import io
 import time
-from utils.utils import print_time_log
-from utils.utils import get_full_path
+from utils.utils import print_time_log, get_full_path, is_prime
 
 
 class MyTestCase(unittest.TestCase):
@@ -70,6 +69,12 @@ class MyTestCase(unittest.TestCase):
             expected = os.getcwd() + '/utils/tests' + '/test.txt'
 
         self.assertEqual(expected, get_full_path(folder_name, file_name, target_os))
+
+    def test_is_prime_2(self):
+        self.assertEqual(True, is_prime(2))
+
+    def test_is_prime_4(self):
+        self.assertEqual(False, is_prime(4))
 
 
 if __name__ == '__main__':

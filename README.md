@@ -46,6 +46,7 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |32   |[]()|[N/A]()| 0% |
 |33   |[]()|[N/A]()| 0% |
 |34   |[Digit factorials](https://projecteuler.net/problem=34)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_34)| 5% |
+|35   |[Circular primes](https://projecteuler.net/problem=35)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_35)| 5% |
 |48   |[Self powers](https://projecteuler.net/problem=48)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_48)| 5% |
 |67   |[Maximum path sum II](https://projecteuler.net/problem=67)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_67)| 5% |
 

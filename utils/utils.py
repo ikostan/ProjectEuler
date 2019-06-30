@@ -4,6 +4,7 @@
 import time
 import platform
 import os
+import math
 
 
 # This function is used for logging processing time only
@@ -35,3 +36,18 @@ def get_full_path(file_folder: str, file_name: str, target_os=''):
     # elif target_os == 'Darwin':
         # file_path = os.getcwd() + '/Problem_19/tests/leap_years.txt'  # MacOS
     return file_path
+
+
+def is_prime(i):
+    # Return TRUE if i is prime number. False otherwise
+    if i == 2:
+        return True
+
+    if i > 2 and i % 2 == 0:
+        return False
+
+    for n in range(3, int(math.sqrt(i)) + 1, 2):
+        if i % n == 0:
+            return False
+
+    return True
