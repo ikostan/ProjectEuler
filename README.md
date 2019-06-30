@@ -41,10 +41,11 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |27   |[]()|[N/A]()| 0% |
 |28   |[Number spiral diagonals](https://projecteuler.net/problem=28)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_28)| 5% |
 |29   |[Distinct powers](https://projecteuler.net/problem=29)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_29)| 5% |
-|30   |[Digit fifth powers](https://projecteuler.net/problem=30)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_30)| 0% |
+|30   |[Digit fifth powers](https://projecteuler.net/problem=30)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_30)| 5% |
 |31   |[]()|[N/A]()| 0% |
 |32   |[]()|[N/A]()| 0% |
 |33   |[]()|[N/A]()| 0% |
+|34   |[Digit factorials](https://projecteuler.net/problem=34)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_34)| 5% |
 |48   |[Self powers](https://projecteuler.net/problem=48)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_48)| 5% |
 |67   |[Maximum path sum II](https://projecteuler.net/problem=67)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problem_67)| 5% |
 
