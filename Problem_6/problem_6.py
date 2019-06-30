@@ -7,10 +7,10 @@ from utils.utils import print_time_log
 
 
 def square_diff(start, end):
+    
     start_time = time.time()
     result = int(square_of_sums(start, end) - sum_squares_of_numbers(start, end))
-    end_time = time.time() - start_time
-    print_time_log(end_time, result)
+    print_time_log(start_time, result)
     return result
 
 
