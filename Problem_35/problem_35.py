@@ -25,9 +25,7 @@ def get_rotations(digit: int):
 
         digits = temp
         rotation = int(''.join(digits))
-        if rotation not in rotations:
-            rotations.add(rotation)
-            # print(rotations)
+        rotations.add(rotation)
 
     return rotations
 
