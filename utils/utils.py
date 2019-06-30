@@ -39,7 +39,15 @@ def get_full_path(file_folder: str, file_name: str, target_os=''):
 
 
 def is_prime(i):
-    # Return TRUE if i is prime number. False otherwise
+    '''
+    Return TRUE if i is prime number. False otherwise
+    :param i:
+    :return:
+    '''
+
+    if i == 1:
+        return False
+
     if i == 2:
         return True
 
@@ -51,6 +59,21 @@ def is_prime(i):
             return False
 
     return True
+
+
+def primes_generator(start:int, limit: int):
+    '''
+    Generates list of prime numbers within specified limit
+    :param limit:
+    :param start:
+    :return:
+    '''
+
+    primes = list()
+    for i in range(start, limit):
+        if is_prime(i):
+            primes.append(i)
+    return primes
 
 
 def is_palindrome(number: int):
