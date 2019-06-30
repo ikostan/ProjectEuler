@@ -7,6 +7,7 @@ from utils.utils import print_time_log
 
 
 def find_triplet(num: int):
+
     start_time = time.time()
     a, b = 1, 1
 
@@ -22,8 +23,7 @@ def find_triplet(num: int):
                 if math.pow(a, 2) + math.pow(b, 2) == math.pow(c, 2):
                     print("a:{0}, b:{1}, c:{2}".format(a, b, c))
                     result = a*b*c
-                    end_time = time.time() - start_time
-                    print_time_log(end_time, result)
+                    print_time_log(start_time, result)
                     return result
             b += 1
         a += 1
