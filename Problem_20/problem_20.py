@@ -16,9 +16,7 @@ def calc_sum_of_digits(n: int):
     factorial = calc_factorial(n)
     sum_of_digits = eval(' + '.join([i for i in str(factorial)]))
 
-    end_time = time.time() - start_time
-    print_time_log(end_time, sum_of_digits)
-
+    print_time_log(start_time, sum_of_digits)
     return sum_of_digits
 
 
