@@ -27,7 +27,5 @@ def smallest_multiple(start: int, end: int):
             # because the number should be divisible by "end" at least
             tested += end
 
-    end_time = time.time() - start_time
-    print_time_log(end_time, tested)
-
+    print_time_log(start_time, tested)
     return tested
