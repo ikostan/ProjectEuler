@@ -6,7 +6,9 @@ import platform
 import os
 import io
 import time
-from utils.utils import print_time_log, get_full_path, is_prime, is_palindrome, convert_to_binary, primes_generator
+from utils.utils import print_time_log, get_full_path, is_prime, \
+                        is_palindrome, convert_to_binary, primes_generator, \
+                        primes_generator_iterable
 
 
 class MyTestCase(unittest.TestCase):
@@ -106,6 +108,16 @@ class MyTestCase(unittest.TestCase):
         start = 1
         expected = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
         self.assertListEqual(expected, primes_generator(start, limit))
+
+    def test_primes_generator_iterable(self):
+        expected = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+        result = list()
+
+        primes = primes_generator_iterable(2)
+        while len(result) != len(expected):
+            result.append(next(primes))
+
+        self.assertListEqual(expected, result)
 
 
 if __name__ == '__main__':
