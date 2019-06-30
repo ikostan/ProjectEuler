@@ -21,5 +21,5 @@ def find_term(number: list, counter: int, length: int):
         number[0] = temp
         counter += 1
 
-    print_time_log(time.time() - start_time, counter)
+    print_time_log(start_time, counter)
     return counter
