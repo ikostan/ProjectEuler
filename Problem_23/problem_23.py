@@ -61,5 +61,5 @@ def main(upper_limit: int):
                 result -= a
                 break
 
-    print_time_log(time.time() - start_time, result)  # time log
+    print_time_log(start_time, result)  # time log
     return result
