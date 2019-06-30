@@ -7,18 +7,19 @@ from utils.utils import print_time_log
 
 
 def triangle_number_generator(limit: int):
+
     start_time = time.time()
     triangle = {'number': 1, 'dividers': 1, 'triangle': 1}
     while triangle['dividers'] <= limit:
         triangle['number'] += 1
         triangle['triangle'] += triangle['number']
         triangle = find_possible_dividers(triangle)
-    end_time = time.time() - start_time
-    print_time_log(end_time, triangle)
+    print_time_log(start_time, triangle)
     return triangle
 
 
 def find_possible_dividers(triangle: dict):
+
     # Reset dividers counter
     triangle['dividers'] = 0
 
