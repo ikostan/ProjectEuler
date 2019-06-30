@@ -7,11 +7,11 @@ from utils.utils import print_time_log
 
 
 def get_sum(limit: int):
+
     start_time = time.time()
     primes = primes_generator(limit)
     result = sum(primes)
-    end_time = time.time() - start_time
-    print_time_log(end_time, result)
+    print_time_log(start_time, result)
     return result
 
 
