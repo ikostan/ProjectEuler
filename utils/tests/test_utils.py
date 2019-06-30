@@ -6,7 +6,7 @@ import platform
 import os
 import io
 import time
-from utils.utils import print_time_log, get_full_path, is_prime
+from utils.utils import print_time_log, get_full_path, is_prime, is_palindrome
 
 
 class MyTestCase(unittest.TestCase):
@@ -75,6 +75,26 @@ class MyTestCase(unittest.TestCase):
 
     def test_is_prime_4(self):
         self.assertEqual(False, is_prime(4))
+
+    def test_is_palindrome_6_digits(self):
+        number = 906609
+        self.assertEqual(True, is_palindrome(number))
+
+    def test_is_palindrome_basic(self):
+        number = 9009
+        self.assertEqual(True, is_palindrome(number))
+
+    def test_is_palindrome_negative(self):
+        number = 9007
+        self.assertEqual(False, is_palindrome(number))
+
+    def test_is_palindrome_5_digits(self):
+        number = 90709
+        self.assertEqual(True, is_palindrome(number))
+
+    def test_is_palindrome_5_digits_negative(self):
+        number = 90705
+        self.assertEqual(False, is_palindrome(number))
 
 
 if __name__ == '__main__':

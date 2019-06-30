@@ -51,3 +51,12 @@ def is_prime(i):
             return False
 
     return True
+
+
+def is_palindrome(number: int):
+    # convert a number to string
+    word = str(number)
+    # reverse string and compare to itself
+    if word == word[::-1]:
+        return True
+    return False
