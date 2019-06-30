@@ -16,8 +16,7 @@ def prime_generator(limit: int):
             primes.append(n)
         n += 1
 
-    end_time = time.time() - start_time
-    print_time_log(end_time, primes[limit - 1])
+    print_time_log(start_time, primes[limit - 1])
     return primes[limit - 1]
 
 
