@@ -14,12 +14,11 @@ def print_time_log(start_time: time, result=''):
 
     if end_time < 60:
         print("The answer {0} returned in {1} seconds".format(
-            result, end_time))
+            result, round(end_time), 3))
     else:
         minutes = int(end_time / 60)
         seconds = end_time - (minutes * 60)
-        print("The answer {0} returned in {1} minutes and {2} seconds".format(
-            result, minutes, seconds))
+        print("The answer {0} returned in {1} minutes and {2} seconds".format(result, minutes, round(seconds, 3)))
 
 
 # Returns full path based on differences between Linux and Windows
