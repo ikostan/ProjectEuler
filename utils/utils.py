@@ -76,6 +76,20 @@ def primes_generator(start:int, limit: int):
     return primes
 
 
+def primes_generator_iterable(start: int):
+    '''
+    Generates list of prime numbers within specified limit
+    :param limit:
+    :param start:
+    :return:
+    '''
+
+    while True:
+        if is_prime(start):
+            yield start
+        start += 1
+
+
 def is_palindrome(number: int):
     '''
     A palindrome is a word, number, phrase, or

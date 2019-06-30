@@ -12,8 +12,9 @@ class MyTestCase(unittest.TestCase):
 
     def test_find_truncatable_primes(self):
         limit = 11
-        expected = 0
-        self.assertEqual(expected, find_truncatable_primes(limit))
+        expected = 748317
+        start_from = 10
+        self.assertEqual(expected, find_truncatable_primes(limit, start_from))
 
 
 if __name__ == '__main__':
