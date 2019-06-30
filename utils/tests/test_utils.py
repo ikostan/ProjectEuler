@@ -6,7 +6,7 @@ import platform
 import os
 import io
 import time
-from utils.utils import print_time_log, get_full_path, is_prime, is_palindrome
+from utils.utils import print_time_log, get_full_path, is_prime, is_palindrome, convert_to_binary
 
 
 class MyTestCase(unittest.TestCase):
@@ -95,6 +95,11 @@ class MyTestCase(unittest.TestCase):
     def test_is_palindrome_5_digits_negative(self):
         number = 90705
         self.assertEqual(False, is_palindrome(number))
+
+    def test_convert_to_binary(self):
+        decimal = 585
+        expected = '1001001001'
+        self.assertEqual(expected, convert_to_binary(decimal))
 
 
 if __name__ == '__main__':

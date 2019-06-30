@@ -54,9 +54,26 @@ def is_prime(i):
 
 
 def is_palindrome(number: int):
+    '''
+    A palindrome is a word, number, phrase, or
+    other sequence of characters which reads the same backward as forward,
+    such as madam or racecar or the number 10801.
+    :param number:
+    :return:
+    '''
     # convert a number to string
     word = str(number)
     # reverse string and compare to itself
     if word == word[::-1]:
         return True
     return False
+
+
+def convert_to_binary(number: int):
+    '''
+    code for converting a decimal number to it’s binary equivalent
+    :param number:
+    :return:
+    '''
+    return bin(number).replace("0b", "")
+
