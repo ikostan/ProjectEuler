@@ -34,7 +34,7 @@ def calc_total(data: list):
         else:
             total += data[a][a]
 
-    print_time_log(time.time() - start_time, total)
+    print_time_log(start_time, total)
     return total
 
 
