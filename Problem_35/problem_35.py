@@ -57,7 +57,7 @@ def main(max_limit: int):
 
     start_time = time.time()
     circulars = set()
-    primes = [n for n in range(2, max_limit) if is_prime(n)]
+    primes = [n for n in range(1, max_limit, 2) if is_prime(n)]
     # print('Finished with calculating prime numbers: {}'.format(time.time() - start_time))
 
     for n in primes:

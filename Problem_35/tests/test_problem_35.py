@@ -28,7 +28,7 @@ class MyTestCase(unittest.TestCase):
         :return:
         '''
         number = 197
-        self.assertEqual(True, is_circular(number))
+        self.assertEqual(True, is_circular(number, True))
 
     def test_is_circular_false(self):
         '''
