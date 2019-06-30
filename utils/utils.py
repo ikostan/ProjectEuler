@@ -8,7 +8,10 @@ import os
 
 # This function is used for logging processing time only
 # Shows how long it took in order to get the answer
-def print_time_log(end_time: time, result=''):
+def print_time_log(start_time: time, result=''):
+
+    end_time = time.time() - start_time
+
     if end_time < 60:
         print("The answer {0} returned in {1} seconds".format(
             result, end_time))
