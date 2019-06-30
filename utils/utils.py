@@ -7,6 +7,9 @@ import os
 import math
 
 
+#TODO: each method must have his own .py file
+
+
 # This function is used for logging processing time only
 # Shows how long it took in order to get the answer
 def print_time_log(start_time: time, result=''):
