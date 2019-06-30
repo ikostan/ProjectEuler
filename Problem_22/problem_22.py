@@ -63,14 +63,13 @@ def total_of_all_name_scores():
     :return:
     '''
 
+    start_time = time.time()
     names = file_reader()
     alphabet = string.ascii_uppercase
-
-    start_time = time.time()
     result = 0
 
     for i, name in enumerate(names):
         result += alphabetical_value(name, alphabet) * (i + 1)
 
-    print_time_log(time.time() - start_time, result)
+    print_time_log(start_time, result)
     return result
