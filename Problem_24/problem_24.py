@@ -16,5 +16,5 @@ def lexicographic_permutations(numbers: list, index: int):
     '''
     start_time = time.time()
     result = int(''.join([str(l) for l in [list(i) for i in itertools.permutations(numbers)][index]]))
-    print_time_log(time.time() - start_time, result)
+    print_time_log(start_time, result)
     return result
