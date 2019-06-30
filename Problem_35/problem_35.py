@@ -37,7 +37,7 @@ def is_circular(digit: int, debug=False):
     The number, 197, is called a circular prime
     because all rotations of the digits: 197, 971, and 719,
     are themselves prime.
-    
+
     :param digit:
     :param debug:
     :return:
@@ -89,7 +89,7 @@ def main(max_limit: int):
             for p in get_rotations(n):
                 circulars.add(p)
 
-    print(sorted(circulars))
+    # print(sorted(circulars))
     result = len(circulars)
     print_time_log(start_time, result)
     return result
