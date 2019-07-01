@@ -1,3 +1,5 @@
+# Problems 1-100
+
 ### List of Completed Puzzles (Python 3):
 
 | No. | Puzzle Name                                                                                                     | GitHub Link | Difficulty Rating |
