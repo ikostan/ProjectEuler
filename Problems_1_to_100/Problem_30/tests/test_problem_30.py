@@ -3,8 +3,7 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_30 import is_sum_of_powers_of_their_digits
-from Problems_1_to_100.Problem_30 import main
+from Problems_1_to_100.Problem_30.problem_30 import is_sum_of_powers_of_their_digits, main
 
 
 class MyTestCase(unittest.TestCase):
