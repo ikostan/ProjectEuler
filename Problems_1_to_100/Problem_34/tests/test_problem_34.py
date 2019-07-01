@@ -3,7 +3,7 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_34 import sum_of_factorials, is_equal, main
+from Problems_1_to_100.Problem_34.problem_34 import sum_of_factorials, is_equal, main
 
 
 class MyTestCase(unittest.TestCase):
