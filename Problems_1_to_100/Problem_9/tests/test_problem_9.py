@@ -3,7 +3,7 @@
 
 import os
 import unittest
-from Problems_1_to_100.Problem_9 import find_triplet
+from Problems_1_to_100.Problem_9.problem_9 import find_triplet
 
 
 class MyTestCase(unittest.TestCase):
