@@ -3,7 +3,7 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_99 import get_largest_result_line_num, file_reader
+from Problems_1_to_100.Problem_99.problem_99 import get_largest_result_line_num, file_reader
 
 
 class MyTestCase(unittest.TestCase):
