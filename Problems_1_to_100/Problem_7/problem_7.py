@@ -2,11 +2,10 @@
 
 
 import time
-import math
+from utils.utils import is_prime
 from utils.utils import print_time_log
 
 
-# TODO: move this method into utils library
 def prime_generator(limit: int):
     start_time = time.time()
     primes = list()
@@ -19,22 +18,3 @@ def prime_generator(limit: int):
 
     print_time_log(start_time, primes[limit - 1])
     return primes[limit - 1]
-
-
-# TODO: move this method into utils library
-def is_prime(n: int):
-
-    if n == 1:
-        return False
-
-    if n == 2:
-        return True
-
-    if n > 2 and n % 2 == 0:
-        return False
-
-    for i in range(3, int(math.sqrt(n)) + 1, 2):
-        if n % i == 0:
-            return False
-
-    return True
