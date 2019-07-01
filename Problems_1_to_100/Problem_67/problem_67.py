@@ -44,7 +44,7 @@ def file_reader():
     '''
 
     result = []
-    file_path = get_full_path('/Problem_67/Problem_67/tests', 'p067_triangle.txt')
+    file_path = get_full_path('/Problems_1_to_100/Problem_67/tests', 'p067_triangle.txt')
 
     with open(file_path) as source:
         for line in source:
