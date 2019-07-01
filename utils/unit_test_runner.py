@@ -5,7 +5,7 @@
 import unittest
 
 #  ----------------  Individual test suites
-from Problem_1.tests import test_problem_1 as test1
+from Problems_1_to_100.Problem_1.tests import test_problem_1 as test1
 import Problem_2.tests.test_problem_2 as test2
 import Problem_3.tests.test_problem_3 as test3
 import Problem_4.tests.test_problem_4 as test4

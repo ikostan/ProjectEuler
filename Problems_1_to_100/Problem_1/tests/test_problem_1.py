@@ -3,8 +3,8 @@
 
 import unittest
 import os
-from Problem_1.problem_1 import get_multiplies_of_3_and_5
-from Problem_1.problem_1 import div_by_nums
+from Problems_1_to_100.Problem_1.problem_1 import get_multiplies_of_3_and_5
+from Problems_1_to_100.Problem_1.problem_1 import div_by_nums
 
 
 class MyTestCase(unittest.TestCase):
