@@ -3,7 +3,7 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_16 import find_the_sum
+from Problems_1_to_100.Problem_16.problem_16 import find_the_sum
 
 
 class MyTestCase(unittest.TestCase):
