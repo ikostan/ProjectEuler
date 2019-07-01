@@ -17,7 +17,7 @@ class MyTestCase(unittest.TestCase):
     print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_process_columns(self):
-        
+
         data = [[1, 2, 3, 4, 5],
                 [1, 2, 3, 4, 5],
                 [2, 3, 4, 5, 6],
