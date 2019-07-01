@@ -3,7 +3,7 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_15 import calc_lattice_path
+from Problems_1_to_100.Problem_15.problem_15 import calc_lattice_path
 
 
 class MyTestCase(unittest.TestCase):
