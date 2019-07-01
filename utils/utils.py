@@ -64,7 +64,7 @@ def is_prime(i):
     return True
 
 
-def primes_generator(start:int, limit: int):
+def primes_generator(limit: int, start=1):
     '''
     Generates list of prime numbers within specified limit
     :param limit:
