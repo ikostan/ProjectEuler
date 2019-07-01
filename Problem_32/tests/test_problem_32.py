@@ -12,7 +12,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_sum_of_all_products(self):
         limit = 987654321
-        expected = 0
+        expected = 45228
         self.assertEqual(expected, sum_of_all_products(limit))
 
 

@@ -11,5 +11,8 @@ HINT: Some products can be obtained in more than one way so be sure to only incl
 ### Video tutorial: 
 https://www.youtube.com/watch?v=gjlGkE-BzlA&list=PLNEKkZrJ3NV-wNjCMxPS86sgqOgwBZmPu&index=18
 
+### More info:
+http://www.worldofnumbers.com/ninedig1.htm
+
 ### Source:
 https://projecteuler.net/problem=32
