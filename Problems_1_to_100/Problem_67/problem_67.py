@@ -44,19 +44,7 @@ def file_reader():
     '''
 
     result = []
-    file_path = get_full_path('/Problem_67/tests', 'p067_triangle.txt')
-
-    # TODO: remove commented code
-    '''
-    if platform.system() == 'Linux':
-        file_path = os.getcwd() + '/Problem_67/tests/p067_triangle.txt'  # linux
-    elif platform.system() == 'Windows':
-        file_path = os.getcwd() + '\\p067_triangle.txt'  # windows
-    elif platform.system() == 'Darwin':
-        file_path = os.getcwd() + '/Problem_67/tests/p067_triangle.txt'  # MacOS
-
-    # print(file_path)  # debug only
-    '''
+    file_path = get_full_path('/Problem_67/Problem_67/tests', 'p067_triangle.txt')
 
     with open(file_path) as source:
         for line in source:
