@@ -19,16 +19,7 @@ def file_reader():
     '''
 
     result = []
-    '''
-    file_path = ''
-    if platform.system() == 'Linux':
-        file_path = os.getcwd() + '/Problem_22/tests/p022_names.txt'  # linux
-    elif platform.system() == 'Windows':
-        file_path = os.getcwd() + '\\p022_names.txt' # windows
-    # elif platform.system() == 'Darwin':
-        # file_path = os.getcwd() + '/Problem_22/tests/p022_names.txt'  # MacOS
-    '''
-    file_path = get_full_path('/Problem_22/tests', 'p022_names.txt')
+    file_path = get_full_path('/Problems_1_to_100/Problem_22/tests', 'p022_names.txt')
 
     with open(file_path) as source:
         for line in source:
