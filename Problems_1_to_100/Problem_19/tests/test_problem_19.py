@@ -23,7 +23,7 @@ class MyTestCase(unittest.TestCase):
 
         cls.leap_years = []
 
-        file_path = utils.get_full_path('/Problem_19/tests', 'leap_years.txt')
+        file_path = utils.get_full_path('/Problems_1_to_100/Problem_19/tests', 'leap_years.txt')
 
         with open(file_path) as source:
             for line in source:
