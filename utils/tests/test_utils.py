@@ -104,16 +104,17 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(expected, convert_to_binary(decimal))
 
     def test_primes_generator(self):
+
         limit = 30
-        start = 1
         expected = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
-        self.assertListEqual(expected, primes_generator(start, limit))
+        self.assertListEqual(expected, primes_generator(limit))
 
     def test_primes_generator_iterable(self):
+
         expected = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
         result = list()
-
         primes = primes_generator_iterable(2)
+
         while len(result) != len(expected):
             result.append(next(primes))
 
