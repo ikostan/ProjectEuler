@@ -3,8 +3,8 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_21 import sum_of_proper_divisors
-from Problems_1_to_100.Problem_21 import sum_of_amicable_numbers
+from Problems_1_to_100.Problem_21.problem_21 import sum_of_proper_divisors, \
+    sum_of_amicable_numbers
 
 
 class MyTestCase(unittest.TestCase):
