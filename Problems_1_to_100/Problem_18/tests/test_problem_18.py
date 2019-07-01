@@ -3,7 +3,7 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_18 import find_maximum_total
+from Problems_1_to_100.Problem_18.problem_18 import find_maximum_total
 
 
 class MyTestCase(unittest.TestCase):
