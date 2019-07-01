@@ -3,7 +3,7 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_13 import get_first_ten_digit
+from Problems_1_to_100.Problem_13.problem_13 import get_first_ten_digit
 
 
 class MyTestCase(unittest.TestCase):
