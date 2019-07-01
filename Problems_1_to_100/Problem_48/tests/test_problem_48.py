@@ -3,7 +3,7 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_48 import find_last_ten_digits
+from Problems_1_to_100.Problem_48.problem_48 import find_last_ten_digits
 
 
 class MyTestCase(unittest.TestCase):
