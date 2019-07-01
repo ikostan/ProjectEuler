@@ -3,7 +3,7 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_5 import smallest_multiple
+from Problems_1_to_100.Problem_5.problem_5 import smallest_multiple
 
 
 class MyTestCase(unittest.TestCase):
