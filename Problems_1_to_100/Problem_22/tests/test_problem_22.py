@@ -4,9 +4,9 @@
 import unittest
 import string
 import os
-from Problems_1_to_100.Problem_22 import file_reader
-from Problems_1_to_100.Problem_22 import alphabetical_value
-from Problems_1_to_100.Problem_22 import total_of_all_name_scores
+from Problems_1_to_100.Problem_22.problem_22 import file_reader, \
+    alphabetical_value, \
+    total_of_all_name_scores
 
 
 class MyTestCase(unittest.TestCase):
