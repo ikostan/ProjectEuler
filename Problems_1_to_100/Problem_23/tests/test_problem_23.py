@@ -3,9 +3,7 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_23 import is_abundant
-from Problems_1_to_100.Problem_23 import main
-from Problems_1_to_100.Problem_23 import sum_proper_divisors
+from Problems_1_to_100.Problem_23.problem_23 import is_abundant, main, sum_proper_divisors
 
 
 class MyTestCase(unittest.TestCase):
