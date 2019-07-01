@@ -10,7 +10,7 @@ def file_reader():
 
     result = []
 
-    folder_name = '/Problem_99/tests'
+    folder_name = '/Problems_1_to_100/Problem_99/tests'
     file_name = 'p099_base_exp.txt'
     file_path = get_full_path(folder_name, file_name)
 
