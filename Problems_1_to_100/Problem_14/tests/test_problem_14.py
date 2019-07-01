@@ -3,9 +3,9 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_14 import collatz_sequence
-from Problems_1_to_100.Problem_14 import get_max_counter
-from Problems_1_to_100.Problem_14 import get_collatz_counter
+from Problems_1_to_100.Problem_14.problem_14 import collatz_sequence, \
+    get_collatz_counter, \
+    get_max_counter
 
 
 class MyTestCase(unittest.TestCase):
