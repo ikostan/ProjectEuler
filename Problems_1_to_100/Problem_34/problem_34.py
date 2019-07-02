@@ -3,7 +3,6 @@
 
 from utils.utils import print_time_log
 import time
-import math
 
 
 def main(max_number: int):
