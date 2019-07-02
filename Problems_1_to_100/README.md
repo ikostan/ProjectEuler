@@ -11,7 +11,7 @@
 |5    |[Smallest multiple](https://projecteuler.net/problem=5)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_5)| 5% |
 |6    |[Sum square difference](https://projecteuler.net/problem=6)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_6)| 5% |
 |7    |[10001st prime](https://projecteuler.net/problem=7)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_7)| 5% |
-|8    |[Largest product in a series](https://projecteuler.net/problem=8)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problems_1_to_100/Problem_8)| 5% |
+|8    |[Largest product in a series](https://projecteuler.net/problem=8)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_8)| 5% |
 |9    |[Special Pythagorean triplet](https://projecteuler.net/problem=9)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_9)| 5% |
 |10   |[Summation of primes](https://projecteuler.net/problem=10)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_10)| 5% |
 |11   |[Largest product in a grid](https://projecteuler.net/problem=11)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_11)| 5% |
