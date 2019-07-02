@@ -2,7 +2,7 @@
 
 import time
 import math
-from utils.utils import print_time_log
+from utils.utils import print_time_log, is_prime
 
 
 def get_largest_factor(number):
@@ -23,20 +23,4 @@ def factor(number):
             result.append(i)
 
     return result
-
-
-# TODO: move this method into utils library
-def is_prime(i):
-    # Return TRUE if i is prime number. False otherwise
-    if i == 2:
-        return True
-
-    if i > 2 and i % 2 == 0:
-        return False
-
-    for n in range(3, int(math.sqrt(i)) + 1, 2):
-        if i % n == 0:
-            return False
-
-    return True
 
