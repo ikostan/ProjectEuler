@@ -41,7 +41,7 @@ def get_full_path(file_folder: str, file_name: str, target_os=''):
     return file_path
 
 
-def is_prime(i):
+def is_prime(i: int):
     '''
     Return TRUE if i is prime number. False otherwise
     :param i:
