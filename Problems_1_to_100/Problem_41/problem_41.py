@@ -3,16 +3,10 @@
 
 from utils.utils import print_time_log, is_pandigital, is_prime
 import time
+import itertools
 
 
-def has_pandigital_pattern(digit: int):
-
-    digit_str = str(digit)
-    digit_set = set(int(d) for d in digit_str)
-    return len(digit_set) == len(digit_str)
-
-
-def find_largest_pandigital_prime(number: int):
+def find_largest_pandigital_prime(numbers: list):
     '''
     We shall say that an n-digit number is pandigital if it makes use of all
     the digits 1 to n exactly once.
@@ -23,8 +17,14 @@ def find_largest_pandigital_prime(number: int):
     '''
 
     start_time = time.time()
+    permutations = list(
+        int(''.join(t)) for t in itertools.permutations(str(t) for t in numbers))  # if t[0] != '0')
 
-    for n in range(number, 1, -1):
+    big_pandigital_primes = set()
+    for n in permutations:
         if is_pandigital(n) and is_prime(n):
-            print_time_log(start_time, n)
-            return n
+            big_pandigital_primes.add(n)
+
+    result = max(big_pandigital_primes)
+    print_time_log(start_time, result)
+    return result
