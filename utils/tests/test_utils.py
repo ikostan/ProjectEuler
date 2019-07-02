@@ -8,7 +8,7 @@ import io
 import time
 from utils.utils import print_time_log, get_full_path, is_prime, \
                         is_palindrome, convert_to_binary, primes_generator, \
-                        primes_generator_iterable
+                        primes_generator_iterable, is_pandigital
 
 
 class MyTestCase(unittest.TestCase):
@@ -119,6 +119,18 @@ class MyTestCase(unittest.TestCase):
             result.append(next(primes))
 
         self.assertListEqual(expected, result)
+
+    def test_is_pandigital_true(self):
+        self.assertTrue(is_pandigital(15234))
+
+    def test_is_pandigital_false(self):
+        self.assertFalse(is_pandigital(15224))
+
+    def test_is_pandigital_large_true(self):
+        self.assertTrue(is_pandigital(1023456978))
+
+    def test_is_pandigital_large_false(self):
+        self.assertFalse(is_pandigital(10523456978))
 
 
 if __name__ == '__main__':
