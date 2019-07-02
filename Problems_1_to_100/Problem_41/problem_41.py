@@ -18,7 +18,7 @@ def find_largest_pandigital_prime(numbers: list):
 
     start_time = time.time()
     permutations = list(
-        int(''.join(t)) for t in itertools.permutations(str(t) for t in numbers))  # if t[0] != '0')
+        int(''.join(t)) for t in itertools.permutations(str(t) for t in numbers))
 
     big_pandigital_primes = set()
     for n in permutations:
