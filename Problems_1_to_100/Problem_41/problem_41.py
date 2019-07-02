@@ -1,8 +1,15 @@
 #!/usr/bin/python
 
 
-from utils.utils import print_time_log, is_pandigital, is_prime, primes_generator_iterable
+from utils.utils import print_time_log, is_pandigital, is_prime
 import time
+
+
+def has_pandigital_pattern(digit: int):
+
+    digit_str = str(digit)
+    digit_set = set(int(d) for d in digit_str)
+    return len(digit_set) == len(digit_str)
 
 
 def find_largest_pandigital_prime(number: int):
@@ -16,10 +23,8 @@ def find_largest_pandigital_prime(number: int):
     '''
 
     start_time = time.time()
-    primes = primes_generator_iterable(number, -1)
 
-    while True:
-        number = next(primes)
-        if is_pandigital(number):
-            print_time_log(start_time, number)
-            return number
+    for n in range(number, 1, -1):
+        if is_pandigital(n) and is_prime(n):
+            print_time_log(start_time, n)
+            return n
