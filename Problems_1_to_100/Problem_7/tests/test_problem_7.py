@@ -20,6 +20,12 @@ class MyTestCase(unittest.TestCase):
         expected = 104743
         self.assertEqual(expected, prime_generator(limit))
 
+    @unittest.skip("the test is too long and has no real value for the problem")
+    def test_huge(self):
+        limit = 100000
+        expected = 0
+        self.assertEqual(expected, prime_generator(limit))
+
 
 if __name__ == '__main__':
     unittest.main()
