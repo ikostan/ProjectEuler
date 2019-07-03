@@ -37,4 +37,27 @@ website: [Codecov](https://codecov.io/)
     - codecov
 ```
 
+### Travis CI: Building a Python Project
+
+**.travis.yml** - Specify python versions using the python key. As we update the Python build images, aliases like 3.6 will point to different exact versions or patch levels.
+
+```bash
+language: python
+python:
+  - "2.6"
+  - "2.7"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.5-dev"  # 3.5 development branch
+  - "3.6"
+  - "3.6-dev"  # 3.6 development branch
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+# command to run tests
+script:
+  - pytest
+```
+
 <img align="right" width="" height="" src="https://projecteuler.net/profile/iKostan.png">
