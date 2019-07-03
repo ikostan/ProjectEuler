@@ -15,6 +15,7 @@ install:
 
 script:
   #- python unit_test_runner.py
+  # Run pytest for all tests subdirectories and check test coverage with pytest-cov:
   - pytest --cov-report term-missing --cov=Problems_1_to_100/
   '''
   # Testing utils
