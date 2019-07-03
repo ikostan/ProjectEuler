@@ -36,5 +36,4 @@ website: [Codecov](https://codecov.io/)
    codecov --token=<repo token>
 ```
 
-
 <img align="right" width="" height="" src="https://projecteuler.net/profile/iKostan.png">
