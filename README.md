@@ -20,4 +20,21 @@ Project Euler ([projecteuler.net](http://projecteuler.net)) is a series of chall
 |401 - 500|[N/A]()| 0% |
 |501 - 600|[N/A]()| 0% |
 
+### Code Coverage Overview
+
+website: [Codecov](https://codecov.io/)
+
+```bash
+   # 1) install codecov
+   pip install codecov
+
+   # 2) next call "codecov" at end of CI build
+   # public repo using Travis, CircleCI or AppVeyor
+   codecov
+
+   # all other CI and private repositories
+   codecov --token=<repo token>
+```
+
+
 <img align="right" width="" height="" src="https://projecteuler.net/profile/iKostan.png">
