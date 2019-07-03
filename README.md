@@ -30,10 +30,11 @@ website: [Codecov](https://codecov.io/)
 
    # 2) next call "codecov" at end of CI build
    # public repo using Travis, CircleCI or AppVeyor
-   codecov
+   env:
+    - CODECOV_TOKEN=<token>#IF ONLY YOU HAVE A PRIVATE REPOSITORY
 
-   # all other CI and private repositories
-   codecov --token=<repo token>
+   after_success:
+    - codecov
 ```
 
 <img align="right" width="" height="" src="https://projecteuler.net/profile/iKostan.png">
