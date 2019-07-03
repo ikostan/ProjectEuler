@@ -17,7 +17,6 @@ script:
   #- python unit_test_runner.py
   # Testing utils
   - pytest --cov-report term-missing --cov=utils utils/tests/ # check test coverage with pytest-cov
-  - codecov
   # Problem 1
   #- python -m pytest Problem_1/tests/ # run unit tests with pytest
   - pytest --cov-report term-missing --cov=Problems_1_to_100/Problem_1 Problems_1_to_100/Problem_1/tests/ # check test coverage with pytest-cov
@@ -98,11 +97,10 @@ script:
   - pytest --cov-report term-missing --cov=Problems_1_to_100/Problem_67 Problems_1_to_100/Problem_67/tests/ # check test coverage with pytest-cov
   # Problem 99
   - pytest --cov-report term-missing --cov=Problems_1_to_100/Problem_99 Problems_1_to_100/Problem_99/tests/ # check test coverage with pytest-cov
-  - codecov
 env:
   #- CODECOV_TOKEN=<token>#IF ONLY YOU HAVE A PRIVATE REPOSITORY
 
 after_success:
   # Generates coverage report, public repo using Travis:
   # Source: https://dev.to/j0nimost/using-codecov-with-travis-ci-pytest-cov-1dfj
-  #- codecov
+  - codecov -F
