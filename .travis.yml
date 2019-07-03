@@ -8,6 +8,7 @@ python:
 install:
     - "pip install pytest"
     - "pip install pytest-cov" #This plugin produces coverage reports
+    - "pip install codecov" #install codecov
     #- "pip install pytest-xdist" #For distributed testing support install pytest-xdist
 script:
   #- python unit_test_runner.py
@@ -94,4 +95,5 @@ script:
   # Problem 99
   - pytest --cov-report term-missing --cov=Problems_1_to_100/Problem_99 Problems_1_to_100/Problem_99/tests/ # check test coverage with pytest-cov
 
-
+  # Generates coverage report, public repo using Travis, CircleCI or AppVeyor
+  - codecov
