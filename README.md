@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/ikostan/ProjectEuler.svg?branch=master)](https://travis-ci.org/ikostan/ProjectEuler)
 [![codecov](https://codecov.io/gh/ikostan/ProjectEuler/branch/master/graph/badge.svg)](https://codecov.io/gh/ikostan/ProjectEuler)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 # Python 3 solutions for Project Euler
 
