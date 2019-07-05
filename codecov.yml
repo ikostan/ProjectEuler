@@ -1,5 +1,0 @@
-flags:
-  tests:
-    paths:
-      - Problems_1_to_100/Problem_1/tests
-      - Problems_1_to_100/Problem_99/tests
