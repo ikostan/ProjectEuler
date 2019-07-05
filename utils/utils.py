@@ -145,3 +145,14 @@ def is_pandigital(digit: str):
 
     pattern = set(n for n in range(min(digit_set), max(digit_set) + 1))
     return digit_set == pattern
+
+
+def calc_triangle_number(n: int):
+    '''
+    A triangular number or triangle number counts objects arranged in an equilateral triangle.
+    More info: https://www.mathsisfun.com/algebra/triangular-numbers.html
+    :param n:
+    :return:
+    '''
+
+    return (n * (n + 1)) / 2

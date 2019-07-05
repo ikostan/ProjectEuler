@@ -8,7 +8,8 @@ import io
 import time
 from utils.utils import print_time_log, get_full_path, is_prime, \
                         is_palindrome, convert_to_binary, primes_generator, \
-                        primes_generator_iterable, is_pandigital
+                        primes_generator_iterable, is_pandigital, \
+                        calc_triangle_number
 
 
 class MyTestCase(unittest.TestCase):
@@ -131,6 +132,15 @@ class MyTestCase(unittest.TestCase):
 
     def test_is_pandigital_large_false(self):
         self.assertFalse(is_pandigital(10523456978))
+
+    def test_calc_triangle_number(self):
+        triangle_numbers = {0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55}
+        results = set()
+        n = 0
+        while 55 not in results:
+            results.add(calc_triangle_number(n))
+            n += 1
+        self.assertSetEqual(triangle_numbers, results)
 
 
 if __name__ == '__main__':
