@@ -8,14 +8,13 @@ python:
   - "3.7"
 
 install:
-  - "pip install pytest"
-  - "pip install pytest-cov" #This plugin produces coverage reports
-  - "pip install codecov" #install codecov
-  #- "pip install pytest-xdist" #For distributed testing support install pytest-xdist
+  - "pip install pytest"      # install pytest
+  - "pip install pytest-cov"  # This plugin produces coverage reports
+  - "pip install codecov"     # install codecov
 
 script:
   # Run pytest for all tests subdirectories and check test coverage with pytest-cov:
-  - pytest --cov-report term-missing --cov=Problems_1_to_100/
+  - pytest --cov-config=.coveragerc --cov-report term-missing --cov
 
 env:
   #- CODECOV_TOKEN=<token>#IF ONLY YOU HAVE A PRIVATE REPOSITORY
