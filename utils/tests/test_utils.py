@@ -186,7 +186,3 @@ class MyTestCase(unittest.TestCase):
             results.append(is_pentagonal(p))
 
         self.assertFalse(all(results))
-
-
-if __name__ == '__main__':
-    unittest.main()
