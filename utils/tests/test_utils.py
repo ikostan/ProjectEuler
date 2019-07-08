@@ -9,7 +9,8 @@ import time
 from utils.utils import print_time_log, get_full_path, is_prime, \
                         is_palindrome, convert_to_binary, primes_generator, \
                         primes_generator_iterable, is_pandigital, \
-                        calc_triangle_number, calc_pentagonal_number
+                        calc_triangle_number, calc_pentagonal_number, \
+                        pentagonal_number_generator, is_pentagonal
 
 
 class MyTestCase(unittest.TestCase):
@@ -154,6 +155,37 @@ class MyTestCase(unittest.TestCase):
         for n in range(1, len(pentagonal_numbers) + 1):
             results.append(calc_pentagonal_number(n))
         self.assertListEqual(pentagonal_numbers, results)
+
+    def test_pentagonal_number_generator(self):
+
+        expected = [1, 5, 12, 22, 35, 51, 70, 92, 117, 145]
+        result = list()
+        generator = pentagonal_number_generator()
+
+        while len(expected) != len(result):
+            result.append(next(generator))
+
+        self.assertListEqual(expected, result)
+
+    def test_is_pentagonal_true(self):
+
+        pentagonals = [1, 5, 12, 22, 35, 51, 70, 92, 117, 145]
+        results = list()
+
+        for p in pentagonals:
+            results.append(is_pentagonal(p))
+
+        self.assertTrue(all(results))
+
+    def test_is_pentagonal_false(self):
+
+        pentagonals = [2, 4, 11, 20, 33, 57, 75, 90, 118, 141]
+        results = list()
+
+        for p in pentagonals:
+            results.append(is_pentagonal(p))
+
+        self.assertFalse(all(results))
 
 
 if __name__ == '__main__':
