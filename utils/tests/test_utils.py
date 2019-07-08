@@ -9,7 +9,7 @@ import time
 from utils.utils import print_time_log, get_full_path, is_prime, \
                         is_palindrome, convert_to_binary, primes_generator, \
                         primes_generator_iterable, is_pandigital, \
-                        calc_triangle_number
+                        calc_triangle_number, calc_pentagonal_number
 
 
 class MyTestCase(unittest.TestCase):
@@ -141,6 +141,19 @@ class MyTestCase(unittest.TestCase):
             results.add(calc_triangle_number(n))
             n += 1
         self.assertSetEqual(triangle_numbers, results)
+
+    def test_calc_pentagonal_number(self):
+        '''
+        The first ten pentagonal numbers are:
+        1, 5, 12, 22, 35, 51, 70, 92, 117, 145, ...
+        :return:
+        '''
+
+        pentagonal_numbers = [1, 5, 12, 22, 35, 51, 70, 92, 117, 145]
+        results = list()
+        for n in range(1, len(pentagonal_numbers) + 1):
+            results.append(calc_pentagonal_number(n))
+        self.assertListEqual(pentagonal_numbers, results)
 
 
 if __name__ == '__main__':
