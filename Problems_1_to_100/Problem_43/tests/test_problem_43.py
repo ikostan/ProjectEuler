@@ -39,7 +39,3 @@ class MyTestCase(unittest.TestCase):
 
         expected = 16695334890
         self.assertEqual(expected, main())
-
-
-if __name__ == '__main__':
-    unittest.main()
