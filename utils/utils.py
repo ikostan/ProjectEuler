@@ -172,7 +172,7 @@ def triangular_number_generator(n: int):
         n += 1
 
 
-def is_triangle(n: int):
+def is_triangular(n: int):
     '''
     Tests if n is a triangle number.
 

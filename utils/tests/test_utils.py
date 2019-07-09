@@ -11,7 +11,7 @@ from utils.utils import print_time_log, get_full_path, is_prime, \
                         primes_generator_iterable, is_pandigital, \
                         calc_triangular_number, calc_pentagonal_number, \
                         pentagonal_number_generator, is_pentagonal, \
-                        triangular_number_generator
+                        triangular_number_generator, is_triangular
 
 
 class MyTestCase(unittest.TestCase):
@@ -143,6 +143,22 @@ class MyTestCase(unittest.TestCase):
             results.add(calc_triangular_number(n))
             n += 1
         self.assertSetEqual(triangle_numbers, results)
+
+    def test_is_triangular_true(self):
+
+        triangle_numbers = [0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
+        results = list()
+        for n in triangle_numbers:
+            results.append(is_triangular(n))
+        self.assertTrue(all(results))
+
+    def test_is_triangular_false(self):
+
+        triangle_numbers = [2, 4, 5, 11, 16, 22, 27, 37, 46, 56]
+        results = list()
+        for n in triangle_numbers:
+            results.append(is_triangular(n))
+        self.assertFalse(all(results))
 
     def test_triangular_number_generator(self):
 
