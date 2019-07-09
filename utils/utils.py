@@ -147,7 +147,7 @@ def is_pandigital(digit: str):
     return digit_set == pattern
 
 
-def calc_triangle_number(n: int):
+def calc_triangular_number(n: int):
     '''
     A triangular number or triangle number counts objects arranged in an equilateral triangle.
     More info: https://www.mathsisfun.com/algebra/triangular-numbers.html
@@ -155,7 +155,21 @@ def calc_triangle_number(n: int):
     :return:
     '''
 
-    return (n * (n + 1)) / 2
+    return int((n * (n + 1)) / 2)
+
+
+def triangular_number_generator(n: int):
+    '''
+    Generates triangular numbers
+    A triangular number or triangle number counts objects arranged in an equilateral triangle.
+    More info: https://www.mathsisfun.com/algebra/triangular-numbers.html
+    :param n:
+    :return:
+    '''
+
+    while True:
+        yield calc_triangular_number(n)
+        n += 1
 
 
 def is_triangle(n: int):
