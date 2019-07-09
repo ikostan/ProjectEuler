@@ -15,7 +15,3 @@ class MyTestCase(unittest.TestCase):
         limit = 2000000
         expected = 142913828922
         self.assertEqual(expected, get_sum(limit))
-
-
-if __name__ == '__main__':
-    unittest.main()
