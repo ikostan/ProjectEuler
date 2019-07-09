@@ -51,8 +51,3 @@ class MyTestCase(unittest.TestCase):
         num = 16
         nums = [3, 5, 10, 4, 7]
         self.assertEqual(result, div_by_nums(num, nums))
-
-
-if __name__ == '__main__':
-    unittest.main()
-
