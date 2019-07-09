@@ -48,7 +48,7 @@
 |42   |[Coded triangle numbers](https://projecteuler.net/problem=42)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_42)| 5% |
 |43   |[Sub-string divisibility](https://projecteuler.net/problem=43)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_43)| 5% |
 |44   |[Pentagon numbers](https://projecteuler.net/problem=44)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_44)| 5% |
-|45   |[Triangular, pentagonal, and hexagonal](https://projecteuler.net/problem=45)|[N/A]()| 5% |
+|45   |[Triangular, pentagonal, and hexagonal](https://projecteuler.net/problem=45)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_45)| 5% |
 |48   |[Self powers](https://projecteuler.net/problem=48)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_48)| 5% |
 |67   |[Maximum path sum II](https://projecteuler.net/problem=67)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_67)| 5% |
 |99   |[Largest exponential](https://projecteuler.net/problem=99)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_99)| 10% |
