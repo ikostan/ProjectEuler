@@ -103,7 +103,3 @@ class MyTestCase(unittest.TestCase):
         counter = 4
 
         self.assertEqual(expected, get_max_product(grid, counter))
-
-
-if __name__ == '__main__':
-    unittest.main()
