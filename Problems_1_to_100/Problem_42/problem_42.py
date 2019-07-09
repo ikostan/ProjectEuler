@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 
-from utils.utils import print_time_log, get_full_path, calc_triangle_number
+from utils.utils import print_time_log, get_full_path, calc_triangular_number
 import time
 import string
 
@@ -69,7 +69,7 @@ def generate_triangle_numbers(words: list):
     max_word = find_max_numeric_value(words)['digit']
 
     while True:
-        triangle_numbers.add(calc_triangle_number(n))
+        triangle_numbers.add(calc_triangular_number(n))
         n += 1
         if max(triangle_numbers) > max_word:
             break
