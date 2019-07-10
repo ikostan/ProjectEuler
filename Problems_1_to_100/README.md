@@ -50,5 +50,6 @@
 |44   |[Pentagon numbers](https://projecteuler.net/problem=44)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_44)| 5% |
 |45   |[Triangular, pentagonal, and hexagonal](https://projecteuler.net/problem=45)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_45)| 5% |
 |48   |[Self powers](https://projecteuler.net/problem=48)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_48)| 5% |
+|52   |[Permuted multiples](https://projecteuler.net/problem=52)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_52)| 5% |
 |67   |[Maximum path sum II](https://projecteuler.net/problem=67)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_67)| 5% |
 |99   |[Largest exponential](https://projecteuler.net/problem=99)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_99)| 10% |
