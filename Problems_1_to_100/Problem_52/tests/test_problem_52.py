@@ -3,7 +3,7 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_52.problem_52 import is_contain_same_digits, main
+from Problems_1_to_100.Problem_52.problem_52 import main
 
 
 class MyTestCase(unittest.TestCase):
@@ -12,5 +12,5 @@ class MyTestCase(unittest.TestCase):
 
     def test_main(self):
         number = 1
-        expected = 0
+        expected = 142857
         self.assertEqual(expected, main(number))
