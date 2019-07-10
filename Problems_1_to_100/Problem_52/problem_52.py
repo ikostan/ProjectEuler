@@ -7,11 +7,10 @@ import time
 
 def is_contain_same_digits(a: int):
 
-    sorted_test_sample = sorted([int(s) for s in str(a * 2)])
+    sorted_test_sample = sorted(str(a * 2))
 
     for n in range(3, 7):
-        next_number = (a * n)
-        if sorted_test_sample != sorted([int(s) for s in str(next_number)]):
+        if sorted_test_sample != sorted(str(a * n)):
             return False
 
     return True
