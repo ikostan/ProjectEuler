@@ -6,12 +6,12 @@ import time
 
 
 def is_contain_same_digits(a: int):
-    numbers = []
-    for n in range(2, 7):
-        numbers.append(a * n)
 
-    for n in numbers:
-        if sorted([int(s) for s in str(numbers[0])]) != sorted([int(s) for s in str(n)]):
+    sorted_test_sample = sorted([int(s) for s in str(a * 2)])
+
+    for n in range(3, 7):
+        next_number = (a * n)
+        if sorted_test_sample != sorted([int(s) for s in str(next_number)]):
             return False
 
     return True
