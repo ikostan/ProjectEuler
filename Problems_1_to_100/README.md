@@ -30,7 +30,7 @@
 |24   |[Lexicographic permutations](https://projecteuler.net/problem=24)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_24)| 5% |
 |25   |[1000-digit Fibonacci number](https://projecteuler.net/problem=25)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_25)| 5% |
 |26   |[Reciprocal cycles](https://projecteuler.net/problem=26)|[N/A]()| 5% |
-|27   |[]()|[N/A]()| 0% |
+|27   |[Quadratic primes](https://projecteuler.net/problem=27)|[N/A]()| 0% |
 |28   |[Number spiral diagonals](https://projecteuler.net/problem=28)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_28)| 5% |
 |29   |[Distinct powers](https://projecteuler.net/problem=29)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_29)| 5% |
 |30   |[Digit fifth powers](https://projecteuler.net/problem=30)|[Solution](https://github.com/ikostan/ProjectEuler/tree/master/Problems_1_to_100/Problem_30)| 5% |
