@@ -46,7 +46,3 @@ class MyTestCase(unittest.TestCase):
         starting_number = 999999
         expected = 837799  # the starting number that has biggest Collatz chain
         self.assertEqual(expected, get_max_counter(starting_number)['number'])
-
-
-if __name__ == '__main__':
-    unittest.main()
