@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
-
-from utils.utils import print_time_log
 import time
+from utils.utils import print_time_log
+
 
 direction = ['left', 'down', 'right', 'up']
 
@@ -17,11 +17,12 @@ position = {
 
 
 def calc_total(data: list):
-    '''
+    """
     Returns sum of the numbers on the diagonals
+
     :param data:
     :return:
-    '''
+    """
 
     start_time = time.time()
     size = len(data)
@@ -39,12 +40,13 @@ def calc_total(data: list):
 
 
 def update_grid_line(data: list, size: int):
-    '''
+    """
     Updates data grid
+
     :param data:
     :param size:
     :return:
-    '''
+    """
     length = 0
 
     if position['direction'] == direction[0] or position['direction'] == direction[2]:
@@ -79,7 +81,7 @@ def update_grid_line(data: list, size: int):
 
 
 def data_generator(size: int, debug=False):
-    '''
+    """
     Moves position object trough data grid until get to the final point.
 
     Starting with the number 1 and moving to the right in a clockwise direction
@@ -90,9 +92,10 @@ def data_generator(size: int, debug=False):
         19  6  1  2 11
         18  5  4  3 12
         17 16 15 14 13
+
     :param size:
     :return data:
-    '''
+    """
 
     # generate data grid with all values = 0
     data = empty_grid_generator(size)
@@ -131,11 +134,13 @@ def data_generator(size: int, debug=False):
 
 
 def update_position(size: int):
-    '''
+    """
     Updates direction inside position object
     Updates length inside position object
+
+    :param size:
     :return:
-    '''
+    """
 
     # update horizontal length:
     if position['direction'] == direction[0] or position['direction'] == direction[2]:
@@ -156,11 +161,12 @@ def update_position(size: int):
 
 
 def empty_grid_generator(size: int):
-    '''
+    """
     Generate data grid with all values = 0
+
     :param size:
     :return data:
-    '''
+    """
 
     #  generate grid with all values = 0
     data = [([0] * size) for i in range(0, size)]
