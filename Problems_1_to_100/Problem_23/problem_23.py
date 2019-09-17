@@ -1,17 +1,16 @@
 #!/usr/bin/python
 
-
-from utils.utils import print_time_log
 import math
 import time
+from utils.utils import print_time_log
 
 
 def sum_proper_divisors(num: int):
-    '''
+    """
     Calculates sum of all proper divisors
     :param num:
     :return:
-    '''
+    """
 
     sum_divisors = 0
     for n in range(1, int(math.sqrt(num)) + 1):
@@ -26,12 +25,12 @@ def sum_proper_divisors(num: int):
 
 
 def is_abundant(num: int):
-    '''
+    """
     A number n is called abundant if the sum
     of the proper divisors exceeds n.
     :param num:
     :return:
-    '''
+    """
     if sum_proper_divisors(num) > num:
         return True
     return False
