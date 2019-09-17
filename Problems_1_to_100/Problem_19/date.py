@@ -22,12 +22,14 @@ class Date:
             # February as leap year:
             if day < 1 or day > 29:
                 raise ValueError(
-                    "Invalid Day (leap year): {0}. Total days {1} in month {2}".format(
+                    "Invalid Day (leap year): {0}. "
+                    "Total days {1} in month {2}".format(
                         day, Calendar.months[month], month))
         else:
             if day < 1 or day > Calendar.months[month]:
                 raise ValueError(
-                    "Invalid Day: {0}. Total days {1} in month {2}".format(
+                    "Invalid Day: {0}. "
+                    "Total days {1} in month {2}".format(
                         day, Calendar.months[month], month))
 
         return day
@@ -52,7 +54,8 @@ class Date:
     def __set_year__(cls, year: int):
         if year < 1900 or year > 2999:
             raise ValueError(
-                "Invalid Year: {0}. Valid year must be between 1900 and 2000".format(year))
+                "Invalid Year: {0}. "
+                "Valid year must be between 1900 and 2000".format(year))
         return year
 
     def get_day(self):
@@ -86,7 +89,6 @@ class Date:
 
     def __update_month__(self):
         index = Calendar.month_name.index(self.get_month()) + 1
-        # print('__update_month__: index ->{0}, len: {1}'.format(index, len(Calendar.month_name) - 1))
 
         if index <= len(Calendar.month_name) - 1:
             self.date['month'] = Calendar.month_name[index]
