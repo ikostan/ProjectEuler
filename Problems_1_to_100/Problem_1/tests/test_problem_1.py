@@ -1,5 +1,7 @@
 #!/usr/bin/python
-
+"""
+Unit tests for 'Problem 1: Multiples of 3 and 5'
+"""
 
 import unittest
 import os
@@ -7,7 +9,7 @@ from Problems_1_to_100.Problem_1.problem_1 import get_multiplies_of_3_and_5
 from Problems_1_to_100.Problem_1.problem_1 import div_by_nums
 
 
-class MyTestCase(unittest.TestCase):
+class ProblemTestCase(unittest.TestCase):
     print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_10(self):
