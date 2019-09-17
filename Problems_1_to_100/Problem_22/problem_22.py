@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 import time
 import string
 from utils.utils import print_time_log
@@ -9,17 +8,20 @@ from utils.utils import get_full_path
 
 # TODO: move this method into utils library
 def file_reader():
-
-    '''
+    """
     Use readline to read txt file python3:
-    Source: https://stackoverflow.com/questions/28936140/use-readline-to-read-txt-file-python3
+    Source: https://stackoverflow.com/questions/
+    28936140/use-readline-to-read-txt-file-python3
+
     How to get the current working directory using python3:
-    https://stackoverflow.com/questions/17359698/how-to-get-the-current-working-directory-using-python-3
+    https://stackoverflow.com/questions/17359698/
+    how-to-get-the-current-working-directory-using-python-3
     :return:
-    '''
+    """
 
     result = []
-    file_path = get_full_path('/Problems_1_to_100/Problem_22/tests', 'p022_names.txt')
+    file_path = get_full_path('/Problems_1_to_100/Problem_22/tests',
+                              'p022_names.txt')
 
     with open(file_path) as source:
         for line in source:
