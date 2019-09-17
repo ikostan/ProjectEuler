@@ -10,8 +10,9 @@ def number_to_words_counter(numbers: list):
     start_time = time.time()
 
     nums_0_19 = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six',
-                 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen',
-                 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen']
+                 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve',
+                 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen',
+                 'Seventeen', 'Eighteen', 'Nineteen']
 
     nums_20_90 = ['Twenty', 'Thirty', 'Forty', 'Fifty',
                   'Sixty', 'Seventy', 'Eighty', 'Ninety']
@@ -42,8 +43,6 @@ def number_to_words_counter(numbers: list):
             temp = nums_0_19[n // 1000] + nums_dict[1000]
 
         result += temp
-        # except IndexError:
-            # print("Error on number: " + str(n))
 
     result = len(result)
     print_time_log(start_time, result)
