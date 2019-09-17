@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 import unittest
 import os
 from Problems_1_to_100.Problem_44.problem_44 import main
@@ -24,4 +23,3 @@ class MyTestCase(unittest.TestCase):
 
         expected = 5482660
         self.assertEqual(expected, main())
-
