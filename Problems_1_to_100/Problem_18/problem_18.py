@@ -10,12 +10,13 @@ def find_maximum_total(triangle: list):
     new_triangle = triangle
 
     for n in range(0, len(new_triangle) - 1):
+
         if len(new_triangle[n]) < 2:
             new_triangle[n + 1][0] += new_triangle[n][0]
             new_triangle[n + 1][1] += new_triangle[n][0]
         else:
             for i in range(0, len(new_triangle[n]) + 1):
-                # print('n: {0}, i: {1}, len: {2}'.format(n, i, len(new_triangle[n])))
+
                 if i - 1 < 0:
                     new_triangle[n + 1][i] += new_triangle[n][i]
                 elif i - 1 >= 0 and i < len(new_triangle[n]):
@@ -23,7 +24,6 @@ def find_maximum_total(triangle: list):
                     new_triangle[n + 1][i] += temp
                 else:
                     new_triangle[n + 1][i] += new_triangle[n][i - 1]
-                # print(new_triangle)
 
     result = max(new_triangle[-1])
     print_time_log(start_time, result)
