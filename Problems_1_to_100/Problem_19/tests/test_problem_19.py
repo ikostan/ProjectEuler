@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 import unittest
 import os
 from Problems_1_to_100.Problem_19.date import Date
@@ -31,28 +30,72 @@ class MyTestCase(unittest.TestCase):
                 cls.leap_years.append(int(line.strip()))
 
     def test_main_year_1904(self):
+
         expected = 1
-        stop_date = Date(31, '', Calendar.month_name[11], 1904)
-        current_date = Date(1, Calendar.week_days[4], Calendar.month_name[0], 1904)
-        self.assertEqual(expected, main(stop_date, current_date))
+
+        stop_date = Date(31,
+                         '',
+                         Calendar.month_name[11],
+                         1904)
+
+        current_date = Date(1,
+                            Calendar.week_days[4],
+                            Calendar.month_name[0],
+                            1904)
+
+        self.assertEqual(expected,
+                         main(stop_date, current_date))
 
     def test_main_year_1999(self):
+
         expected = 1
-        stop_date = Date(31, '', Calendar.month_name[11], 1999)
-        current_date = Date(1, Calendar.week_days[4], Calendar.month_name[0], 1999)
-        self.assertEqual(expected, main(stop_date, current_date))
+
+        stop_date = Date(31,
+                         '',
+                         Calendar.month_name[11],
+                         1999)
+
+        current_date = Date(1,
+                            Calendar.week_days[4],
+                            Calendar.month_name[0],
+                            1999)
+
+        self.assertEqual(expected,
+                         main(stop_date, current_date))
 
     def test_main_year_1998_1999(self):
+
         expected = 4
-        stop_date = Date(31, '', Calendar.month_name[11], 1999)
-        current_date = Date(1, Calendar.week_days[3], Calendar.month_name[0], 1998)
-        self.assertEqual(expected, main(stop_date, current_date))
+
+        stop_date = Date(31,
+                         '',
+                         Calendar.month_name[11],
+                         1999)
+
+        current_date = Date(1,
+                            Calendar.week_days[3],
+                            Calendar.month_name[0],
+                            1998)
+
+        self.assertEqual(expected,
+                         main(stop_date, current_date))
 
     def test_main(self):
+
         expected = 171
-        stop_date = Date(31, '', Calendar.month_name[11], 2000)
-        current_date = Date(1, Calendar.week_days[0], Calendar.month_name[0], 1900)
-        self.assertEqual(expected, main(stop_date, current_date))
+
+        stop_date = Date(31,
+                         '',
+                         Calendar.month_name[11],
+                         2000)
+
+        current_date = Date(1,
+                            Calendar.week_days[0],
+                            Calendar.month_name[0],
+                            1900)
+
+        self.assertEqual(expected,
+                         main(stop_date, current_date))
 
     def test_is_leap_true(self):
         #  A leap year occurs on any year evenly divisible by 4,
@@ -87,7 +130,3 @@ class MyTestCase(unittest.TestCase):
     def test_date_set_year_error(self):
         with self.assertRaises(ValueError):
             Date.__set_year__(3000)
-
-
-if __name__ == '__main__':
-    unittest.main()
