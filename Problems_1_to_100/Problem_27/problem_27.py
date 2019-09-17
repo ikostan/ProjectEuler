@@ -38,7 +38,7 @@ def quadratic_primes(a, b, n):
     return n*n+a*n+b
 
 
-def print_primes(max_primes: set):
+def print_primes(max_primes: dict):
     product = max_primes['a'] * max_primes['b']
     print('\nmax: {} -> {}, '
           'a: {} -> {}, '
