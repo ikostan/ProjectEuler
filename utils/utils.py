@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 import time
 import platform
 import os
@@ -12,7 +11,6 @@ import math
 # This function is used for logging processing time only
 # Shows how long it took in order to get the answer
 def print_time_log(start_time: time, result=''):
-
     end_time = time.time() - start_time
 
     if end_time < 60:
@@ -21,9 +19,11 @@ def print_time_log(start_time: time, result=''):
     else:
         minutes = int(end_time / 60)
         seconds = end_time - (minutes * 60)
-        print("The answer {0} returned in {1} minutes and {2} seconds".format(result,
-                                                                              minutes,
-                                                                              round(seconds, 3)))
+        print("The answer {0} "
+              "returned in {1} minutes "
+              "and {2} seconds".format(result,
+                                       minutes,
+                                       round(seconds, 3)))
 
 
 # Returns full path based on differences between Linux and Windows
@@ -38,7 +38,7 @@ def get_full_path(file_folder: str, file_name: str, target_os=''):
     elif target_os == 'Windows':
         file_path = os.getcwd() + '\\' + file_name  # windows
     # elif target_os == 'Darwin':
-        # file_path = os.getcwd() + '/Problem_19/tests/leap_years.txt'  # MacOS
+    # file_path = os.getcwd() + '/Problem_19/tests/leap_years.txt'  # MacOS
     return file_path
 
 
@@ -194,7 +194,7 @@ def is_triangular(n: int):
     :return:
     """
 
-    x = (math.sqrt(8*n + 1) - 1) / 2
+    x = (math.sqrt(8 * n + 1) - 1) / 2
     return x.is_integer()
 
 
@@ -234,5 +234,5 @@ def is_pentagonal(n):
     :return:
     """
 
-    digit = (math.sqrt(24*n+1)+1)/6
+    digit = (math.sqrt(24 * n + 1) + 1) / 6
     return digit.is_integer()
