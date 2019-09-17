@@ -25,7 +25,3 @@ class MyTestCase(unittest.TestCase):
         limit = 100000
         expected = 0
         self.assertEqual(expected, prime_generator(limit))
-
-
-if __name__ == '__main__':
-    unittest.main()
