@@ -31,13 +31,13 @@ def file_reader():
 
 
 def alphabetical_value(name: str, alphabet: list):
-    '''
+    """
     For example, when the list is sorted into alphabetical order,
     COLIN, which is worth 3 + 15 + 12 + 9 + 14 = 53
     :param name:
     :param alphabet:
     :return:
-    '''
+    """
 
     result = 0
     for char in name:
@@ -47,7 +47,7 @@ def alphabetical_value(name: str, alphabet: list):
 
 
 def total_of_all_name_scores():
-    '''
+    """
     Calculates the total of all the name scores in the file
 
     For example, when the list is sorted into alphabetical order,
@@ -55,7 +55,7 @@ def total_of_all_name_scores():
     So, COLIN would obtain a score of 938 × 53 = 49714.
 
     :return:
-    '''
+    """
 
     start_time = time.time()
     names = file_reader()
