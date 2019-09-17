@@ -23,4 +23,3 @@ def factor(number):
             result.append(i)
 
     return result
-
