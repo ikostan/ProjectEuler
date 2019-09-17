@@ -49,10 +49,12 @@ def update_grid_line(data: list, size: int):
     """
     length = 0
 
-    if position['direction'] == direction[0] or position['direction'] == direction[2]:
+    if position['direction'] == direction[0] or \
+            position['direction'] == direction[2]:
         length = position['length_horizontal']
 
-    if position['direction'] == direction[1] or position['direction'] == direction[3]:
+    if position['direction'] == direction[1] or \
+            position['direction'] == direction[3]:
         length = position['length_vertical']
 
     for step in range(0, length):
@@ -82,9 +84,11 @@ def update_grid_line(data: list, size: int):
 
 def data_generator(size: int, debug=False):
     """
-    Moves position object trough data grid until get to the final point.
+    Moves position object trough data grid
+    until get to the final point.
 
-    Starting with the number 1 and moving to the right in a clockwise direction
+    Starting with the number 1 and moving to the
+    right in a clockwise direction
     a 5 by 5 spiral is formed as follows:
 
         21 22 23 24 25
@@ -143,12 +147,14 @@ def update_position(size: int):
     """
 
     # update horizontal length:
-    if position['direction'] == direction[0] or position['direction'] == direction[2]:
+    if position['direction'] == direction[0] \
+            or position['direction'] == direction[2]:
         if position['length_horizontal'] + 1 < size:
             position['length_horizontal'] += 1
 
     # update vertical length:
-    if position['direction'] == direction[1] or position['direction'] == direction[3]:
+    if position['direction'] == direction[1] \
+            or position['direction'] == direction[3]:
         if position['length_vertical'] + 1 < size:
             position['length_vertical'] += 1
 
