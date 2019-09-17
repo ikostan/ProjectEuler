@@ -68,12 +68,13 @@ class MyTestCase(unittest.TestCase):
         target_os = 'Linux'
         folder_name = '/utils/tests'
         file_name = 'test.txt'
-        expected = '/home/travis/build/ikostan/ProjectEuler/utils/tests/test.txt'
+        expected = ['/home/travis/build/ikostan/ProjectEuler/utils/tests/test.txt',
+                    '/home/circleci/project/utils/tests/test.txt']
 
         if platform.system() == 'Windows':
             expected = os.getcwd() + '/utils/tests' + '/test.txt'
 
-        self.assertEqual(expected, get_full_path(folder_name, file_name, target_os))
+        self.assertTrue(get_full_path(folder_name, file_name, target_os) in expected)
 
     def test_is_prime_2(self):
         self.assertEqual(True, is_prime(2))
