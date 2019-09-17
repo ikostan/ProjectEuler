@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 import unittest
 import os
 from Problems_1_to_100.Problem_18.problem_18 import find_maximum_total
@@ -44,9 +43,6 @@ class MyTestCase(unittest.TestCase):
                     [63, 66, 4, 68, 89, 53, 67, 30, 73, 16, 69, 87, 40, 31],
                     [4, 62, 98, 27, 23, 9, 70, 98, 73, 93, 38, 53, 60, 4, 23]]
 
-        expected = sum([75, 64, 82, 87, 82, 75, 73, 28, 83, 32, 91, 78, 58, 73, 93])
+        expected = sum([75, 64, 82, 87, 82, 75, 73,
+                        28, 83, 32, 91, 78, 58, 73, 93])
         self.assertEqual(expected, find_maximum_total(triangle))
-
-
-if __name__ == '__main__':
-    unittest.main()
