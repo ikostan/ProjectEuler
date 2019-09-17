@@ -13,4 +13,3 @@ class MyTestCase(unittest.TestCase):
         # expected = 0
         # self.assertEqual(expected, main()['product'])
         pass
-
