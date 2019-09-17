@@ -1,8 +1,7 @@
 #!/usr/bin/python
 
-
-from utils.utils import print_time_log, is_prime
 import time
+from utils.utils import print_time_log, is_prime
 
 
 def main():
