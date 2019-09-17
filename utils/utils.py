@@ -98,7 +98,8 @@ def primes_generator_iterable(start: int, step=1):
 def is_palindrome(number: int):
     """
     A palindrome is a word, number, phrase, or
-    other sequence of characters which reads the same backward as forward,
+    other sequence of characters which reads
+    the same backward as forward,
     such as madam or racecar or the number 10801.
     :param number:
     :return:
@@ -135,7 +136,8 @@ def is_pandigital(digit: str):
     to appear exactly once. For example, 6729/13458 is a (zeroless, restricted)
     pandigital fraction and 1023456789 is the smallest (zerofull) pandigital number.
 
-    The first few zerofull restricted pandigital numbers are 1023456789, 1023456798,
+    The first few zerofull restricted pandigital
+    numbers are 1023456789, 1023456798,
     1023456879, 1023456897, 1023456978, ...
 
     :param digit:
@@ -153,7 +155,8 @@ def is_pandigital(digit: str):
 
 def calc_triangular_number(n: int):
     """
-    A triangular number or triangle number counts objects arranged in an equilateral triangle.
+    A triangular number or triangle number counts objects
+    arranged in an equilateral triangle.
     More info: https://www.mathsisfun.com/algebra/triangular-numbers.html
     :param n:
     :return:
@@ -165,7 +168,8 @@ def calc_triangular_number(n: int):
 def triangular_number_generator(n: int):
     """
     Generates triangular numbers
-    A triangular number or triangle number counts objects arranged in an equilateral triangle.
+    A triangular number or triangle number counts objects
+    arranged in an equilateral triangle.
     More info: https://www.mathsisfun.com/algebra/triangular-numbers.html
     :param n:
     :return:
@@ -182,7 +186,8 @@ def is_triangular(n: int):
 
     Input: n -- a positive integer
 
-    Output: a positive integer indicating which triangle number in the series is n,
+    Output: a positive integer indicating which triangle
+    number in the series is n,
     or False if n is not a triangle number
 
     Source: http://www.siafoo.net/snippet/145
