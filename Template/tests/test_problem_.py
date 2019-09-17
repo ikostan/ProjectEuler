@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 import unittest
 import os
 
@@ -11,4 +10,3 @@ class MyTestCase(unittest.TestCase):
 
     def test_sample(self):
         pass
-
