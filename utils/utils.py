@@ -9,7 +9,6 @@ import math
 
 # TODO: each method must have his own .py file
 
-
 # This function is used for logging processing time only
 # Shows how long it took in order to get the answer
 def print_time_log(start_time: time, result=''):
@@ -228,7 +227,9 @@ def is_pentagonal(n):
 
     The number x is pentagonal if and only if n is a natural number.
 
-    Source: https://stackoverflow.com/questions/37390233/python-is-pentagonal-number-check
+    Source: https://stackoverflow.com/questions/
+    37390233/python-is-pentagonal-number-check
+
     :param n:
     :return:
     """
