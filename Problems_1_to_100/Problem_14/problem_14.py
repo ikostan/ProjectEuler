@@ -17,7 +17,6 @@ def get_max_counter(starting_number: int):
             result['number'] = starting_number
         starting_number -= 1
 
-    # print("number: {0} has {1} members chain".format(result['number'], result['counter']))
     print_time_log(start_time, result['number'])
     return result
 
