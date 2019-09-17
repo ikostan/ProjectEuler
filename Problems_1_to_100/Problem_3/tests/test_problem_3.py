@@ -1,10 +1,9 @@
 #!/usr/bin/python
 
-
-import unittest
 import os
-from Problems_1_to_100.Problem_3.problem_3 import get_largest_factor
+import unittest
 from Problems_1_to_100.Problem_3.problem_3 import is_prime
+from Problems_1_to_100.Problem_3.problem_3 import get_largest_factor
 
 
 class MyTestCase(unittest.TestCase):
@@ -28,7 +27,3 @@ class MyTestCase(unittest.TestCase):
 
     def test_is_prime_4(self):
         self.assertEqual(False, is_prime(4))
-
-
-if __name__ == '__main__':
-    unittest.main()
