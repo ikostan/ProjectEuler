@@ -8,7 +8,7 @@ def find_term(number: list, counter: int, length: int):
     """
     Find the index of the first term in the Fibonacci
     sequence to contain 'length' digits
-    
+
     :param number:
     :param counter:
     :param length:
