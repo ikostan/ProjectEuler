@@ -49,9 +49,10 @@ class MyTestCase(unittest.TestCase):
         expected = os.getcwd() + '\\test.txt'
 
         if platform.system() == 'Linux':
-            expected = '/home/travis/build/ikostan/ProjectEuler\\test.txt'
+            expected = ['/home/travis/build/ikostan/ProjectEuler\\test.txt',
+                        '/home/circleci/project\\test.txt']
 
-        self.assertEqual(expected, get_full_path(folder_name, file_name, target_os))
+        self.assertTrue(get_full_path(folder_name, file_name, target_os) in expected)
 
     # @unittest.skip("Automation test runs on Linux machine")
     def test_get_full_path_windows(self):
