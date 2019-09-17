@@ -15,15 +15,16 @@ class MyTestCase(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        '''
+        """
         Get all leap years from the text file
         and organize them as an array
         :return:
-        '''
+        """
 
         cls.leap_years = []
 
-        file_path = utils.get_full_path('/Problems_1_to_100/Problem_19/tests', 'leap_years.txt')
+        file_path = utils.get_full_path('/Problems_1_to_100/Problem_19/tests',
+                                        'leap_years.txt')
 
         with open(file_path) as source:
             for line in source:
@@ -67,7 +68,8 @@ class MyTestCase(unittest.TestCase):
         #  A leap year occurs on any year evenly divisible by 4,
         #  but not on a century unless it is divisible by 400
 
-        non_leap_years = [year for year in range(1800, 2400, 1) if year not in self.leap_years]
+        non_leap_years = [year for year in range(1800, 2400, 1)
+                          if year not in self.leap_years]
         results = []
         for year in non_leap_years:
             results.append(Calendar.is_leap(year))
