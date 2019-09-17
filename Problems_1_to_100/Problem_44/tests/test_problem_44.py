@@ -10,7 +10,7 @@ class MyTestCase(unittest.TestCase):
     print("Running unit tests from: " + os.path.basename(__file__) + "\n")
 
     def test_main(self):
-        '''
+        """
         The first ten pentagonal numbers are:
         1, 5, 12, 22, 35, 51, 70, 92, 117, 145, ...
 
@@ -19,7 +19,7 @@ class MyTestCase(unittest.TestCase):
 
         what is the value of D?
         :return:
-        '''
+        """
 
         expected = 5482660
         self.assertEqual(expected, main())
