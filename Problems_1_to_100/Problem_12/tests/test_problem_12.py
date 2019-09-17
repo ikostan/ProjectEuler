@@ -31,7 +31,8 @@ class MyTestCase(unittest.TestCase):
     def test_150(self):
         dividers = 150
         expected = 749700
-        self.assertEqual(expected, triangle_number_generator(dividers)['triangle'])
+        self.assertEqual(expected,
+                         triangle_number_generator(dividers)['triangle'])
 
     def test_250(self):
         dividers = 250
