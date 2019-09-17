@@ -26,4 +26,3 @@ def generate_fibonacci(max_num):
         start += 1
 
     return nums
-
