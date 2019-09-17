@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/ikostan/ProjectEuler.svg?branch=master)](https://travis-ci.org/ikostan/ProjectEuler)
 [![codecov](https://codecov.io/gh/ikostan/ProjectEuler/branch/master/graph/badge.svg)](https://codecov.io/gh/ikostan/ProjectEuler)
+[![Job Status](https://inspecode.rocro.com/badges/github.com/ikostan/ProjectEuler/status?token=dNjlRj3qjLAioemx2rF_9vHzvwHUPBeoi8mhXqxwZ-w&branch=master)](https://inspecode.rocro.com/jobs/github.com/ikostan/ProjectEuler/latest?completed=true&branch=master)
+[![Report](https://inspecode.rocro.com/badges/github.com/ikostan/ProjectEuler/report?token=dNjlRj3qjLAioemx2rF_9vHzvwHUPBeoi8mhXqxwZ-w&branch=master)](https://inspecode.rocro.com/reports/github.com/ikostan/ProjectEuler/branch/master/summary)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 # Python 3 solutions for Project Euler
