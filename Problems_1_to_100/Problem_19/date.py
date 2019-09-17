@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 from Problems_1_to_100.Problem_19.calendar import Calendar
 
 
@@ -64,7 +63,8 @@ class Date:
     def set_day(self, day: int):
 
         try:
-            self.date['day'] = self.__set_day__(day, self.get_month(), self.get_year())
+            self.date['day'] = self.__set_day__(day, self.get_month(),
+                                                self.get_year())
             self.__update_week__()
         except ValueError as err:
             # print(err.args)
