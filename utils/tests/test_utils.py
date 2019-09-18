@@ -56,7 +56,8 @@ class MyTestCase(unittest.TestCase):
         expected = os.getcwd() + '\\test.txt'
 
         if platform.system() == 'Linux':
-            expected = ['/home/travis/build/ikostan/ProjectEuler\\test.txt',
+            expected = ['/home/travis/build/ikostan/'
+                        'ProjectEuler\\test.txt',
                         '/home/circleci/project\\test.txt']
 
         self.assertTrue(get_full_path(folder_name, file_name, target_os) in expected)
@@ -68,7 +69,8 @@ class MyTestCase(unittest.TestCase):
         expected = os.getcwd() + '\\test.txt'
 
         if platform.system() == 'Linux':
-            expected = ['/home/travis/build/ikostan/ProjectEuler/utils/tests/test.txt',
+            expected = ['/home/travis/build/ikostan/'
+                        'ProjectEuler/utils/tests/test.txt',
                         '/home/circleci/project/utils/tests/test.txt']
 
         self.assertTrue(get_full_path(folder_name,
@@ -78,7 +80,8 @@ class MyTestCase(unittest.TestCase):
         target_os = 'Linux'
         folder_name = '/utils/tests'
         file_name = 'test.txt'
-        expected = ['/home/travis/build/ikostan/ProjectEuler/utils/tests/test.txt',
+        expected = ['/home/travis/build/ikostan/'
+                    'ProjectEuler/utils/tests/test.txt',
                     '/home/circleci/project/utils/tests/test.txt']
 
         if platform.system() == 'Windows':
@@ -148,7 +151,8 @@ class MyTestCase(unittest.TestCase):
         self.assertFalse(is_pandigital(10523456978))
 
     def test_calc_triangular_number(self):
-        triangle_numbers = {0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55}
+        triangle_numbers = {0, 1, 3, 6, 10, 15,
+                            21, 28, 36, 45, 55}
         results = set()
         n = 0
         while 55 not in results:
@@ -158,7 +162,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_is_triangular_true(self):
 
-        triangle_numbers = [0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
+        triangle_numbers = [0, 1, 3, 6, 10, 15,
+                            21, 28, 36, 45, 55]
         results = list()
         for n in triangle_numbers:
             results.append(is_triangular(n))
@@ -166,7 +171,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_is_triangular_false(self):
 
-        triangle_numbers = [2, 4, 5, 11, 16, 22, 27, 37, 46, 56]
+        triangle_numbers = [2, 4, 5, 11, 16, 22,
+                            27, 37, 46, 56]
         results = list()
         for n in triangle_numbers:
             results.append(is_triangular(n))
@@ -174,7 +180,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_triangular_number_generator(self):
 
-        triangular_numbers = [0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
+        triangular_numbers = [0, 1, 3, 6, 10, 15,
+                              21, 28, 36, 45, 55]
         results = list()
         n = 0
         generator = triangular_number_generator(n)
@@ -189,7 +196,8 @@ class MyTestCase(unittest.TestCase):
         :return:
         """
 
-        pentagonal_numbers = [1, 5, 12, 22, 35, 51, 70, 92, 117, 145]
+        pentagonal_numbers = [1, 5, 12, 22, 35,
+                              51, 70, 92, 117, 145]
         results = list()
         for n in range(1, len(pentagonal_numbers) + 1):
             results.append(calc_pentagonal_number(n))
@@ -197,7 +205,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_pentagonal_number_generator(self):
 
-        expected = [1, 5, 12, 22, 35, 51, 70, 92, 117, 145]
+        expected = [1, 5, 12, 22, 35,
+                    51, 70, 92, 117, 145]
         result = list()
         generator = pentagonal_number_generator()
 
@@ -208,7 +217,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_is_pentagonal_true(self):
 
-        pentagonals = [1, 5, 12, 22, 35, 51, 70, 92, 117, 145]
+        pentagonals = [1, 5, 12, 22, 35,
+                       51, 70, 92, 117, 145]
         results = list()
 
         for p in pentagonals:
@@ -218,7 +228,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_is_pentagonal_false(self):
 
-        pentagonals = [2, 4, 11, 20, 33, 57, 75, 90, 118, 141]
+        pentagonals = [2, 4, 11, 20, 33,
+                       57, 75, 90, 118, 141]
         results = list()
 
         for p in pentagonals:
