@@ -1,15 +1,15 @@
 #!/usr/bin/python
 
-
-from utils.utils import print_time_log, is_pandigital
 import time
 import itertools
+from utils.utils import print_time_log
 
 
-def has_sub_string_divisibility(number: list):
-    '''
+def has_sub_string_divisibility(number):
+    """
     The number, 1406357289, is a 0 to 9 pandigital number.
-    Let d1 be the 1st digit, d2 be the 2nd digit, and so on. In this way, we note the following:
+    Let d1 be the 1st digit, d2 be the 2nd digit, and so on.
+    In this way, we note the following:
 
         d2d3d4=406 is divisible by 2
         d3d4d5=063 is divisible by 3
@@ -21,7 +21,7 @@ def has_sub_string_divisibility(number: list):
 
     :param number:
     :return:
-    '''
+    """
 
     if number[0] == 0:
         return False
