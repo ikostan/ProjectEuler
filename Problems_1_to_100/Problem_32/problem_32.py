@@ -18,9 +18,9 @@ def is_pandigital(multiplicand: int, multiplier: int, pattern: str):
 
     product = multiplicand * multiplier
     numbers = [multiplicand, multiplier, product]
-    result = ''.join(sorted([char
-                             for char in ''.join([str(n)
-                                                  for n in numbers])], reverse=True))
+    result = ''.join(sorted(
+        [char for char in ''.join(
+            [str(n) for n in numbers])], reverse=True))
 
     return result == pattern
 
