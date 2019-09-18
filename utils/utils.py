@@ -133,7 +133,8 @@ def is_pandigital(digit: str):
     However, "zeroless" pandigital quantities contain the digits 1 through 9.
     Sometimes exclusivity is also required so that each digit is restricted
     to appear exactly once. For example, 6729/13458 is a (zeroless, restricted)
-    pandigital fraction and 1023456789 is the smallest (zerofull) pandigital number.
+    pandigital fraction and 1023456789 is the smallest
+    (zerofull) pandigital number.
 
     The first few zerofull restricted pandigital
     numbers are 1023456789, 1023456798,
