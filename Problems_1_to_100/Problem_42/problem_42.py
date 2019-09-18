@@ -1,19 +1,20 @@
 #!/usr/bin/python
 
-
-from utils.utils import print_time_log, get_full_path, calc_triangular_number
 import time
 import string
+from utils.utils \
+    import print_time_log, get_full_path, calc_triangular_number
+
 
 alphabet = list(string.ascii_uppercase)
 
 
 def find_max_numeric_value(words: list):
-    '''
+    """
     calc numeric value per each word and return the max
     :param words:
     :return:
-    '''
+    """
 
     max_value = {'word': '', 'digit': 0}
 
@@ -26,12 +27,14 @@ def find_max_numeric_value(words: list):
 
 
 def calc_word_number(word: str):
-    '''
-    Returns word's numerical value by converting each letter in a word
-    to a number corresponding to its alphabetical position and adding these values
+    """
+    Returns word's numerical value by converting
+    each letter in a word
+    to a number corresponding to its alphabetical
+    position and adding these values
     :param word:
     :return:
-    '''
+    """
 
     result = 0
     for char in word:
@@ -41,12 +44,12 @@ def calc_word_number(word: str):
 
 
 def words_reader(file_folder: str, file_name: str):
-    '''
+    """
     Reads file and returns all words as a list
     :param file_folder:
     :param file_name:
     :return:
-    '''
+    """
 
     results = list()
     path = get_full_path(file_folder, file_name)
@@ -57,12 +60,12 @@ def words_reader(file_folder: str, file_name: str):
 
 
 def generate_triangle_numbers(words: list):
-    '''
+    """
     Generates set of possible triangle numbers
     up to max possible value based on the words list
     :param words:
     :return:
-    '''
+    """
 
     triangle_numbers = set()
     n = 1
@@ -79,12 +82,12 @@ def generate_triangle_numbers(words: list):
 
 
 def is_triangle(word: str, triangle_numbers: set):
-    '''
+    """
     Check if word's value is triangle number
     :param word:
     :param triangle_numbers:
     :return:
-    '''
+    """
 
     if calc_word_number(word) in triangle_numbers:
         return True
@@ -92,13 +95,13 @@ def is_triangle(word: str, triangle_numbers: set):
 
 
 def main(words: list):
-    '''
+    """
     Using words.txt (right click and 'Save Link/Target As...'),
     a 16K text file containing nearly two-thousand common English words,
     how many are triangle words?
     :param words:
     :return:
-    '''
+    """
 
     start_time = time.time()
     how_many_triangle_words = 0
