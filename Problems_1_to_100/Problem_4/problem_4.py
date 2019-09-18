@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 import time
 from utils.utils import print_time_log
 
@@ -40,4 +39,3 @@ def large_palindrome_generator(start: int, end: int):
 
     print_time_log(start_time, max_palindrome)
     return max_palindrome
-
