@@ -1,14 +1,15 @@
 #!/usr/bin/python
 
-
 import unittest
 import os
-from Problems_1_to_100.Problem_8.problem_8 import find_greatest_product
+from Problems_1_to_100.Problem_8.problem_8 \
+    import find_greatest_product
 
 
 class MyTestCase(unittest.TestCase):
 
-    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
+    print("Running unit tests from: " +
+          os.path.basename(__file__) + "\n")
 
     def test_basic(self):
         number = "73167176531330624919225119674426574742355349194934\
@@ -34,7 +35,9 @@ class MyTestCase(unittest.TestCase):
         number = number.replace(' ', '')
         adjacent_digits = 4
         expected = 5832
-        self.assertEqual(expected, find_greatest_product(number, adjacent_digits))
+        self.assertEqual(expected,
+                         find_greatest_product(number,
+                                               adjacent_digits))
 
     def test_13(self):
         number = "73167176531330624919225119674426574742355349194934\
@@ -60,8 +63,6 @@ class MyTestCase(unittest.TestCase):
         number = number.replace(' ', '')
         adjacent_digits = 13
         expected = 23514624000
-        self.assertEqual(expected, find_greatest_product(number, adjacent_digits))
-
-
-if __name__ == '__main__':
-    unittest.main()
+        self.assertEqual(expected,
+                         find_greatest_product(number,
+                                               adjacent_digits))
