@@ -6,15 +6,14 @@ import os
 import io
 import time
 from utils.utils import print_time_log, get_full_path, is_prime, \
-                        is_palindrome, convert_to_binary, primes_generator, \
-                        primes_generator_iterable, is_pandigital, \
-                        calc_triangular_number, calc_pentagonal_number, \
-                        pentagonal_number_generator, is_pentagonal, \
-                        triangular_number_generator, is_triangular
+    is_palindrome, convert_to_binary, primes_generator, \
+    primes_generator_iterable, is_pandigital, \
+    calc_triangular_number, calc_pentagonal_number, \
+    pentagonal_number_generator, is_pentagonal, \
+    triangular_number_generator, is_triangular
 
 
 class MyTestCase(unittest.TestCase):
-
     print("Running unit tests from: " +
           os.path.basename(__file__) + "\n")
 
@@ -45,8 +44,9 @@ class MyTestCase(unittest.TestCase):
         expected = "The answer {0} " \
                    "returned in {1} " \
                    "minutes and {2} " \
-                   "seconds".format(
-            answer, int(end_time // 60), round(end_time % 60, 3))
+                   "seconds".format(answer,
+                                    int(end_time // 60),
+                                    round(end_time % 60, 3))
         self.assertEqual(expected, captured)
 
     def test_get_full_path_windows_target_os(self):
@@ -60,7 +60,9 @@ class MyTestCase(unittest.TestCase):
                         'ProjectEuler\\test.txt',
                         '/home/circleci/project\\test.txt']
 
-        self.assertTrue(get_full_path(folder_name, file_name, target_os) in expected)
+        self.assertTrue(get_full_path(folder_name,
+                                      file_name,
+                                      target_os) in expected)
 
     # @unittest.skip("Automation test runs on Linux machine")
     def test_get_full_path_windows(self):
@@ -125,7 +127,8 @@ class MyTestCase(unittest.TestCase):
 
         limit = 30
         expected = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
-        self.assertListEqual(expected, primes_generator(limit))
+        self.assertListEqual(expected,
+                             primes_generator(limit))
 
     def test_primes_generator_iterable(self):
 
