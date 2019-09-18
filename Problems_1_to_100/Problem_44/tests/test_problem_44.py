@@ -2,12 +2,14 @@
 
 import unittest
 import os
-from Problems_1_to_100.Problem_44.problem_44 import main
+from Problems_1_to_100.Problem_44.problem_44 \
+    import main
 
 
 class MyTestCase(unittest.TestCase):
 
-    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
+    print("Running unit tests from: " +
+          os.path.basename(__file__) + "\n")
 
     def test_main(self):
         """
@@ -15,7 +17,8 @@ class MyTestCase(unittest.TestCase):
         1, 5, 12, 22, 35, 51, 70, 92, 117, 145, ...
 
         Find the pair of pentagonal numbers, Pj and Pk,
-        for which their sum and difference are pentagonal and D = |Pk − Pj| is minimised;
+        for which their sum and difference are pentagonal
+        and D = |Pk − Pj| is minimised;
 
         what is the value of D?
         :return:
