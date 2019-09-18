@@ -1,14 +1,15 @@
 #!/usr/bin/python
 
-
 import unittest
 import os
-from Problems_1_to_100.Problem_43.problem_43 import main, has_sub_string_divisibility
+from Problems_1_to_100.Problem_43.problem_43 \
+    import main, has_sub_string_divisibility
 
 
 class MyTestCase(unittest.TestCase):
 
-    print("Running unit tests from: " + os.path.basename(__file__) + "\n")
+    print("Running unit tests from: " +
+          os.path.basename(__file__) + "\n")
 
     def test_has_property_true(self):
 
