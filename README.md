@@ -1,7 +1,6 @@
 [![CircleCI](https://circleci.com/gh/ikostan/ProjectEuler.svg?style=svg)](https://circleci.com/gh/ikostan/ProjectEuler)
 [![Build Status](https://travis-ci.org/ikostan/ProjectEuler.svg?branch=master)](https://travis-ci.org/ikostan/ProjectEuler)
 [![codecov](https://codecov.io/gh/ikostan/ProjectEuler/branch/master/graph/badge.svg)](https://codecov.io/gh/ikostan/ProjectEuler)
-[![Report](https://inspecode.rocro.com/badges/github.com/ikostan/ProjectEuler/report?token=dNjlRj3qjLAioemx2rF_9vHzvwHUPBeoi8mhXqxwZ-w&branch=master)](https://inspecode.rocro.com/reports/github.com/ikostan/ProjectEuler/branch/master/summary)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/38a887c081ce407088010e417b580998)](https://www.codacy.com/manual/ikostan/ProjectEuler?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ikostan/ProjectEuler&amp;utm_campaign=Badge_Grade)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 [![HitCount](http://hits.dwyl.com/ikostan/ProjectEuler.svg)](http://hits.dwyl.com/ikostan/ProjectEuler)
